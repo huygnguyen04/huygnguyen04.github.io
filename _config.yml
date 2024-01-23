@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Huy Nguyen / Portfolio"
+title                    : "Huy Nguyen Portfolio"
 title_separator          : "-"
 name                     : &name "Huy Nguyen"
-description              : &description "Computer Science and Applied Math Undergraduate at University of Virginia"
+description              : &description "personal description"
 url                      : https://huy310304.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "huy310304/huy310304.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Huy Nguyen"
   avatar           : "profile.png"
-  bio              : "Computer Science and Applied Math Undergraduate, University of Virginia"
+  bio              : "Computer Science and Applied Math Undergraduate at UVA"
   location         : "Charlottesville, Virginia"
   employer         :
   pubmed           : 
