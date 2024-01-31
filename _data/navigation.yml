@@ -1,11 +1,10 @@
 # main links links, use to add top panels
 main:
-
+  - title: "Project"
+    url: /publications/
+    
   - title: "Teaching Assistant"
     url: /teaching/    
-
-  - title: "Project"
-    url: /project/    
   
   - title: "CV"
     url: /cv/
