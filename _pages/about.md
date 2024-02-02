@@ -15,8 +15,6 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 
 > The more you sleep, the higher your GPA. 
 
-
-
 🎓 Education
 ======
 ------------------
