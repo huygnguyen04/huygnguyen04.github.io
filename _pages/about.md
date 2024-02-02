@@ -8,13 +8,14 @@ redirect_from:
   - /about.html
 ---
 
+-----------------
 Hi there!👋 I am Huy Nguyen, a second-year student at the University of Virginia majoring in Computer Science with a minor in Applied Mathematics. 
 
 Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my studies as an international student - with a long-term goal of pursuing a Ph.D. in Computer Science.
 
-I can sleep up to 16 hours on weekends and stay up until 7 AM with classes starting at 9 AM.
-
 > The more you sleep, the higher your GPA. 
+😪
+
 
 Education
 ======
