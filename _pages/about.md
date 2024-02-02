@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "👉 Introduction"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -15,6 +15,8 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 
 > The more you sleep, the higher your GPA. 
 
+<br>
+
 🎓 Education
 ======
 ------------------
@@ -22,10 +24,12 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 
 <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="50"> High School for the Gifted VNUHCM, 2022 
 
+<br>
+
 💼 Experience 
 ======
 ------------------
-**Undergraduate Research Assistant - Insight Computer Architecture Lab**  
+**Undergraduate Research Assistant - Insight Computer Architecture Lab**
 *August 2023 - Present*  
 
 **Undergraduate Research Assistant - Enhancing Learning through Interactive GUI**  
@@ -37,6 +41,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 **Project Intern - Machine-learned potentials for high-entropy alloys properties**  
 *April 2023 - Present*
 
+<br>
 
 💻 Projects
 ======
