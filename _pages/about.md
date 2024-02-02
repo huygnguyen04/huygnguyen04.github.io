@@ -19,7 +19,7 @@ I can sleep up to 16 hours on weekends and stay up until 7 AM with classes start
 Education
 ======
 ------------------
-<img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/92d9d747-afe3-4af2-80db-438b0f9ffc34" width="50"> University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026
+<img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/603d2883-e8bc-447f-93d3-34164899ee3f" width="50"> University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026
 
 <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="50"> High School for the Gifted VNUHCM, 2022 
 
