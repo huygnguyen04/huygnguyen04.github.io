@@ -33,7 +33,7 @@ Experience
 **Teaching Assistant and Grader**  
 *August 2023 - Present*
 
-**Project Intern - Machine-learned potentials construction for high-entropy alloys properties**  
+**Project Intern - Machine-learned potentials for high-entropy alloys properties**  
 *April 2023 - Present*
 
 
