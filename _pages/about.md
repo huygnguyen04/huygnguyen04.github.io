@@ -20,9 +20,9 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 Education
 ======
 ------------------
-<img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/4e593040-cc57-449a-b462-37a480c3d143" width="40"> University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026
+<img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="50"> University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026
 
-<img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="40"> High School for the Gifted VNUHCM, 2022 
+<img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="50"> High School for the Gifted VNUHCM, 2022 
 
 Experience 
 ======
