@@ -14,17 +14,17 @@ Hi there!👋 I am Huy Nguyen, a second-year student at the University of Virgin
 Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my studies as an international student - with a long-term goal of pursuing a Ph.D. in Computer Science.
 
 > The more you sleep, the higher your GPA. 
-😪
 
 
-Education
+
+🎓 Education
 ======
 ------------------
 <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="50"> University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026
 
 <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="50"> High School for the Gifted VNUHCM, 2022 
 
-Experience 
+💼 Experience 
 ======
 ------------------
 **Undergraduate Research Assistant - Insight Computer Architecture Lab**  
@@ -40,7 +40,7 @@ Experience
 *April 2023 - Present*
 
 
-Projects
+💻 Projects
 ======
 ---------------
 List Projects ...
