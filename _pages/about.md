@@ -31,8 +31,9 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
   <tr>
     <td style="border: none; font-size: 20px; line-height: 1; padding-top: 0;">B.S. Computer Science and Minor in Applied Mathematics - GPA: 3.989</td>
   </tr>
-</table>
+</table>    
 
+<br>
 
 <table style="border-collapse: collapse; border: none;">
   <tr>
@@ -43,6 +44,8 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
     <td style="border: none; font-size: 20px; line-height: 1; padding-top: 0;">KC3 1922</td>
   </tr>
 </table>
+
+<br>
 
 <table style="border-collapse: collapse; border: none;">
   <tr>
