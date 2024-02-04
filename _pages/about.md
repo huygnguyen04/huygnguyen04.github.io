@@ -22,6 +22,27 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
   <img src="https://media.giphy.com/media/itdYhaQ5GKXczC1WFJ/giphy.gif" width="50">
 </div>
 
+<div style="display: flex; align-items: center; justify-content: space-between;">
+  <blockquote style="flex-grow: 1; margin-right: 20px;">
+    <p>The more you sleep, the higher your GPA.</p>
+  </blockquote>
+  <img src="https://media.giphy.com/media/itdYhaQ5GKXczC1WFJ/giphy.gif" alt="Animated Image" style="width: 50px; height: auto;">
+</div>
+
+<table>
+  <tr>
+    <td>
+      > The more you sleep, the higher your GPA.
+    </td>
+    <td>
+      <img src="https://media.giphy.com/media/itdYhaQ5GKXczC1WFJ/giphy.gif" alt="Animated Image" style="width: 50px; height: auto;">
+    </td>
+  </tr>
+</table>
+
+
+
+
 <br>
 
 🎓 Education
