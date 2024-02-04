@@ -87,11 +87,9 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
   </tr>
 </table>
 
-
-
-
-
 <!-- Table for generating the image to get clicking effect-->
+<!-- For future project, generate the image so that it have the same dimensions-->
+
 
 <table>
   <tr>
@@ -99,9 +97,9 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
     <td width="50%" onclick="window.location='URL_TO_PROJECT_1';" style="cursor: pointer;">
       <h2 align="center">SAT Score Prediction</h2>
       <p align="center">
-        <img src="../images/sat_regression_final_plot.png" style="width:81%;" alt="Project 1 Screenshot"/>
+        <img src="../images/sat_regression_final_plot.png" style="width:61%;" alt="Project 1 Screenshot"/>
       </p>
-      <p align="">This project employs custom-built neural network models with PyTorch to predict SAT scores from GPA and other factors.</p>
+      <p align="">This project employs custom-built neural network models with PyTorch and Numpy to predict SAT scores from GPA and other factors.</p>
       <p align="center">
         <!-- Tags for Project 1 -->
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
@@ -114,7 +112,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
     <td width="50%" onclick="window.location='URL_TO_PROJECT_2';" style="cursor: pointer;">
       <h2 align="center">MATLAB GUI</h2>
       <p align="center">
-        <img src="../images/vector_field_line_integral_3d.png" width="80%" alt="MATLAB GUI pic"/>
+        <img src="../images/vector_field_line_integral_3d.png" width="60%" alt="MATLAB GUI pic"/>
       </p>
       <p align="">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations.</p>
       <p align="center">
