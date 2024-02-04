@@ -33,7 +33,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
   </tr>
 </table>
 
-<br>
+<br><br>
 
 💼 Experience 
 ======
@@ -56,7 +56,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 **CORE Scholar Peer Academic Mentor, UVA**  
 *August 2023 - Present*
 
-<br>
+<br><br>
 
 💻 Feartured Projects
 ======
