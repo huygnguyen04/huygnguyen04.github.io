@@ -80,7 +80,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
     <td width="50%">
       <h2 align="center"><a href="publications">MATLAB GUI</a></h2>
       <p align="center">
-        <a href="URL_TO_PROJECT_2"><img src="../images/vector_field_line_integral_3d.png" width="50%" alt="Matlab GUI pic"/></a>
+        <a href="URL_TO_PROJECT_2"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/674ead71-daa8-4fd1-b830-380d603baee8" width="100%" alt="Matlab GUI pic"/></a>
       </p>
       <p align="center">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations</p>
       <p align="center">
@@ -93,6 +93,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
   </tr>
 </table>
 
+![matlab project all](https://github.com/huy310304/huy310304.github.io/assets/114793725/674ead71-daa8-4fd1-b830-380d603baee8)
 
 <table>
   <tr>
