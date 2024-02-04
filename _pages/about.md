@@ -44,6 +44,18 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
   </tr>
 </table>
 
+<table style="border-collapse: collapse; border: none;">
+  <tr>
+    <td rowspan="2" style="border: none; padding-right: 5px; vertical-align: top;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="70"></td>
+    <td style="border: none; font-weight: bold; font-size: 20px;">High School for the Gifted VNUHCM, 2022</td>
+  </tr>
+  <tr>
+    <td style="border: none; font-size: 20px;">KC3 1922</td>
+  </tr>
+</table>
+
+
+
 <br>
 
 💼 Experience 
