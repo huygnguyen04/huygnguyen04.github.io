@@ -33,31 +33,15 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
   </tr>
 </table>    
 
-<br>
-
-<table style="border-collapse: collapse; border: none;">
+<table style="border-collapse: collapse;">
   <tr>
-    <td rowspan="2" style="border: none; padding-right: 5px; vertical-align: top;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="70"></td>
-    <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 0; width: 600px;">High School for the Gifted VNUHCM, 2022</td>
+    <td rowspan="2" style="; padding-right: 5px; vertical-align: top;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="70"></td>
+    <td style="; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 0; width: 600px;">High School for the Gifted VNUHCM, 2022</td>
   </tr>
   <tr>
-    <td style="border: none; font-size: 20px; line-height: 1; padding-top: 0;">KC3 1922</td>
+    <td style="; font-size: 20px; line-height: 1; padding-top: 0;">KC3 1922</td>
   </tr>
 </table>
-
-<br>
-
-<table style="border-collapse: collapse; border: none;">
-  <tr>
-    <td rowspan="2" style="border: none; padding-right: 5px; vertical-align: top;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="70"></td>
-    <td style="border: none; font-weight: bold; font-size: 20px;">High School for the Gifted VNUHCM, 2022</td>
-  </tr>
-  <tr>
-    <td style="border: none; font-size: 20px;">KC3 1922</td>
-  </tr>
-</table>
-
-
 
 <br>
 
