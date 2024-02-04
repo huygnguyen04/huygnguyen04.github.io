@@ -53,6 +53,23 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
   </tr>
 </table>
 
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <!-- Ensure the logo is aligned to the top of the cell -->
+    <td style="border: none; padding-right: 5px; vertical-align: top;"><img src="logo_url" width="70"></td>
+    
+    <!-- Use padding-top to adjust the space above the text, if necessary -->
+    <td style="border: none; font-weight: bold; font-size: 20px; padding-top: 0;">High School for the Gifted VNUHCM, 2022</td>
+  </tr>
+  <tr>
+    <!-- Empty cell under the logo -->
+    <td style="border: none;"></td>
+    
+    <!-- Adjust the padding-bottom if you need more space below the text -->
+    <td style="border: none; font-size: 20px; padding-bottom: 0;">KC3 1922</td>
+  </tr>
+</table>
+
 
 
 <br>
