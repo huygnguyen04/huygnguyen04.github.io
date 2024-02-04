@@ -25,21 +25,11 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 ------------------
 <table style="border-collapse: collapse; border: none;">
   <tr>
-    <td rowspan="2" style="border: none; padding-right: 10px;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="50"></td>
-    <td style="border: none; font-weight: bold; font-size: larger;">University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026</td>
+    <td rowspan="2" style="border: none; padding-right: 20px;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="50"></td>
+    <td style="border: none; font-weight: bold; font-size: 20px;">University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026</td>
   </tr>
   <tr>
-    <td style="border: none; font-size: smaller;">GPA: 3.989</td>
-  </tr>
-</table>
-
-<table style="border-collapse: collapse; border: none;">
-  <tr>
-    <td rowspan="2" style="border: none;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="50"></td>
-    <td style="border: none;">University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026</td>
-  </tr>
-  <tr>
-    <td style="border: none;">GPA: 3.989</td>
+    <td style="border: none; font-size: 15px;">GPA: 3.989</td>
   </tr>
 </table>
 
