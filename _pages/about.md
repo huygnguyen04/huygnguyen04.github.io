@@ -33,45 +33,6 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
   </tr>
 </table>
 
-<table style="border-collapse: collapse; border: none;">
-  <tr>
-    <td rowspan="2" style="border: none; padding-right: 5px; vertical-align: top;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="70"></td>
-    <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 0;">High School for the Gifted VNUHCM, 2022</td>
-  </tr>
-  <tr>
-    <td style="border: none; font-size: 20px; line-height: 1; padding-top: 0;">High School Diploma - KC3 1922</td>
-  </tr>
-</table>
-
-<table style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td rowspan="2" style="padding-right: 5px; vertical-align: middle;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="70"></td>
-    <td style="font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 0; vertical-align: middle;">High School for the Gifted VNUHCM, 2022</td>
-  </tr>
-  <tr>
-    <td style="font-size: 20px; line-height: 1; padding-top: 0; vertical-align: middle;">KC3 1922</td>
-  </tr>
-</table>
-
-<table style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <!-- Ensure the logo is aligned to the top of the cell -->
-    <td style="border: none; padding-right: 5px; vertical-align: top;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="70"></td>
-    
-    <!-- Use padding-top to adjust the space above the text, if necessary -->
-    <td style="border: none; font-weight: bold; font-size: 20px; padding-top: 0;">High School for the Gifted VNUHCM, 2022</td>
-  </tr>
-  <tr>
-    <!-- Empty cell under the logo -->
-    <td style="border: none;"></td>
-    
-    <!-- Adjust the padding-bottom if you need more space below the text -->
-    <td style="border: none; font-size: 20px; padding-bottom: 0;">KC3 1922</td>
-  </tr>
-</table>
-
-
-
 <br>
 
 💼 Experience 
@@ -102,7 +63,7 @@ List Projects ...
   <tr>
     <!-- Project 1 -->
     <td width="50%">
-      <h3 align="center"><a href="URL_TO_PROJECT_1">SAT Score Prediction</a></h3>
+      <h3 align="center"><a href="publications">SAT Score Prediction</a></h3>
       <p align="center">
         <a href="URL_TO_PROJECT_1"><img src="LINK_TO_YOUR_PROJECT_1_IMAGE" width="100%" alt="Project 1 Screenshot"/></a>
       </p>
@@ -117,9 +78,9 @@ List Projects ...
     </td>
     <!-- Project 2 -->
     <td width="50%">
-      <h3 align="center"><a href="https://github.com/huy310304/MATLAB-GUI-main">MATLAB GUI</a></h3>
+      <h2 align="center"><a href="publications">MATLAB GUI</a></h2>
       <p align="center">
-        <a href="URL_TO_PROJECT_2"><img src="../images/vector_field_line_integral_3d.png" width="100%" alt="Project 2 Screenshot"/></a>
+        <a href="URL_TO_PROJECT_2"><img src="../images/vector_field_line_integral_3d.png" width="50%" alt="Matlab GUI pic"/></a>
       </p>
       <p align="center">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations</p>
       <p align="center">
