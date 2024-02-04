@@ -25,13 +25,13 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 ------------------
 <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="50"> **University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026**
 
-<table>
+<table style="border-collapse: collapse; border: none;">
   <tr>
-    <td rowspan="2"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="50"></td>
-    <td>University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026</td>
+    <td rowspan="2" style="border: none;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="50"></td>
+    <td style="border: none;">University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026</td>
   </tr>
   <tr>
-    <td>GPA: 3.989</td>
+    <td style="border: none;">GPA: 3.989</td>
   </tr>
 </table>
 
