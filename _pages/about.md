@@ -58,12 +58,12 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 💻 Feartured Projects
 ======
 ---------------
-List Projects ...
+
 <table>
   <tr>
     <!-- Project 1 -->
     <td width="50%">
-      <h3 align="center"><a href="publications">SAT Score Prediction</a></h3>
+      <h2 align="center"><a href="publications">SAT Score Prediction</a></h2>
       <p align="center">
         <a href="URL_TO_PROJECT_1"><img src="LINK_TO_YOUR_PROJECT_1_IMAGE" width="100%" alt="Project 1 Screenshot"/></a>
       </p>
@@ -85,13 +85,10 @@ List Projects ...
       <p align="center">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations</p>
       <p align="center">
         <!-- Tags for Project 2 -->
-        <img src="https://img.shields.io/badge/Calculus-FF0000.svg?style=flat&logo=libreofficemath&logoColor=white" alt=""/>
+        <img src="https://img.shields.io/badge/Calculus-FF0000.svg?style=flat&logo=libreofficemath&logoColor=white" alt="Calculus"/>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
         <img src="https://img.shields.io/badge/MATLAB-F58025?style=flat&logo=matlab&logoColor=white" alt="Matlab"/>
       </p>
     </td>
   </tr>
 </table>
-
-
-Add sth interesting, visualization
