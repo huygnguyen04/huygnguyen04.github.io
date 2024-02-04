@@ -99,7 +99,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
     <td width="50%" onclick="window.location='URL_TO_PROJECT_1';" style="cursor: pointer;">
       <h2 align="center">SAT Score Prediction</h2>
       <p align="center">
-        <img src="LINK_TO_YOUR_PROJECT_1_IMAGE" width="100%" alt="Project 1 Screenshot"/>
+        <img src="../images/sat_regression_final_plot.png" width="80%" alt="Project 1 Screenshot"/>
       </p>
       <p align="center">This project employs custom-built neural network models with PyTorch to predict SAT scores from GPA and other factors.</p>
       <p align="center">
