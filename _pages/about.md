@@ -36,7 +36,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 <table style="border-collapse: collapse; border: none; width: 100%;">
   <tr>
     <td rowspan="2" style="border: none; padding-right: 5px; vertical-align: top;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="70"></td>
-    <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 0;">University of Virginia, 2026</td>
+    <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 0;">High School for the Gifted VNUHCM, 2022</td>
   </tr>
   <tr>
     <td style="border: none; font-size: 20px; line-height: 1; padding-top: 0;">B.S. Computer Science and Minor in Applied Mathematics - GPA: 3.989</td>
