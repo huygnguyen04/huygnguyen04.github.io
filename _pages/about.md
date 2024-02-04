@@ -29,7 +29,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
     <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 0;">University of Virginia, 2026</td>
   </tr>
   <tr>
-    <td style="border: none; font-size: 20px; line-height: 1; padding-top: 0;">B.S. Computer Science and Minor in Applied Mathematics - GPA: 3.989</td>
+    <td style="border: none; font-size: 15px; line-height: 1; padding-top: 0;">B.S. Computer Science and Minor in Applied Mathematics - GPA: 3.989</td>
   </tr>
 </table>
 
@@ -41,16 +41,19 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 **Undergraduate Research Assistant - Insight Computer Architecture Lab**  
 *August 2023 - Present*  
 
-**Undergraduate Research Assistant - Enhancing Learning through Interactive GUI**  
+**Undergraduate Research Assistant - Enhancing Learning through Interactive GUI, UVA**  
 *August 2023 - Present*
 
-**Project Intern - Machine-learned potentials for high-entropy alloys properties**  
+**Project Intern - Machine-learned potentials for high-entropy alloys properties, UVA**  
 *April 2023 - Present*
 
-**Teaching Assistant and Grader**  
+**Developer Intern, SHIFT ASIA - Ho Chi Minh City**  
+*May 2023 - August 2023*
+
+**Teaching Assistant and Grader, UVA**  
 *August 2023 - Present*
 
-**CORE Scholar Peer Academic Mentor**  
+**CORE Scholar Peer Academic Mentor, UVA**  
 *August 2023 - Present*
 
 <br>
@@ -82,7 +85,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 <!-- Table for generating the image to get clicking effect-->
 <!-- For future project, generate the image so that it have the same dimensions-->
 
-
+<!--
 <table>
   <tr>
     <td width="50%" onclick="window.location='URL_TO_PROJECT_1';" style="cursor: pointer;">
@@ -112,4 +115,4 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
     </td>
   </tr>
 </table>
-
+-->
