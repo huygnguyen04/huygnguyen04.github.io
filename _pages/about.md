@@ -49,9 +49,42 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 
 <br>
 
-💻 Projects
+💻 Feartured Projects
 ======
 ---------------
 List Projects ...
+<table>
+  <tr>
+    <!-- Project 1 -->
+    <td width="50%">
+      <h3 align="center">SAT Score Prediction</h3>
+      <p align="center">
+        <img src="LINK_TO_YOUR_PROJECT_1_IMAGE" width="100%" alt="Project 1 Screenshot"/>
+      </p>
+      <p align = "center">This project employs custom-built neural network models with PyTorch to predict SAT scores from GPA and other factors.</p>
+      <p align="center">
+        <!-- Tags for Project 1 -->
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&style=flat&logo=PyTorch&logoColor=white" alt="Pytorch"/>
+        <img src="https://img.shields.io/badge/Numpy-%23013243.svg?&style=flat&logo=numpy&logoColor=white" alt="Numpy"/>
+        <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
+      </p>
+    </td>
+    <!-- Project 2 -->
+    <td width="50%">
+      <h3 align="center">MATLAB GUI</h3>
+      <p align="center">
+        <img src="LINK_TO_YOUR_PROJECT_2_IMAGE" width="100%" alt="Project 2 Screenshot"/>
+      </p>
+      <p align = "center">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations</p>
+      <p align="center">
+        <!-- Tags for Project 2 -->
+        <img src="https://img.shields.io/badge/Calculus-FF0000.svg?style=flat&logo=libreofficemath&logoColor=white" alt=""/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/MATLAB-F58025?style=flat&logo=matlab&logoColor=white" alt="Matlab"/>
+      </p>
+    </td>
+  </tr>
+</table>
 
 Add sth interesting, visualization
