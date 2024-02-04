@@ -59,6 +59,8 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 ======
 ---------------
 
+<!-- Displayed Table -->
+
 <table>
   <tr>
     <!-- Project 1 -->
@@ -85,6 +87,12 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
   </tr>
 </table>
 
+
+
+
+
+<!-- Table for generating the image to get clicking effect-->
+
 <table>
   <tr>
     <!-- Project 1 -->
@@ -106,7 +114,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
     <td width="50%" onclick="window.location='URL_TO_PROJECT_2';" style="cursor: pointer;">
       <h2 align="center">MATLAB GUI</h2>
       <p align="center">
-        <img src="../images/vector_field_line_integral_3d.png" width="100%" alt="MATLAB GUI pic"/>
+        <img src="../images/vector_field_line_integral_3d.png" width="80%" alt="MATLAB GUI pic"/>
       </p>
       <p align="center">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations.</p>
       <p align="center">
