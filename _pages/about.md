@@ -101,7 +101,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
       <p align="center">
         <img src="../images/sat_regression_final_plot.png" style="width:81%;" alt="Project 1 Screenshot"/>
       </p>
-      <p align="center">This project employs custom-built neural network models with PyTorch to predict SAT scores from GPA and other factors and some other stuff.</p>
+      <p align="">This project employs custom-built neural network models with PyTorch to predict SAT scores from GPA and other factors.</p>
       <p align="center">
         <!-- Tags for Project 1 -->
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
@@ -116,7 +116,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
       <p align="center">
         <img src="../images/vector_field_line_integral_3d.png" width="80%" alt="MATLAB GUI pic"/>
       </p>
-      <p align="center">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations.</p>
+      <p align="">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations.</p>
       <p align="center">
         <!-- Tags for Project 2 -->
         <img src="https://img.shields.io/badge/Calculus-FF0000.svg?style=flat&logo=libreofficemath&logoColor=white" alt="Calculus"/>
