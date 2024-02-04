@@ -76,24 +76,14 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
         <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
       </p>
     </td>
-    <!-- Project 2 -->
+    <!-- Project 2 with just the image-->
     <td width="50%">
-      <h2 align="center"><a href="publications">MATLAB GUI</a></h2>
       <p align="center">
-        <a href="URL_TO_PROJECT_2"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/674ead71-daa8-4fd1-b830-380d603baee8" width="100%" alt="Matlab GUI pic"/></a>
-      </p>
-      <p align="center">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations</p>
-      <p align="center">
-        <!-- Tags for Project 2 -->
-        <img src="https://img.shields.io/badge/Calculus-FF0000.svg?style=flat&logo=libreofficemath&logoColor=white" alt="Calculus"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/MATLAB-F58025?style=flat&logo=matlab&logoColor=white" alt="Matlab"/>
+        <a href="https://github.com/huy310304/MATLAB-GUI-main"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/674ead71-daa8-4fd1-b830-380d603baee8" width="100%" alt="Matlab GUI Pic"/></a>
       </p>
     </td>
   </tr>
 </table>
-
-![matlab project all](https://github.com/huy310304/huy310304.github.io/assets/114793725/674ead71-daa8-4fd1-b830-380d603baee8)
 
 <table>
   <tr>
