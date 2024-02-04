@@ -66,13 +66,13 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
     <!-- Project 1 with just the image created below-->
     <td style="border: none; width:50%;">
       <p align="center">
-        <a href="https://github.com/huy310304/SAT-score-prediction"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/918fcf05-a146-4640-a29e-aca0091b0b39" width="100%" alt="SAT Project Pic"/></a>
+        <a href="https://github.com/huy310304/SAT-score-prediction"><img src="../images/SAT_949_917.png" width="100%" alt="SAT Project Pic"/></a>
       </p>
     </td>
     <!-- Project 2 with just the image-->
     <td style="border: none; width:50%">
       <p align="center">
-        <a href="https://github.com/huy310304/MATLAB-GUI-main"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/7cbb3ffd-3514-4cdb-b7b5-9e2adb373eed" width="100%" alt="Matlab GUI Pic"/></a>
+        <a href="https://github.com/huy310304/MATLAB-GUI-main"><img src="../images/MATLAB_949_917.png" width="100%" alt="Matlab GUI Pic"/></a>
       </p>
     </td>
   </tr>
