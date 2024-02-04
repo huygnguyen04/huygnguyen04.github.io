@@ -23,9 +23,19 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 🎓 Education
 ======
 ------------------
-<img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="50"> University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026  - GPA: 3.989
+<img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="50"> **University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026**
 
-<img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="50"> High School for the Gifted VNUHCM, 2022 
+<table>
+  <tr>
+    <td rowspan="2"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="50"></td>
+    <td>University of Virginia, B.S. Computer Science and Minor in Applied Mathematics, 2026</td>
+  </tr>
+  <tr>
+    <td>GPA: 3.989</td>
+  </tr>
+</table>
+
+<img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/59a3c464-1d7a-438d-87b7-abaffe7aba09" width="50"> **High School for the Gifted VNUHCM, 2022**
 
 <br>
 
@@ -57,11 +67,11 @@ List Projects ...
   <tr>
     <!-- Project 1 -->
     <td width="50%">
-      <h3 align="center">SAT Score Prediction</h3>
+      <h3 align="center"><a href="URL_TO_PROJECT_1">SAT Score Prediction</a></h3>
       <p align="center">
-        <img src="LINK_TO_YOUR_PROJECT_1_IMAGE" width="100%" alt="Project 1 Screenshot"/>
+        <a href="URL_TO_PROJECT_1"><img src="LINK_TO_YOUR_PROJECT_1_IMAGE" width="100%" alt="Project 1 Screenshot"/></a>
       </p>
-      <p align = "center">This project employs custom-built neural network models with PyTorch to predict SAT scores from GPA and other factors.</p>
+      <p align="center">This project employs custom-built neural network models with PyTorch to predict SAT scores from GPA and other factors.</p>
       <p align="center">
         <!-- Tags for Project 1 -->
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
@@ -72,11 +82,11 @@ List Projects ...
     </td>
     <!-- Project 2 -->
     <td width="50%">
-      <h3 align="center">MATLAB GUI</h3>
+      <h3 align="center"><a href="https://github.com/huy310304/MATLAB-GUI-main">MATLAB GUI</a></h3>
       <p align="center">
-        <img src="LINK_TO_YOUR_PROJECT_2_IMAGE" width="100%" alt="Project 2 Screenshot"/>
+        <a href="URL_TO_PROJECT_2"><img src="LINK_TO_YOUR_PROJECT_2_IMAGE" width="100%" alt="Project 2 Screenshot"/></a>
       </p>
-      <p align = "center">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations</p>
+      <p align="center">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations</p>
       <p align="center">
         <!-- Tags for Project 2 -->
         <img src="https://img.shields.io/badge/Calculus-FF0000.svg?style=flat&logo=libreofficemath&logoColor=white" alt=""/>
@@ -86,5 +96,6 @@ List Projects ...
     </td>
   </tr>
 </table>
+
 
 Add sth interesting, visualization
