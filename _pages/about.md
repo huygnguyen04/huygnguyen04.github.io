@@ -119,7 +119,7 @@ List Projects ...
     <td width="50%">
       <h3 align="center"><a href="https://github.com/huy310304/MATLAB-GUI-main">MATLAB GUI</a></h3>
       <p align="center">
-        <a href="URL_TO_PROJECT_2"><img src="LINK_TO_YOUR_PROJECT_2_IMAGE" width="100%" alt="Project 2 Screenshot"/></a>
+        <a href="URL_TO_PROJECT_2"><img src="../images/vector_field_line_integral_3d.png" width="100%" alt="Project 2 Screenshot"/></a>
       </p>
       <p align="center">Simplification of Multivariable Calculus concepts using MATLAB UI App for generating vectors field with vector line integral calculations</p>
       <p align="center">
