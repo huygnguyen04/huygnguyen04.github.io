@@ -14,9 +14,13 @@ redirect_from:
 -----------------
 Hi there!👋 I am Huy Nguyen, a second-year student at the University of Virginia majoring in Computer Science with a minor in Applied Mathematics. 
 
-Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my studies as an international student - with a long-term goal of pursuing a Ph.D. in Computer Science.
+Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my studies as an international student with a long-term goal of pursuing a Ph.D. in Computer Science.
 
 > The more you sleep, the higher your GPA.
+
+<div id="header" style="align:left; padding-left:10px">
+  <img src="https://media.giphy.com/media/itdYhaQ5GKXczC1WFJ/giphy.gif" width="50">
+</div>
 
 <br>
 
