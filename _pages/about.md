@@ -19,7 +19,7 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 > The more you sleep, the higher your GPA.
 
 <div style="display: flex; align-items: center; justify-content: space-between;">
-  <blockquote style="flex-grow: 1; margin-right: 0px; height:10px">
+  <blockquote style="flex-grow: 1; margin-right: 0px; height:30px">
     <p>The more you sleep, the higher your GPA. <img src="https://media.giphy.com/media/itdYhaQ5GKXczC1WFJ/giphy.gif" alt="Animated Image" style="padding-left: 0px; width: 30px; height: auto;"> </p>
   </blockquote>
 </div>
