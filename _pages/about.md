@@ -59,33 +59,25 @@ Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my stu
 ======
 ---------------
 
-<!-- Displayed Table -->
+<!-- Displayed Table with Image, should be in the same dimension-->
 
-<table>
+<table style="border-collapse: collapse; border: none;">
   <tr>
-    <!-- Project 1 -->
-    <td width="50%">
-      <h2 align="center"><a href="publications">SAT Score Prediction</a></h2>
+    <!-- Project 1 with just the image created below-->
+    <td style="border: none; width:50%;">
       <p align="center">
-        <a href="URL_TO_PROJECT_1"><img src="LINK_TO_YOUR_PROJECT_1_IMAGE" width="100%" alt="Project 1 Screenshot"/></a>
-      </p>
-      <p align="center">This project employs custom-built neural network models with PyTorch to predict SAT scores from GPA and other factors.</p>
-      <p align="center">
-        <!-- Tags for Project 1 -->
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&style=flat&logo=PyTorch&logoColor=white" alt="Pytorch"/>
-        <img src="https://img.shields.io/badge/Numpy-%23013243.svg?&style=flat&logo=numpy&logoColor=white" alt="Numpy"/>
-        <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
+        <a href="https://github.com/huy310304/SAT-score-prediction"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/918fcf05-a146-4640-a29e-aca0091b0b39" width="100%" alt="SAT Project Pic"/></a>
       </p>
     </td>
     <!-- Project 2 with just the image-->
-    <td width="50%">
+    <td style="border: none; width:50%">
       <p align="center">
-        <a href="https://github.com/huy310304/MATLAB-GUI-main"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/674ead71-daa8-4fd1-b830-380d603baee8" width="100%" alt="Matlab GUI Pic"/></a>
+        <a href="https://github.com/huy310304/MATLAB-GUI-main"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/7cbb3ffd-3514-4cdb-b7b5-9e2adb373eed" width="100%" alt="Matlab GUI Pic"/></a>
       </p>
     </td>
   </tr>
 </table>
+
 
 <!-- Table for generating the image to get clicking effect-->
 <!-- For future project, generate the image so that it have the same dimensions-->
