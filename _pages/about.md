@@ -48,10 +48,10 @@ Other than that, I also enjoy doing academic mentoring jobs as a Teaching Assist
       <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/3a24b89a-24b3-45c8-a2b1-85923dddc63d" width="70">
       </a>
     </td>
-    <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 5px;">University of Virginia, 2026</td>
+    <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 5px;">B</td>
   </tr>
   <tr>
-    <td style="border: none; font-size: 20px; font-style:italic; line-height: 1; padding-top: 5px;">High School Diploma - KC3 1922</td>
+    <td style="border: none; font-size: 20px; font-style:italic; line-height: 1; padding-top: 5px;">A</td>
   </tr>
 </table>
 
