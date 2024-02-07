@@ -45,18 +45,16 @@ Other than that, I also enjoy doing academic mentoring jobs as a Teaching Assist
   <tr>
     <td rowspan="2" style="border: none; padding-right: 5px; vertical-align: top;">
       <a href="https://engineering.virginia.edu/">
-      <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="70">
+      <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/3a24b89a-24b3-45c8-a2b1-85923dddc63d" width="70">
       </a>
     </td>
     <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 5px;">University of Virginia, 2026</td>
   </tr>
   <tr>
-    <td style="border: none; font-size: 20px; font-style:italic; line-height: 1; padding-top: 5px;">B.S. Computer Science and Minor in Applied Mathematics - GPA: 3.989</td>
+    <td style="border: none; font-size: 20px; font-style:italic; line-height: 1; padding-top: 5px;">High School Diploma - KC3 1922</td>
   </tr>
 </table>
 
-
-<br><br>
 
 💼 Experience 
 ======
