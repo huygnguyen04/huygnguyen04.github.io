@@ -1,20 +1,20 @@
 ---
-title: "Teaching Assistant and Grader (APMA 2130)"
+title: "⚙️ Teaching Assistant and Grader (APMA 2130)"
 collection: teaching
 type: "Ordinary Differential Equations"
 permalink: /teaching/apma2130-teaching-assistant
-venue: "University of Virginia School of Engineering and Applied Science, Department of Applied Mathematics"
+venue: "University of Virginia, Department of Applied Mathematics (APMA)"
 date: 2024-01-01
 location: "Charlottesville, USA"
 ---
 
-Add some info for ODE
+[**Course Information**](https://www.coursicle.com/virginia/courses/APMA/2130/)
 
-Heading 1
+APMA 2130 - Professor Nethali Fernando - Spring 2024
 ======
+- Add sth
 
-Heading 2
-======
 
-Heading 3
+APMA 2130 - Professor Hui Ma - Spring 2024
 ======
+- Add sth
