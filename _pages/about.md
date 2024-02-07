@@ -41,9 +41,9 @@ Other than that, I also enjoy doing academic mentoring jobs as a Teaching Assist
   </tr>
 </table>
 
-<br>  
+abc
 
-<table style="border-collapse: collapse;">
+<table style="">
   <tr>
     <td rowspan="2" style="padding-left: 5px; vertical-align: top;">
       <a href="https://engineering.virginia.edu/">
