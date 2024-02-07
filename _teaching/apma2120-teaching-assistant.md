@@ -8,7 +8,7 @@ date: 2024-01-01
 location: "Charlottesville, USA"
 ---
 
-[Course Site and Information](https://www.coursicle.com/virginia/courses/APMA/2120/)
+[**Course Site and Information**](https://www.coursicle.com/virginia/courses/APMA/2120/)
 
 
 APMA 2120 - Professor Heze Chen - Fall 2023
