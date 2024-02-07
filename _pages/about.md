@@ -29,7 +29,7 @@ Other than that, I also enjoy doing academic mentoring jobs as a Teaching Assist
 ------------------
 <table style="border-collapse: collapse; border: none;">
   <tr>
-    <td rowspan="2" style="border: none; padding-right: 5px; vertical-align: top;">
+    <td rowspan="2" style="border: none; width: 100px; padding-right: 5px; vertical-align: top;">
       <a href="https://engineering.virginia.edu/">
       <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="70">
       </a>
@@ -45,7 +45,7 @@ abc
 
 <table style="">
   <tr style="">
-    <td rowspan="2" style="width: 70px;">
+    <td rowspan="2" style="width: 100px; padding-right: 5px; vertical-align: top;">
       <a href="https://engineering.virginia.edu/">
       <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/3a24b89a-24b3-45c8-a2b1-85923dddc63d" width="70">
       </a>
