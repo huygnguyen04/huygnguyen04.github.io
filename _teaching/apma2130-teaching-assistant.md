@@ -1,5 +1,5 @@
 ---
-title: "Undergraduate Teaching Assistant and Grader - APMA 2130"
+title: "Teaching Assistant and Grader (APMA 2130)"
 collection: teaching
 type: "Ordinary Differential Equations"
 permalink: /teaching/apma2130-teaching-assistant
