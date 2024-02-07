@@ -41,8 +41,8 @@ Other than that, I also enjoy doing academic mentoring jobs as a Teaching Assist
   </tr>
 </table>
 
-<br>
- 
+<p></p>
+
 <table style="border: none;">
   <tr style="border: none;">
     <td rowspan="2" style="border: none; width: 90px; padding-right: 5px; vertical-align: top;">
