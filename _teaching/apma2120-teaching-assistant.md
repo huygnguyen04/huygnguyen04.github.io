@@ -1,5 +1,5 @@
 ---
-title: "Undergraduate Teaching Asisstant and Grader - APMA 2120"
+title: "Teaching Asisstant and Grader (APMA 2120)"
 collection: teaching
 type: "Multivariable Calculus"
 permalink: /teaching/apma2120-teaching-assistant
