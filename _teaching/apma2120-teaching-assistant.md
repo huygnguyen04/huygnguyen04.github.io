@@ -1,5 +1,5 @@
 ---
-title: "Teaching Asisstant and Grader (APMA 2120)"
+title: "[Teaching Asisstant and Grader (APMA 2120)](https://www.coursicle.com/virginia/courses/APMA/2120/)"
 collection: teaching
 type: "Multivariable Calculus"
 permalink: /teaching/apma2120-teaching-assistant
@@ -8,13 +8,10 @@ date: 2024-01-01
 location: "Charlottesville, USA"
 ---
 
-Add some info for calc3
-
-Heading 1
+APMA 2120 - Professor Heze Chen - Fall 2023
 ======
+- Add details + visualization
 
-Heading 2
+APMA 2120 - Professor Chris Hellings Chen - Spring 2024
 ======
-
-Heading 3
-======
+- Add details + visualization
