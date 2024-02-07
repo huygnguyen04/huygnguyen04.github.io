@@ -84,10 +84,12 @@ author:
   avatar           : "profile.png"
   bio              : "Computer Science and Applied Math Undergraduate at UVA"
   location         : "Charlottesville, Virginia"
+  linkedin         : "huynguyen04"
+  github           : "huy310304"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : "ngh810pth@gmail.com"
+  email            : "mpc5ya@virginia.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,13 +98,11 @@ author:
   flickr           :
   facebook         : "HuyNguYen121104"
   foursquare       :
-  github           : "huy310304"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "huynguyen04"
   orcid            : 
   pinterest        :
   soundcloud       :
