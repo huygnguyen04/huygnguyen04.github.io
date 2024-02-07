@@ -43,17 +43,17 @@ Other than that, I also enjoy doing academic mentoring jobs as a Teaching Assist
 
 <br>  
 
-<table style="border-collapse: collapse; border: none;">
+<table style="border-collapse: collapse;">
   <tr>
-    <td rowspan="2" style="border: none; padding-left: 5px; vertical-align: top;">
+    <td rowspan="2" style="padding-left: 5px; vertical-align: top;">
       <a href="https://engineering.virginia.edu/">
       <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/3a24b89a-24b3-45c8-a2b1-85923dddc63d" width="70">
       </a>
     </td>
-    <td style="border: none; font-weight: bold; font-size: 20px; padding-left: 5px; line-height: 1; padding-bottom: 5px;">B</td>
+    <td style="font-weight: bold; font-size: 20px;">High School for the Gifted VNUHCM</td>
   </tr>
   <tr>
-    <td style="border: none; font-size: 20px; font-style:italic; line-height: 1; padding-top: 5px;">A</td>
+    <td style="font-size: 20px; font-style:italic;">High School Diploma - KC3 1922</td>
   </tr>
 </table>
 
