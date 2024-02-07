@@ -1,9 +1,9 @@
 ---
-title: "Undergraduate Teaching Assistant and Grader"
+title: "Undergraduate Teaching Assistant and Grader - APMA 2130"
 collection: teaching
-type: "Undergraduate Course"
+type: "Ordinary Differential Equations"
 permalink: /teaching/apma2130-teaching-assistant
-venue: "University of Virginia, Department of Applied Mathematics"
+venue: "University of Virginia School of Engineering and Applied Science, Department of Applied Mathematics"
 date: 2024-01-01
 location: "Charlottesville, USA"
 ---
