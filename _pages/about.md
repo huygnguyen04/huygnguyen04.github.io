@@ -40,6 +40,8 @@ Other than that, I also enjoy doing academic mentoring jobs as a Teaching Assist
     <td style="border: none; font-size: 20px; font-style:italic; line-height: 1; padding-top: 5px;">B.S. Computer Science and Minor in Applied Mathematics - GPA: 3.989</td>
   </tr>
 </table>
+
+<br>
  
 <table style="border: none;">
   <tr style="border: none;">
