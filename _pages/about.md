@@ -44,8 +44,8 @@ Other than that, I also enjoy doing academic mentoring jobs as a Teaching Assist
 abc
 
 <table style="">
-  <tr style="width: 30px;">
-    <td rowspan="2" style="width: 30px;">
+  <tr style="">
+    <td rowspan="2" style="width: 70px;">
       <a href="https://engineering.virginia.edu/">
       <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/3a24b89a-24b3-45c8-a2b1-85923dddc63d" width="70">
       </a>
