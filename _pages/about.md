@@ -16,6 +16,10 @@ Hi there!👋 I'm Huy Nguyen, a second-year student at the University of Virgini
 
 Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my studies as an international student with a long-term goal of pursuing a Ph.D. in Computer Science.
 
+Currently, I am involved in GPU and Computer Architecture research at the Insight Computer Architecture Lab as well as collaborating on projects with professors in the UVA School of Engineering. 
+
+Other than that, I am also doing mentoring job as a Teaching Assistant and Grader for Applied Math Courses. 
+
 > The more you sleep, the higher your GPA. <img src="https://media.giphy.com/media/itdYhaQ5GKXczC1WFJ/giphy.gif" width = 40px>
 
 <br>
