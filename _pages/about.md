@@ -16,9 +16,9 @@ Hi there!👋 I'm Huy Nguyen, a second-year student at the University of Virgini
 
 Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my studies as an international student with a long-term goal of pursuing a Ph.D. in Computer Science.
 
-Currently, I am involved in GPU and Computer Architecture research at the Insight Computer Architecture Lab as well as collaborating on projects with professors in the UVA School of Engineering. 
+Currently, I am involved in Computer Architecture research at the [Insight Lab](https://insight-cal.github.io/) as well as collaborating on projects with professors in the UVA School of Engineering. 
 
-Other than that, I am also doing mentoring job as a Teaching Assistant and Grader for Applied Math Courses. 
+Other than that, I also enjoy doing academic mentoring jobs as a Teaching Assistant and Grader for Applied Math Courses. 
 
 > The more you sleep, the higher your GPA. <img src="https://media.giphy.com/media/itdYhaQ5GKXczC1WFJ/giphy.gif" width = 40px>
 
@@ -29,7 +29,11 @@ Other than that, I am also doing mentoring job as a Teaching Assistant and Grade
 ------------------
 <table style="border-collapse: collapse; border: none;">
   <tr>
-    <td rowspan="2" style="border: none; padding-right: 5px; vertical-align: top;"><img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="70"></td>
+    <td rowspan="2" style="border: none; padding-right: 5px; vertical-align: top;">
+      <a href="https://engineering.virginia.edu/">
+      <img src="https://github.com/huy310304/huy310304.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="70">
+      </a>
+    </td>
     <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 5px;">University of Virginia, 2026</td>
   </tr>
   <tr>
