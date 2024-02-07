@@ -8,7 +8,7 @@ date: 2024-01-01
 location: "Charlottesville, USA"
 ---
 
-[**Course Information**](https://www.coursicle.com/virginia/courses/APMA/2130/)
+[**Course Site and Information**](https://www.coursicle.com/virginia/courses/APMA/2130/)
 
 APMA 2130 - Professor Nethali Fernando - Spring 2024
 ======
