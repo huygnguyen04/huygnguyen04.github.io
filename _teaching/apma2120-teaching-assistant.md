@@ -10,7 +10,7 @@ location: "Charlottesville, USA"
 
 [**Course Site and Information**](https://www.coursicle.com/virginia/courses/APMA/2120/)
 
-APMA 2120 - Fall 2023 and Spring 2024
+Multivariable Calculus - Fall 2023 and Spring 2024
 ======
 After completing APMA 2120 in the Spring of 2023, I transitioned into a teaching assistant role for the course under Professor Heze Chen in the Fall of 2023, and continued with Professor Chris Hellings in the Spring of 2024.  
 
