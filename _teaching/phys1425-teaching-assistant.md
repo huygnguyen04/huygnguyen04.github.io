@@ -10,7 +10,7 @@ location: "Charlottesville, USA"
 
 [**Course Site and Information**](https://www.coursicle.com/virginia/courses/PHYS/1425/)
 
-PHYS 1425 - Professor Xiaochiao Zheng - Fall 2023
+Introductory Physics 1 for Engineers - Fall 2023
 ======
 After completing APMA 2120 in the Spring of 2023, I transitioned into a teaching assistant role for the course under Professor Xiaochao Zheng in the Fall of 2023. 
 
