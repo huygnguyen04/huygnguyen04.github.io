@@ -10,7 +10,7 @@ location: "Charlottesville, USA"
 
 [**Course Site and Information**](https://www.coursicle.com/virginia/courses/APMA/2130/)
 
-APMA 2130 - Spring 2024
+Ordinary Differential Equations - Spring 2024
 ======
 After completing APMA 2130 in the Fall of 2024, I transitioned into a teaching assistant role for the course under Professor Nethali Fernando and Professor Hui Ma in the Spring of 2024.
 
