@@ -16,9 +16,9 @@ Hi there!👋 I'm Huy Nguyen, a second-year student at the University of Virgini
 
 Originally from Ho Chi Minh City, Vietnam, I moved to the U.S. to further my studies as an international student with a long-term goal of pursuing a Ph.D. in Computer Science.
 
-Currently, I am involved in Computer Architecture research at the [Insight Lab](https://insight-cal.github.io/) as well as collaborating on projects with professors in the UVA School of Engineering. 
+Currently, I am involved in _Computer Architecture_ research at the [*Insight Lab*](https://insight-cal.github.io/) as well as collaborating on projects with professors in the UVA School of Engineering. 
 
-Other than that, I also enjoy doing academic mentoring jobs as a Teaching Assistant and Grader for Applied Math Courses. 
+Other than that, I also enjoy doing academic mentoring jobs as a [*Teaching Assistant and Grader*](https://huy310304.github.io/teaching/) for Applied Mathematics Courses. 
 
 > The more you sleep, the higher your GPA. <img src="https://media.giphy.com/media/itdYhaQ5GKXczC1WFJ/giphy.gif" width = 40px>
 
