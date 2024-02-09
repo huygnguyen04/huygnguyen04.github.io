@@ -56,17 +56,15 @@ _May 2023 - August 2023_
 
 <p></p>
 
+**CORE Scholar Peer Academic Mentor @ UVA**  
+_August 2023 - Present_
+* **Duties included**: Enhancing STEM education for CORE Scholar students through academic support, course guidance, and community-building activities.
+
 **Teaching Assistant and Grader @ UVA**  
 _August 2023 - Present_
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-<p></p>
-
-**CORE Scholar Peer Academic Mentor @ UVA**  
-_August 2023 - Present_
-* **Duties included**: Enhancing STEM education for CORE Scholar students through academic support, course guidance, and community-building activities.
 
 <br>
 
