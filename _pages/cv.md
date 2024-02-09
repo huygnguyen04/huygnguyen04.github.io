@@ -81,5 +81,5 @@ Projects
 Skills
 ======
 **Programming**: Proficient in Python and Java; Familiar with C/C++, CUDA, MATLAB and HTML/CSS.  
-**Frameworks and Tools**: NumPy, PyTorch, Pandas, Matplotlib, Django, Git, Linux, NVIDIA Nsight Compute, Triton, UVA Rivanna.  
+**Frameworks and Tools**: NumPy, PyTorch, Pandas, Matplotlib, Git, Linux, Triton, NVIDIA Nsight Tools, UVA Rivanna.  
 **Certifications and Training**: CS50P (HarvardX), CS50W (HarvardX), Introductory C Programming Specialization (Coursera), LeetCode Learnings and Crash Courses, LinkedIn Learning Courses.
