@@ -59,6 +59,8 @@ _May 2023 - August 2023_
 **CORE Scholar Peer Academic Mentor @ UVA**  
 _August 2023 - Present_
 * **Duties included**: Enhancing STEM education for CORE Scholar students through academic support, course guidance, and community-building activities.
+  
+<p></p>
 
 **Teaching Assistant and Grader @ UVA**  
 _August 2023 - Present_
@@ -78,6 +80,6 @@ Projects
 
 Skills
 ======
-* Programming: Proficient in Python and Java; Familiar with C/C++, CUDA, MATLAB and HTML/CSS.
-* Frameworks and Tools: NumPy, PyTorch, Pandas, Matplotlib, Django, Git, Linux, NVIDIA Nsight Compute, Triton, UVA Rivanna.
-* Certifications and Training: CS50P (HarvardX), CS50W (HarvardX), Introductory C Programming Specialization (Coursera), LeetCode Learnings and Crash Courses, LinkedIn Learning Courses.
+**Programming**: Proficient in Python and Java; Familiar with C/C++, CUDA, MATLAB and HTML/CSS.
+**Frameworks and Tools**: NumPy, PyTorch, Pandas, Matplotlib, Django, Git, Linux, NVIDIA Nsight Compute, Triton, UVA Rivanna.
+**Certifications and Training**: CS50P (HarvardX), CS50W (HarvardX), Introductory C Programming Specialization (Coursera), LeetCode Learnings and Crash Courses, LinkedIn Learning Courses.
