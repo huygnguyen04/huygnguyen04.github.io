@@ -9,11 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
+[Download my CV here](https://drive.google.com/file/d/17LJurBF-dPZPoZpdA896hSa8ghkW0ifj/view?usp=sharing)  
+
+[Download my transcipt here](https://drive.google.com/file/d/1uVPoSy6UIb9WsYwLurv9nWmaTtWxeCo8/view?usp=sharing)
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science | Minor in Applied Mathematics, University of Virginia, 2026
+  * Coursework: Software Development Essentials, Computer System and Organization, Data Structure and Algorithms, Discrete Mathematics and Theory, Linear Algebra, Probability, Ordinary Differential Equations (TA), Multivariable Calculus (TA).
+  * Volunteering: Student Volunteer and Math Tutor @Madison House with 30+ hours, Classroom Consultant at VISAS@UVA.
+  * Organizations: Research Assistant at Insight Computer Architecture Lab, Member of ACM@UVA, Mentor at CORE Scholar Program.
 
 Work experience
 ======
