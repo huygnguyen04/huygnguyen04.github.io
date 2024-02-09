@@ -9,10 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-<br>
+Here's my academic and professional journey at the University of Virginia, highlighting my work in computer science, applied mathematics, and beyond. Fell free to download my CV and transcript below. 🎓💼  
 
-Documents
-======
 [⬇️ Download my CV](https://drive.google.com/file/d/17LJurBF-dPZPoZpdA896hSa8ghkW0ifj/view?usp=sharing)  
 
 [⬇️ Download my Transcript](https://drive.google.com/file/d/1uVPoSy6UIb9WsYwLurv9nWmaTtWxeCo8/view?usp=sharing)
@@ -21,7 +19,8 @@ Documents
 
 Education
 ======
-**B.S. in Computer Science and Minor in Applied Mathematics, University of Virginia, 2026**  
+**University of Virginia, 2026**  
+_B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.989_
 - **Coursework**: Software Development Essentials, Computer System and Organization, Data Structure and Algorithms, Discrete Mathematics, Linear Algebra, Probability, Ordinary Differential Equations (TA), Multivariable Calculus (TA).  
 - **Volunteering**: Student Volunteer and Math Tutor @Madison House, Classroom Consultant at VISAS@UVA.  
 - **Organizations**: Research Assistant at Insight Computer Architecture Lab, Member of ACM@UVA.
