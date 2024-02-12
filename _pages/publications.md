@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-Testing
+Add some projects and then link to publications
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
