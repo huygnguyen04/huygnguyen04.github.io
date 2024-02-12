@@ -35,12 +35,14 @@ _August 2023 - Present_
 * **Duties included**: Exploring GPU computing and deep learning optimization through hands-on research and collaboration with graduate students.
 
 <p></p>
+<p></p>
 
 **Undergraduate Research Assistant @ UVA Engineering**  
 _August 2023 - Present_  
 * **Supervisor**: Professor Heze Chen
 * **Duties included**: Leading a team to create interactive Python and MATLAB GUIs for enhancing Multivariable Calculus learning at UVA, focusing on visualizing complex concepts and facilitating practical application in lectures.
 
+<p></p>
 <p></p>
 
 **Project Intern @ UVA Engineering**  
@@ -49,17 +51,20 @@ _April 2023 - Present_
 * **Duties included**: Investigating thermal properties of high-entropy alloys using molecular dynamics simulations on UVA's Rivanna supercomputer.
 
 <p></p>
+<p></p>
 
 **Developer Intern @ SHIFT ASIA**  
 _May 2023 - August 2023_
 * **Duties included**: Enhancing existing e-commerce sales forecasting models and making regression models for predicting SAT scores for future interns, significantly improving prediction accuracy and efficiency.
 
 <p></p>
+<p></p>
 
 **CORE Scholar Peer Academic Mentor @ UVA**  
 _August 2023 - Present_
 * **Duties included**: Enhancing STEM education for CORE Scholar students through academic support, course guidance, and community-building activities.
   
+<p></p>
 <p></p>
 
 **Teaching Assistant and Grader @ UVA**  
