@@ -9,21 +9,19 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-# Commented out gem "github-pages" as it can lead to dependency issues
-# gem "github-pages", group: :jekyll_plugins
-
-# Instead, specify individual gems required for GitHub Pages
-# to avoid potential conflicts
-group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-sitemap"
-  gem "hawkins"
-end
+gem "github-pages", group: :jekyll_plugins
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
+# gem "jekyll"
 
-# Add platform-specific gem to solve potential Windows-related issues
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  # gem "jekyll-archives"
+  gem "jekyll-feed"
+  gem 'jekyll-sitemap'
+  gem 'hawkins'
+end
