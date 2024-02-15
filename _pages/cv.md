@@ -34,21 +34,21 @@ _August 2023 - Present_
 * **Supervisor**: Professor Adwait Jog
 * **Duties included**: Exploring GPU computing and deep learning optimization through hands-on research and collaboration with graduate students.
 
-<p></p>
+<br>
 
 **Undergraduate Research Assistant @ UVA Engineering**  
 _August 2023 - Present_  
 * **Supervisor**: Professor Heze Chen
 * **Duties included**: Leading a team to create interactive Python and MATLAB GUIs for enhancing Multivariable Calculus learning at UVA, focusing on visualizing complex concepts and facilitating practical application in lectures.
 
-<p></p>
+<br>
 
 **Project Intern @ UVA Engineering**  
 _April 2023 - Present_
 * **Supervisor**: Professor Keivan Esfarjani
 * **Duties included**: Investigating thermal properties of high-entropy alloys using molecular dynamics simulations on UVA's Rivanna supercomputer.
 
-<p></p>
+<br>
 
 **Developer Intern @ SHIFT ASIA**  
 _May 2023 - August 2023_
@@ -70,11 +70,13 @@ _August 2023 - Present_
 
 <br>
 
-Projects
+[Projects](https://huy310304.github.io/publications/)
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* [📊 SAT Score Prediction](https://github.com/huy310304/SAT-score-prediction)  
+* [📈 MATLAB-GUI](https://github.com/huy310304/MATLAB-GUI-main)
+* [⚛️ GPUMD UVA](https://github.com/huy310304/GPUMD-UVA)
+* [🎮 Flappy Bird Game - UVA CS 1110](https://github.com/huy310304/flappy-bird-game)
+* [#️⃣ Number Test Game](https://github.com/huy310304/number-test-game)
 
 <br>
 
