@@ -93,13 +93,13 @@ Other than that, I also enjoy doing academic mentoring jobs as a [*Teaching Assi
     <!-- Project 1 with just the image created below-->
     <td style="border: none; width:50%;">
       <p align="center">
-        <a href="https://github.com/huy310304/SAT-score-prediction"><img src="../images/SAT_1021_1052.png" width="100%" alt="SAT Project Pic"/></a>
+        <a href="https://github.com/huy310304/SAT-score-prediction"><img src="../images/SAT_896_942.png" width="100%" alt="SAT Project Pic"/></a>
       </p>
     </td>
     <!-- Project 2 with just the image-->
     <td style="border: none; width:50%">
       <p align="center">
-        <a href="https://github.com/huy310304/MATLAB-GUI-main"><img src="../images/MATLAB_1021_1052.png" width="100%" alt="Matlab GUI Pic"/></a>
+        <a href="https://github.com/huy310304/MATLAB-GUI-main"><img src="../images/MATLAB_896_942.png" width="100%" alt="Matlab GUI Pic"/></a>
       </p>
     </td>
   </tr>
