@@ -54,13 +54,13 @@ _April 2023 - Present_
 _May 2023 - August 2023_
 * **Duties included**: Enhancing existing e-commerce sales forecasting models and making regression models for predicting SAT scores for future interns, significantly improving prediction accuracy and efficiency.
 
-<p></p>
+<br>
 
 **CORE Scholar Peer Academic Mentor @ UVA**  
 _August 2023 - Present_
 * **Duties included**: Enhancing STEM education for CORE Scholar students through academic support, course guidance, and community-building activities.
   
-<p></p>
+<br>
 
 **Teaching Assistant and Grader @ UVA**  
 _August 2023 - Present_
