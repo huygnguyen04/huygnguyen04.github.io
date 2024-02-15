@@ -70,13 +70,13 @@ _August 2023 - Present_
 
 <br>
 
-[Projects](https://huy310304.github.io/publications/)
+Projects
 ======
-* [📊 SAT Score Prediction](https://github.com/huy310304/SAT-score-prediction)  
-* [📈 MATLAB-GUI](https://github.com/huy310304/MATLAB-GUI-main)
-* [⚛️ GPUMD UVA](https://github.com/huy310304/GPUMD-UVA)
-* [🎮 Flappy Bird Game - UVA CS 1110](https://github.com/huy310304/flappy-bird-game)
-* [#️⃣ Number Test Game](https://github.com/huy310304/number-test-game)
+### [📊 SAT Score Prediction](https://github.com/huy310304/SAT-score-prediction)   
+### [📈 MATLAB-GUI](https://github.com/huy310304/MATLAB-GUI-main)
+### [⚛️ GPUMD UVA](https://github.com/huy310304/GPUMD-UVA)
+### [🎮 Flappy Bird Game - UVA CS 1110](https://github.com/huy310304/flappy-bird-game)
+### [⌨️ Number Test Game](https://github.com/huy310304/number-test-game)
 
 <br>
 
