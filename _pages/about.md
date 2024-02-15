@@ -36,7 +36,7 @@ Other than that, I also enjoy doing academic mentoring jobs as a [*Teaching Assi
     <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 5px;"> University of Virginia, 2026</td>
   </tr>
   <tr>
-    <td style="border: none; font-size: 20px; font-style:italic; line-height: 1; padding-top: 5px;">B.S. Computer Science and Minor in Applied Mathematics - GPA: 3.989</td>
+    <td style="border: none; font-size: 20px; font-style:italic; line-height: 1; padding-top: 5px;">B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.989</td>
   </tr>
 </table>
 
