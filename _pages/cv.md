@@ -13,7 +13,7 @@ Here's my academic and professional journey during my time at the University of 
 
 [**⬇️ Download my CV**](https://drive.google.com/file/d/17LJurBF-dPZPoZpdA896hSa8ghkW0ifj/view?usp=sharing)  
 
-[**⬇️ Download my Transcript**](https://drive.google.com/file/d/1uVPoSy6UIb9WsYwLurv9nWmaTtWxeCo8/view?usp=sharing)
+[**⬇️ Download my Unofficial Transcript**](https://drive.google.com/file/d/1uVPoSy6UIb9WsYwLurv9nWmaTtWxeCo8/view?usp=sharing)
 
 <br>
 
