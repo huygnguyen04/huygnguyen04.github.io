@@ -144,7 +144,7 @@ Other than that, I also enjoy doing academic mentoring jobs as a [*Teaching Assi
 <table>
   <tr>
     <td width="50%">
-      <div style="background-color: lightgrey; padding: 2px; border-radius: 10px;">
+      <div style="background-color: lightgrey; padding: 2px; border-radius: 5px;">
         <div onclick="window.location='URL_TO_PROJECT_1';" style="cursor: pointer; background-color: white; padding: 10px;">
           <h1 align="center">SAT Score Prediction</h1>
           <p align="center">
@@ -161,7 +161,7 @@ Other than that, I also enjoy doing academic mentoring jobs as a [*Teaching Assi
       </div>
     </td>
     <td width="50%">
-      <div style="background-color: lightgrey; padding: 2px; border-radius: 10px;">
+      <div style="background-color: lightgrey; padding: 2px; border-radius: 5px;">
         <div onclick="window.location='URL_TO_PROJECT_2';" style="cursor: pointer; background-color: white; padding: 10px;">
           <h1 align="center">MATLAB GUI</h1>
           <p align="center">
