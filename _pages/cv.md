@@ -17,7 +17,7 @@ Here's my academic and professional journey during my time at the University of 
 
 <br>
 
-Education
+🎓 Education
 ======
 **University of Virginia, 2026**  
 _B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.989_
@@ -27,7 +27,7 @@ _B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.989_
 
 <br>
 
-Work experience
+💼 Work experience
 ======
 **Undergraduate Research Assistant @ Insight Lab**  
 _August 2023 - Present_
@@ -70,7 +70,7 @@ _August 2023 - Present_
 
 <br>
 
-Projects
+💻 Projects
 ======
 - ### [📊 SAT Score Prediction](https://github.com/huy310304/SAT-score-prediction)   
 - ### [📈 MATLAB-GUI](https://github.com/huy310304/MATLAB-GUI-main)
@@ -80,7 +80,7 @@ Projects
 
 <br>
 
-Skills
+💡 Skills
 ======
 **Programming**: Proficient in Python and Java; Familiar with C/C++, CUDA, MATLAB and HTML/CSS.  
 **Frameworks and Tools**: NumPy, PyTorch, Pandas, Matplotlib, Git, Linux, Triton, NVIDIA Nsight Tools, UVA Rivanna.  
