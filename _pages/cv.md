@@ -11,7 +11,7 @@ redirect_from:
 
 Here's my academic and professional journey during my time at the University of Virginia, highlighting my work in computer science, applied mathematics, and beyond. Fell free to download my CV and transcript below. 🎓💼  
 
-[**⬇️ Download my CV**](https://drive.google.com/file/d/1MJqD3G5KH0dN5cehLR7TBy27SHDShMgY/view?usp=sharing)
+[**⬇️ Download my CV**](https://drive.google.com/file/d/1FrC88UmS6rIDo5WuCAxgZK3qWxzOQfuw/view?usp=sharing)
 
 [**⬇️ Download my Unofficial Transcript**](https://drive.google.com/file/d/1uVPoSy6UIb9WsYwLurv9nWmaTtWxeCo8/view?usp=sharing)
 
