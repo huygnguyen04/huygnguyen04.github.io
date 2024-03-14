@@ -10,46 +10,58 @@ redirect_from:
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huy Nguyen's Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             padding: 20px;
-            margin-bottom: 100px;
             background: #fff;
         }
-
         .timeline-container {
             position: relative;
-            max-width: 900px;
-            margin: 20px 0; /* Adjusted to remove automatic horizontal centering */
-            padding-left: 20px; /* Added to maintain some spacing from the left edge of the viewport */
+            max-width: 1000px;
+            margin-left: 10px;
         }
-
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            left: 25px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ccc;
+        }
         .timeline-block {
-            background: #f4f4f4;
-            border-left: 4px solid #3f51b5;
-            border-radius: 4px;
-            padding: 10px 20px;
-            margin-bottom: 10px;
-            cursor: pointer;
+            position: relative;
+            margin-bottom: 20px;
+            padding-left: 60px;
         }
-
-        .milestone {
-            font-size: 18px;
+        .timeline-block::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background: #3f51b5;
+            border: 4px solid #fff;
+        }
+        .timeline-block .milestone {
+            font-size: 17.5px;
             color: #333;
+            margin-bottom: 5px;
+            font-weight: bold;
         }
-
-        .details {
-            padding: 20px;
-            background: #ddd;
-            border-radius: 4px;
+        .timeline-block .details {
+            font-size: 15px;
             margin-top: 10px;
-            opacity: 0; /* Start invisible */
-            max-height: 0; /* Start with no height */
-            overflow: hidden;
-            transition: opacity 1s, max-height 3s; /* Transition effect */
+            padding: 15px;
+            background: #f4f4f4;
+            border-radius: 4px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
         }
     </style>
 </head>
@@ -104,72 +116,45 @@ redirect_from:
 <section id="experience">
     <h1>💼 Experience</h1>
     <hr>
-<div class="timeline-container">
-        <div class="timeline-block" onclick="showDetails(this, 'milestone1')">
+    <div class="timeline-container">
+        <div class="timeline-block">
             <div class="milestone">Undergraduate Research Assistant, Insight Computer Architecture Lab</div>
+            <div class="details">
+                Explore GPU computing and develope PyTorch model performance profiling using NVIDIA Nsight Tools under Prof. Adwait Jog's guidance.
+            </div>
         </div>
-        <div class="timeline-block" onclick="showDetails(this, 'milestone2')">
-            <div class="milestone">Undergraduate Research Assistant - Enhancing Learning through Interactive GUI, UVA</div>
+        <div class="timeline-block">
+            <div class="milestone">Undergraduate Research Assistant - Enhancing Learning through Interactive GUIs</div>
+            <div class="details">
+                Lead a team of 5 students to create interactive Python and MATLAB GUIs for improving students' learning Multivariable Calculus and Linear Algebra courses at UVA.
+            </div>
         </div>
-        <div class="timeline-block" onclick="showDetails(this, 'milestone3')">
-            <div class="milestone">Undergraduate Research Assistant - Machine-learned potentials for high-entropy alloys properties, UVA</div>
+        <div class="timeline-block">
+            <div class="milestone">Undergraduate Research Assistant - Molecular Dynamics on HPC Systems</div>
+            <div class="details">
+                Investigate thermal properties of high-entropy alloys (HEAs) using molecular dynamics simulations on UVA’s Rivanna supercomputer.            
+            </div>
         </div>
-        <div class="timeline-block" onclick="showDetails(this, 'milestone4')">
+        <div class="timeline-block">
             <div class="milestone">Developer Intern, SHIFT ASIA</div>
+            <div class="details">
+                Enhance existing e-commerce sales forecasting models and develop regression models for predicting SAT scores for future interns, improving prediction accuracy and efficiency.
+            </div>
         </div>
-        <div class="timeline-block" onclick="showDetails(this, 'milestone5')">
+        <div class="timeline-block">
             <div class="milestone">Teaching Assistant and Grader, UVA</div>
+            <div class="details">
+                Collaborate with Professors to support students in Ordinary Differential Equations, Multivariable Calculus, and Intro to Physics courses.            
+            </div>
         </div>
-        <div class="timeline-block" onclick="showDetails(this, 'milestone6')">
+        <div class="timeline-block">
             <div class="milestone">CORE Scholar Peer Academic Mentor, UVA</div>
+            <div class="details">
+                Enhancing STEM education for CORE Scholar students through academic support, course guidance, and community-building activities.
+            </div>
         </div>
+        <!-- Other timeline blocks omitted for brevity -->
     </div>
-    
-    <script>
-    function showDetails(element, milestoneId) {
-        // Remove existing details div if it exists
-        var existingDetails = document.querySelector('.details');
-        if (existingDetails) {
-            existingDetails.parentNode.removeChild(existingDetails);
-        }
-    
-        var details = "";
-        switch (milestoneId) {
-            case 'milestone1':
-                details = "Exploring GPU computing and deep learning optimization through hands-on research and collaboration with graduate students.";
-                break;
-            case 'milestone2':
-                details = "Leading a team to create interactive Python and MATLAB GUIs for enhancing Multivariable Calculus learning at UVA, focusing on visualizing complex concepts and facilitating practical application in lectures.";
-                break;
-            case 'milestone3':
-                details = "Investigating thermal properties of high-entropy alloys using molecular dynamics simulations on UVA’s Rivanna supercomputer."
-                break;
-            case 'milestone4':
-                details = "Enhancing existing e-commerce sales forecasting models and making regression models for predicting SAT scores for future interns, significantly improving prediction accuracy and efficiency."
-                break;
-            case 'milestone5':
-                details = "As a Teaching Assistant and Grader at the University of Virginia since August 2023, I collaborate with professors to support 200+ students across courses in Ordinary Differential Equations, Multivariable Calculus, and Intro to Physics, by participating in lectures, holding office hours, grading 300+ weekly submissions with an auto-grader, and organizing course materials and exam preparation, significantly enhancing student learning and performance."
-                break;
-            case 'milestone6':
-                details = "Enhancing STEM education for CORE Scholar students through academic support, course guidance, and community-building activities."
-                break;
-        }
-    
-        // Create a new details div and prepare it for the transition effect
-        var detailsDiv = document.createElement('div');
-        detailsDiv.className = 'details';
-        detailsDiv.innerHTML = details;
-    
-        // Insert the detailsDiv after the clicked milestone block
-        element.parentNode.insertBefore(detailsDiv, element.nextSibling);
-    
-        // Trigger the transition effect after inserting the element
-        setTimeout(() => {
-            detailsDiv.style.maxHeight = '500px'; // Adjust based on content
-            detailsDiv.style.opacity = '1';
-        }, 10); // Short delay to ensure the transition triggers properly
-    }
-    </script>
 </section>
 
 <br><br>
