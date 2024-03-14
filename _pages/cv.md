@@ -27,44 +27,6 @@ _B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.989_
 
 <br>
 
-💼 Work experience
-======
-**Undergraduate Research Assistant @ Insight Lab**  
-_August 2023 - Present_
-* **Supervisor**: Professor Adwait Jog
-
-<br>
-
-**Undergraduate Research Assistant @ UVA Engineering**  
-_August 2023 - Present_  
-* **Supervisor**: Professor Heze Chen
-
-<br>
-
-**Project Intern @ UVA Engineering**  
-_April 2023 - Present_
-* **Supervisor**: Professor Keivan Esfarjani
-
-<br>
-
-**Developer Intern @ SHIFT ASIA**  
-_May 2023 - August 2023_
-
-<br>
-
-**CORE Scholar Peer Academic Mentor @ UVA**  
-_August 2023 - Present_
-  
-<br>
-
-**Teaching Assistant and Grader @ UVA**  
-_August 2023 - Present_
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-<br>
-
 💻 Projects
 ======
 - ### [📊 SAT Score Prediction](https://github.com/huy310304/SAT-score-prediction)   
