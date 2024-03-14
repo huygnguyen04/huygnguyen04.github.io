@@ -11,6 +11,46 @@ redirect_from:
 <head>
     <meta charset="UTF-8">
     <title>Huy Nguyen's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        .timeline-container {
+            position: relative;
+            max-width: 900px;
+            margin: 20px 0; /* Adjusted to remove automatic horizontal centering */
+            padding-left: 20px; /* Added to maintain some spacing from the left edge of the viewport */
+        }
+
+        .timeline-block {
+            background: #fff;
+            border-left: 4px solid #3f51b5;
+            border-radius: 4px;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .milestone {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .details {
+            padding: 20px;
+            background: #ddd;
+            border-radius: 4px;
+            margin-top: 10px;
+            opacity: 0; /* Start invisible */
+            max-height: 0; /* Start with no height */
+            overflow: hidden;
+            transition: opacity 1s, max-height 3s; /* Transition effect */
+        }
+    </style>
 </head>
 <body>
 
@@ -63,23 +103,72 @@ redirect_from:
 <section id="experience">
     <h1>💼 Experience</h1>
     <hr>
-    <p><strong>Undergraduate Research Assistant, Insight Computer Architecture Lab</strong><br>
-    August 2023 - Present</p>
+<div class="timeline-container">
+        <div class="timeline-block" onclick="showDetails(this, 'milestone1')">
+            <div class="milestone">Undergraduate Research Assistant, Insight Computer Architecture Lab</div>
+        </div>
+        <div class="timeline-block" onclick="showDetails(this, 'milestone2')">
+            <div class="milestone">Undergraduate Research Assistant - Enhancing Learning through Interactive GUI, UVA</div>
+        </div>
+        <div class="timeline-block" onclick="showDetails(this, 'milestone3')">
+            <div class="milestone">Undergraduate Research Assistant - Machine-learned potentials for high-entropy alloys properties, UVA</div>
+        </div>
+        <div class="timeline-block" onclick="showDetails(this, 'milestone4')">
+            <div class="milestone">Developer Intern, SHIFT ASIA</div>
+        </div>
+        <div class="timeline-block" onclick="showDetails(this, 'milestone5')">
+            <div class="milestone">Teaching Assistant and Grader, UVA</div>
+        </div>
+        <div class="timeline-block" onclick="showDetails(this, 'milestone6')">
+            <div class="milestone">CORE Scholar Peer Academic Mentor, UVA</div>
+        </div>
+    </div>
     
-    <p><strong>Undergraduate Research Assistant - Enhancing Learning through Interactive GUI, UVA</strong><br>
-    August 2023 - Present</p>
+    <script>
+    function showDetails(element, milestoneId) {
+        // Remove existing details div if it exists
+        var existingDetails = document.querySelector('.details');
+        if (existingDetails) {
+            existingDetails.parentNode.removeChild(existingDetails);
+        }
     
-    <p><strong>Project Intern - Machine-learned potentials for high-entropy alloys properties, UVA</strong><br>
-    April 2023 - Present</p>
+        var details = "";
+        switch (milestoneId) {
+            case 'milestone1':
+                details = "Exploring GPU computing and deep learning optimization through hands-on research and collaboration with graduate students.";
+                break;
+            case 'milestone2':
+                details = "Leading a team to create interactive Python and MATLAB GUIs for enhancing Multivariable Calculus learning at UVA, focusing on visualizing complex concepts and facilitating practical application in lectures.";
+                break;
+            case 'milestone3':
+                details = "Investigating thermal properties of high-entropy alloys using molecular dynamics simulations on UVA’s Rivanna supercomputer."
+                break;
+            case 'milestone4':
+                details = "Enhancing existing e-commerce sales forecasting models and making regression models for predicting SAT scores for future interns, significantly improving prediction accuracy and efficiency."
+                break;
+            case 'milestone5':
+                details = "As a Teaching Assistant and Grader at the University of Virginia since August 2023, I collaborate with professors to support 200+ students across courses in Ordinary Differential Equations, Multivariable Calculus, and Intro to Physics, by participating in lectures, holding office hours, grading 300+ weekly submissions with an auto-grader, and organizing course materials and exam preparation, significantly enhancing student learning and performance."
+                break;
+            case 'milestone6':
+                details = "Enhancing STEM education for CORE Scholar students through academic support, course guidance, and community-building activities."
+                break;
+        }
     
-    <p><strong>Developer Intern, SHIFT ASIA</strong><br>
-    May 2023 - August 2023</p>
+        // Create a new details div and prepare it for the transition effect
+        var detailsDiv = document.createElement('div');
+        detailsDiv.className = 'details';
+        detailsDiv.innerHTML = details;
     
-    <p><strong>Teaching Assistant and Grader, UVA</strong><br>
-    August 2023 - Present</p>
+        // Insert the detailsDiv after the clicked milestone block
+        element.parentNode.insertBefore(detailsDiv, element.nextSibling);
     
-    <p><strong>CORE Scholar Peer Academic Mentor, UVA</strong><br>
-    August 2023 - Present</p>
+        // Trigger the transition effect after inserting the element
+        setTimeout(() => {
+            detailsDiv.style.maxHeight = '500px'; // Adjust based on content
+            detailsDiv.style.opacity = '1';
+        }, 10); // Short delay to ensure the transition triggers properly
+    }
+    </script>
 </section>
 
 <br><br>
