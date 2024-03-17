@@ -11,9 +11,9 @@ redirect_from:
 
 Here's my academic and professional journey during my time at the University of Virginia, highlighting my work in computer science, applied mathematics, and beyond. Fell free to download my CV and transcript below. 🎓💼  
 
-[**⬇️ Download my CV**](https://drive.google.com/file/d/1FrC88UmS6rIDo5WuCAxgZK3qWxzOQfuw/view?usp=sharing)
+## [⬇️ Download my CV (March 2024)](https://drive.google.com/file/d/1FrC88UmS6rIDo5WuCAxgZK3qWxzOQfuw/view?usp=sharing)
 
-[**⬇️ Download my Unofficial Transcript**](https://drive.google.com/file/d/1uVPoSy6UIb9WsYwLurv9nWmaTtWxeCo8/view?usp=sharing)
+## [⬇️ Download my Unofficial Transcript (Spring 2024)](https://drive.google.com/file/d/1uVPoSy6UIb9WsYwLurv9nWmaTtWxeCo8/view?usp=sharing)
 
 <br>
 
@@ -27,18 +27,8 @@ _B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.989_
 
 <br>
 
-💻 Projects
-======
-- ### [📊 SAT Score Prediction](https://github.com/huy310304/SAT-score-prediction)   
-- ### [📈 MATLAB-GUI](https://github.com/huy310304/MATLAB-GUI-main)
-- ### [⚛️ GPUMD UVA](https://github.com/huy310304/GPUMD-UVA)
-- ### [🎮 Flappy Bird Game - UVA CS 1110](https://github.com/huy310304/flappy-bird-game)
-- ### [⌨️ Number Test Game](https://github.com/huy310304/number-test-game)
-
-<br>
-
 💡 Skills
 ======
-**Programming**: Proficient in Python and Java; Familiar with C/C++, CUDA, MATLAB and HTML/CSS.  
-**Frameworks and Tools**: NumPy, PyTorch, Pandas, Matplotlib, Git, Linux, Triton, NVIDIA Nsight Tools, UVA Rivanna.  
-**Certifications and Training**: CS50P (HarvardX), CS50W (HarvardX), Introductory C Programming Specialization (Coursera), LeetCode Learnings and Crash Courses, LinkedIn Learning Courses.
+**Programming**: Proficient in Python and Java; Familiar with C/C++, CUDA, Assembly, MATLAB and HTML/CSS.  
+**Frameworks and Tools**: NumPy, PyTorch, Pandas, Matplotlib, JUnit, Git, Linux, NVIDIA Nsight Tools, HPC Systems.  
+**Certifications and Training**: CS50P (HarvardX), CS50W (HarvardX), Introductory C Programming Specialization (Coursera), LeetCode and LinkedIn Learning Courses.
