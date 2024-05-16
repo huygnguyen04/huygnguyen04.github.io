@@ -20,7 +20,7 @@ Here's my academic and professional journey during my time at the University of 
 🎓 Education
 ======
 **University of Virginia, 2026**  
-_B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.989_
+_B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.991_
 - **Coursework**: Software Development Essentials, Computer System and Organization, Data Structure and Algorithms, Discrete Mathematics, Linear Algebra, Probability, Ordinary Differential Equations (TA), Multivariable Calculus (TA).  
 - **Volunteering**: Student Volunteer and Math Tutor @Madison House, Classroom Consultant at VISAS@UVA.  
 - **Organizations**: Research Assistant at Insight Computer Architecture Lab, Member of ACM@UVA.
