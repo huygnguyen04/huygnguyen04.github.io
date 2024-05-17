@@ -12,6 +12,7 @@ redirect_from:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huy Nguyen's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
     <style>
         /* Improve the design using chatgpt */
         body {
@@ -73,7 +74,7 @@ redirect_from:
             display: flex;
             justify-content: space-between;
         }
-        .time{
+        .time {
             text-align: left;
             font-style: italic;
             font-weight: bold;
@@ -366,6 +367,37 @@ redirect_from:
     <!-- Add Dark Mode Toggle Button -->
     <button id="darkModeToggle" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; font-size: 16px;">Toggle Dark Mode</button>
 
-    <script src="./script.js"></script>
+    <script>
+        // Dark mode toggle script
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleButton = document.getElementById('darkModeToggle');
+        
+            // Check for saved user preference, if any, on load of the website
+            const currentMode = localStorage.getItem('darkMode') || 'light';
+            if (currentMode === 'dark') {
+                document.body.classList.add('dark-mode');
+                document.querySelectorAll('.timeline-block').forEach(block => block.classList.add('dark-mode'));
+                document.querySelectorAll('.details').forEach(detail => detail.classList.add('dark-mode'));
+                document.querySelectorAll('.award').forEach(award => award.classList.add('dark-mode'));
+                toggleButton.classList.add('dark-mode');
+            }
+        
+            // Toggle dark mode on button click
+            toggleButton.addEventListener('click', function() {
+                document.body.classList.toggle('dark-mode');
+                document.querySelectorAll('.timeline-block').forEach(block => block.classList.toggle('dark-mode'));
+                document.querySelectorAll('.details').forEach(detail => detail.classList.toggle('dark-mode'));
+                document.querySelectorAll('.award').forEach(award => award.classList.toggle('dark-mode'));
+                toggleButton.classList.toggle('dark-mode');
+        
+                let mode = 'light';
+                if (document.body.classList.contains('dark-mode')) {
+                    mode = 'dark';
+                }
+                // Save user preference
+                localStorage.setItem('darkMode', mode);
+            });
+        });
+    </script>
 </body>
 </html>
