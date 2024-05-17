@@ -163,6 +163,28 @@ redirect_from:
             font-size: 15px;
             line-height: 1.5;
         }        
+      
+
+      
+        body.dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+        .timeline-block.dark-mode::before {
+            background: #bb86fc;
+        }
+        .timeline-block .details.dark-mode {
+            background: #333;
+            border-left-color: #bb86fc;
+        }
+        .award.dark-mode {
+            background-color: #333;
+            border-left-color: #bb86fc;
+        }
+        button.dark-mode {
+            background-color: #bb86fc;
+            color: black;
+        }
 
     </style>
 </head>
@@ -341,6 +363,11 @@ redirect_from:
         </td>
       </tr>
     </table>
+
+    <!-- Add Dark Mode Toggle Button -->
+    <button id="darkModeToggle" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; font-size: 16px;">Toggle Dark Mode</button>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
