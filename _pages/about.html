@@ -6,14 +6,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huy Nguyen's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
     <style>
-        /* Improve the design using chatgpt */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -21,7 +23,7 @@ redirect_from:
             margin-bottom: 100px;
             background: #fff;
         }
-        /* Experience stuff */
+
         .timeline-container {
             position: relative;
             max-width: 1200px;
@@ -54,7 +56,6 @@ redirect_from:
         }
         .timeline-block .milestone {
             font-size: 17.5px;
-            color: #333;
             margin-bottom: 5px;
             font-weight: bold;
         }
@@ -73,7 +74,7 @@ redirect_from:
             display: flex;
             justify-content: space-between;
         }
-        .time{
+        .time {
             text-align: left;
             font-style: italic;
             font-weight: bold;
@@ -86,7 +87,6 @@ redirect_from:
             font-size: 13.5px
         }
 
-        /* Project stuff */
         .project_table {
             width: 100%;
             border-collapse: separate;
@@ -131,7 +131,6 @@ redirect_from:
             padding-bottom: 10px;
         }
 
-        /* Award stuff */
         .awards-container {
             margin-top: 20px;
         }
@@ -150,20 +149,43 @@ redirect_from:
         }
         .award-icon {
             margin-right: 10px;
-            width: 40px; /* Adjust size as needed */
+            width: 40px;
         }
         .award h2 {
             margin: 0;
             padding-top: 10px;
             font-size: 17.5px;
-            color: #333;
         }
         .award p {
             margin: 0;
             font-size: 15px;
             line-height: 1.5;
-        }        
+        }
 
+        body.dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+        .timeline-block.dark-mode::before {
+            background: #bb86fc;
+        }
+        .timeline-block .details.dark-mode {
+            background: #333;
+            border-left-color: #bb86fc;
+        }
+        .award.dark-mode {
+            background-color: #333;
+            border-left-color: #bb86fc;
+            color: white;
+        }
+        .project_table_data.dark-mode {
+            background-color: #333;
+            color: white;
+        }
+        button.dark-mode {
+            background-color: #bb86fc;
+            color: black;
+        }
     </style>
 </head>
 <body>
@@ -286,16 +308,14 @@ redirect_from:
     <h1>🏆 Honors and Awards</h1>
     <hr>
     <div class="awards-container">
-        <!-- Dean's List -->
         <div class="award">
             <div class="award-header">
                 <img src="../images/uva_engineering.png" alt="Dean's List Icon" class="award-icon">
-                <h2>Dean's List - Spring 2023 & Fall 2023</h2>
+                <h2>Dean's List - All Semesters</h2>
             </div>
             <p>Achieved Dean's List recognition for maintaining a GPA of 3.40 or higher and completing over 15 credits of graded coursework in the preceding semester.</p>
         </div>
 
-        <!-- Dean's Undergraduate Engineering Research Fellowship -->
         <div class="award">
             <div class="award-header">
                 <img src="../images/uva_engineering.png" alt="Research Fellowship Icon" class="award-icon">
@@ -326,7 +346,6 @@ redirect_from:
                 <img src="https://img.shields.io/badge/GPUMD-add8e6?style=flat" alt="GPUMD"/>
             </div>
         </td>
-        <!-- Repeat for the second cell -->
         <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huy310304/MATLAB-GUI-main';" style="cursor: pointer;">
             <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
             <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
@@ -342,5 +361,42 @@ redirect_from:
       </tr>
     </table>
 
+    <button id="darkModeToggle" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; font-size: 16px;">Dark Mode 🌙</button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleButton = document.getElementById('darkModeToggle');
+            const body = document.body;
+            const timelineBlocks = document.querySelectorAll('.timeline-block');
+            const details = document.querySelectorAll('.details');
+            const awards = document.querySelectorAll('.award');
+            const projectTables = document.querySelectorAll('.project_table_data');
+            
+            const currentMode = localStorage.getItem('darkMode') || 'light';
+            if (currentMode === 'dark') {
+                body.classList.add('dark-mode');
+                timelineBlocks.forEach(block => block.classList.add('dark-mode'));
+                details.forEach(detail => detail.classList.add('dark-mode'));
+                awards.forEach(award => award.classList.add('dark-mode'));
+                projectTables.forEach(project => project.classList.add('dark-mode'));
+                toggleButton.classList.add('dark-mode');
+            }
+
+            toggleButton.addEventListener('click', function() {
+                body.classList.toggle('dark-mode');
+                timelineBlocks.forEach(block => block.classList.toggle('dark-mode'));
+                details.forEach(detail => detail.classList.toggle('dark-mode'));
+                awards.forEach(award => award.classList.toggle('dark-mode'));
+                projectTables.forEach(project => project.classList.toggle('dark-mode'));
+                toggleButton.classList.toggle('dark-mode');
+                
+                let mode = 'light';
+                if (body.classList.contains('dark-mode')) {
+                    mode = 'dark';
+                }
+                localStorage.setItem('darkMode', mode);
+            });
+        });
+    </script>
 </body>
 </html>
