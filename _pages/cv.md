@@ -13,7 +13,7 @@ Here's my academic and professional journey during my time at the University of 
 
 ## [⬇️ Download my CV (May 2024)](https://drive.google.com/file/d/1c7hv_meqLyxJrZSX32EvzqtuQmZ_GI4M/view?usp=sharing)
 
-## [⬇️ Download my Unofficial Transcript (Fall 2024)](https://drive.google.com/file/d/1RAtPHIxZvxKoMuCbiB1S3wSPBg1ABAfZ/view?usp=sharing)
+## [⬇️ Download my Unofficial Transcript (Summer 2024)](https://drive.google.com/file/d/1DllEw0iWDFxXW165YTT-ztjQkfAyi7xy/view?usp=sharing)
 
 <br>
 
@@ -21,7 +21,7 @@ Here's my academic and professional journey during my time at the University of 
 ======
 **University of Virginia, 2026**  
 _B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.991_
-- **Coursework**: Software Development Essentials, Computer System and Organization, Data Structure and Algorithms, Discrete Mathematics, Linear Algebra, Probability, Ordinary Differential Equations (TA), Multivariable Calculus (TA).  
+- **Coursework**: Software Development Essentials, Computer System and Organization, Data Structure and Algorithms, Discrete Mathematics, Probability, Linear Algebra (TA), Ordinary Differential Equations (TA), Multivariable Calculus (TA), Intro to Programming (TA).  
 - **Volunteering**: Student Volunteer and Math Tutor @Madison House, Classroom Consultant at VISAS@UVA.  
 - **Organizations**: Research Assistant at Insight Computer Architecture Lab, Member of ACM@UVA.
 
@@ -29,6 +29,6 @@ _B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.991_
 
 💡 Skills
 ======
-**Programming**: Proficient in Python and Java; Familiar with C/C++, CUDA, Assembly, MATLAB and HTML/CSS.  
-**Frameworks and Tools**: NumPy, PyTorch, Pandas, Matplotlib, JUnit, Git, Linux, NVIDIA Nsight Tools, HPC Systems.  
-**Certifications and Training**: CS50P (HarvardX), CS50W (HarvardX), Introductory C Programming Specialization (Coursera), LeetCode and LinkedIn Learning Courses.
+**Programming**: Python, Java, C/C++, CUDA, Assembly, MATLAB and HTML/CSS.  
+**Frameworks and Tools**: NumPy, PyTorch, Pandas, Matplotlib, Git, Linux, NVIDIA Nsight Tools, HPC Systems.  
+**Certifications and Training**: CS50P, CS50W, CS50R, CS50SQL (HarvardX) and NVIDIA DLI Accelerated Computing Training Courses.
