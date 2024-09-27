@@ -4,19 +4,90 @@ title: "👨‍🏫 Teaching Assistant"
 permalink: /teaching/
 author_profile: true
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 15px 30px;
+            border: none;
+        }
+        td {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        td:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2, p {
+            margin: 0 0 10px 0;
+            padding: 0 10px;
+            text-align: left;
+        }
+        .badge-container {
+            text-align: left;
+            padding-left: 10px;
+        }
+        .course-card {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <p>As a Teaching Assistant, I love helping students learn and grow and I enjoy making learning fun and interesting 🎉. My job is to support students, answer their questions, and help them understand tough concepts.</p>
 
-<p>As a Teaching Assistant, I love helping students learn and grow and I enjoy making learning fun and interesting 🎉. My job is to support students, answer their questions, and help them understand tough concepts.</p>
+    <p>For me, it's not just about teaching; it's about encouraging students to be curious, confident, and making them feel comfortable and excited about learning. 🚀</p>
 
-<p>For me, it's not just about teaching stuff; it's about encouraging students to be curious, confident, and making them feel comfortable and excited about learning. 🚀</p>
+    <p>My role as a Teaching Assistant not only allowed me to deepen my own understanding of the material but also to contribute to the academic success of my peers. 📚</p>
 
-<p>My role as a Teaching Assistant not only allowed me to deepen my own understanding of the material but also to contribute to the academic success of my peers. 📚</p>
+    <p>Below are the courses I have been a Teaching Assistant for. Please click on the links for more detailed information:</p>
 
-<p>Below are the courses I have been a Teaching Assistant for. Please click on the links for more detailed information:</p>
+    <blockquote>Grading homework? I roll out the red carpet for success with full marks for all! 🌟📝</blockquote>
 
-<blockquote>Grading homework? I roll out the red carpet for success with full marks for all! 🌟📝</blockquote>
+    <br>
 
-{% include base_path %}
+    <table>
+        <!-- Linear Algebra TA Class -->
+        <tr class="course-card">
+            <td>
+                <p style="font-size:15px; color: cyan; font-weight: bold;">Fall 2024</p>
+                <h1>📚 Linear Algebra Teaching Assistant</h1>
+                <p style="font-size:15px">Helping students with visualization and understanding of linear algebra concepts, focusing on problem-solving, debugging, and computational thinking through MATLAB Programming.</p>
+                <p style="font-size:15px">Develop a MATLAB app for concept visualization and homework assistance, serving as a practical tool for lecture demonstrations and verifying solutions.</p>
+                <br>
+                <div class="badge-container">
+                    <img src="https://img.shields.io/badge/Mathematics-008080?style=flat" alt="Mathematics"/>
+                    <img src="https://img.shields.io/badge/Linear%20Algebra-FF8C00?style=flat" alt="Linear Algebra"/>
+                    <img src="https://img.shields.io/badge/MATLAB-F58025?style=flat&logo=matlab&logoColor=white" alt="MATLAB"/>
+                </div>
+            </td>
+        </tr>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+        <!-- Calculus III TA Class -->
+        <tr class="course-card">
+            <td>
+                <p style="font-size:15px; color: cyan; font-weight: bold;">Fall 2023 & Spring 2024</p>
+                <h1>📐 Calculus III TA Class</h1>
+                <p style="font-size:15px">Assisting students with multivariable calculus concepts, including vector calculus, partial derivatives, and multiple integrals, while guiding them through complex problem-solving. </p>
+                <p style="font-size:15px">Develop a MATLAB app for concept visualization and homework assistance, serving as a practical tool for lecture demonstrations and verifying solutions.</p>
+                <br>
+                <div class="badge-container">
+                    <img src="https://img.shields.io/badge/Calculus%20III-FF4500?style=flat" alt="Calculus III"/>
+                    <img src="https://img.shields.io/badge/Teaching%20Assistant-4B0082?style=flat" alt="Teaching Assistant"/>
+                    <img src="https://img.shields.io/badge/Mathematics-008080?style=flat" alt="Mathematics"/>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
