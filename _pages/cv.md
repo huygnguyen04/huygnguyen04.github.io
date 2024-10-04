@@ -30,6 +30,6 @@ _B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.991_
 
 💡 Skills
 ======
-**Programming**: Python, CUDA, C/C++, Java, SQL (MySQL), MATLAB, R, HTML/CSS/JavaScript.
-**Frameworks and Tools**: PyTorch, MLPerf, RAPIDS AI, cuDNN, cuBLAS, Numba, NVIDIA Profilers, HPC Systems, Linux. 
-**Certifications and Training**: NVIDIA DLI Accelerated Computing Training Courses and CS50P, CS50W, CS50R, CS50SQL (HarvardX).
+- **Programming**: Python, CUDA, C/C++, Java, SQL (MySQL), MATLAB, R, HTML/CSS/JavaScript.
+- **Frameworks and Tools**: PyTorch, MlPerf, RAPIDS AI (cuMl, cuDF, TensorRT), cuDNN, cuBLAS, Numba, NVIDIA Profiling Tools, HPC Systems, Linux, Git, Flask, Django, React, NumPy, Pandas, Matplotlib, Seaborn.
+- **Certifications and Training**: NVIDIA DLI Accelerated Computing Training Courses and CS50P, CS50W, CS50R, CS50SQL (HarvardX).
