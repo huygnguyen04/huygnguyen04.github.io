@@ -13,16 +13,16 @@ Here's my academic and professional journey during my time at the University of 
 
 ## [⬇️ Download my CV (October 2024)](https://drive.google.com/file/d/1c7hv_meqLyxJrZSX32EvzqtuQmZ_GI4M/view?usp=sharing)
 
-## [⬇️ Download my Unofficial Transcript (Summer 2024)](https://drive.google.com/file/d/1DllEw0iWDFxXW165YTT-ztjQkfAyi7xy/view?usp=sharing)
+## [⬇️ Download my Unofficial Transcript (Fall 2024)](https://drive.google.com/file/d/1INP1sZEluYrNA0Pz9Pzy6wZbF0Gp2s_O/view?usp=sharing)
 
 <br>
 
 🎓 Education
 ======
 **University of Virginia, 2026**  
-_B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.991_
-- **Coursework**: Computer Systems and Organization I & II, Data Structure and Algorithms I & II, Software Development, Discrete Math and Theory.
-- **Teaching Assistant**: Probability, Linear Algebra, MATLAB & R Programming, Ordinary Differential Equations, Multivariable Calculus, and Intro to Programming/Physics.
+_B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.986_
+- **Coursework**: Computer Systems and Organization I & II, Data Structure and Algorithms I & II, Discrete Math and Theory I & II, Software Engineering I & II, Advanced Computer Architecture.
+- **Teaching Assistant**: Computer Systems and Organization II, Probability, Linear Algebra, MATLAB & R Programming, Ordinary Differential Equations, Multivariable Calculus, and Intro to Programming/Physics.
 - **Awards**: Dean’s Undergraduate Engineering Research Fellowship - Summer 2024 for GPU Research Project
 - **Organizations**: Research Assistant at Insight Computer Architecture Lab, Mentor at UVA CORE Scholar Program, Member of ACM@UVA and ML@UVA.
 
