@@ -13,7 +13,7 @@ Here's my academic and professional journey during my time at the University of 
 
 ## [⬇️ Download my CV (October 2024)](https://drive.google.com/file/d/1c7hv_meqLyxJrZSX32EvzqtuQmZ_GI4M/view?usp=sharing)
 
-## [⬇️ Download my Unofficial Transcript (Fall 2024)](https://drive.google.com/file/d/1INP1sZEluYrNA0Pz9Pzy6wZbF0Gp2s_O/view?usp=sharing)
+## [⬇️ Download my Unofficial Transcript (Fall 2024)](https://drive.google.com/file/d/1H7WNh6AEI6vAsaDJVT7A33gfsgKe8tuQ/view?usp=sharing)
 
 <br>
 
