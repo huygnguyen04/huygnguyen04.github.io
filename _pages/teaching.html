@@ -5,18 +5,185 @@ permalink: /teaching/
 author_profile: true
 ---
 
-<p>As a Teaching Assistant, I love helping students learn and grow and I enjoy making learning fun and interesting 🎉. My job is to support students, answer their questions, and help them understand tough concepts.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 15px 30px;
+            border: none;
+        }
+        td {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        td:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2, p {
+            margin: 0 0 10px 0;
+            padding: 0 10px;
+            text-align: left;
+        }
+        .badge-container {
+            text-align: left;
+            padding-left: 10px;
+        }
+        .course-card {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
 
-<p>For me, it's not just about teaching stuff; it's about encouraging students to be curious, confident, and making them feel comfortable and excited about learning. 🚀</p>
+<p>As a Teaching Assistant, I love helping students learn and grow, and I enjoy making learning fun and interesting. 🎉</p>
+        
+<p>For me, it is about inspiring students to be curious, confident, and comfortable in their learning journey. 🚀</p>
 
-<p>My role as a Teaching Assistant not only allowed me to deepen my own understanding of the material but also to contribute to the academic success of my peers. 📚</p>
+<p>My role involves providing support to students during lectures, grading assignments, holding office hours, and organizing learning materials 📑</p>
 
-<p>Below are the courses I have been a Teaching Assistant for. Please click on the links for more detailed information:</p>
+<p>Being a Teaching Assistant has not only allowed me to deepen my understanding of the material but also to contribute meaningfully to the academic success of my peers. 📚</p>
+    
+<p>Below are the courses I have been a Teaching Assistant for:</p>
 
-<blockquote>Grading homework? I roll out the red carpet for success with full marks for all! 🌟📝</blockquote>
+<blockquote>Grading homework? Check your Gradescope — you might just have full marks from me! 💯📝</blockquote>
 
-{% include base_path %}
+    <table>
+        <!-- CS 3130 TA Class -->
+        <tr class="course-card">
+            <td>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h1>💻 CS 3130 - Computer Systems and Organization II</h1>
+                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Spring 2025</p>
+                </div>
+                <p style="font-size:15px">Conduct weekly lab sessions on CPU design, memory hierarchy, and I/O systems.</p>
+                <p style="font-size:15px">Hold office hours and staff meetings to support students and enhance the curriculum.</p>                
+                <br>
+                <div class="badge-container">
+                    <img src="https://img.shields.io/badge/Computer Science-008080?style=flat" alt="CS"/>
+                    <img src="https://img.shields.io/badge/Computer Systems and Organization II-FF4500?style=flat" alt="CSO2"/>
+                    <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" alt="C"/>
+                </div>
+            </td>
+        </tr>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+        <!-- APMA 2501 TA Class -->
+        <tr class="course-card">
+            <td>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h1>📚 APMA 2501 - Programming with MATLAB & R</h1>
+                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Fall 2024 & Spring 2025</p>
+                </div>
+                <p style="font-size:15px">Assisting students with MATLAB and R programming, focusing on basic concepts, calculus applications, and data analysis.</p>
+                <p style="font-size:15px">Designing homework problems and configuring an autograder for both MATLAB and R.</p>                
+                <br>
+                <div class="badge-container">
+                    <img src="https://img.shields.io/badge/Mathematics-008080?style=flat" alt="Mathematics"/>
+                    <img src="https://img.shields.io/badge/Programming with MATLAB & R-FF4500?style=flat" alt="Programming with MATLAB & R"/>
+                    <img src="https://img.shields.io/badge/MATLAB-F58025?style=flat&logo=matlab&logoColor=white" alt="MATLAB"/>
+                    <img src="https://img.shields.io/badge/R-276DC3?style=flat&logo=R&logoColor=white" alt="R"/>
+                </div>
+            </td>
+        </tr>
+
+        <!-- CS 1110 TA Class -->
+        <tr class="course-card">
+            <td>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h1>💻 CS 1110 - Intro to Programming</h1>
+                    <p style="font-size: 25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Fall 2024 & Spring 2025</p>
+                </div>
+                <p style="font-size:15px">Supporting students with Python programming, lab exercises, and a final data analysis project. Focused on teaching core programming concepts and debugging techniques.</p>
+                <p style="font-size:15px">Responding to Piazza questions and providing help with debugging code during one-on-one office hours.</p>                
+                <br>
+                <div class="badge-container">
+                    <img src="https://img.shields.io/badge/Computer Science-008080?style=flat" alt="CS"/>
+                    <img src="https://img.shields.io/badge/Intro To Programming-FF4500?style=flat" alt="Programming"/>
+                    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+                </div>
+            </td>
+        </tr>
+
+        <!-- Linear Algebra TA Class -->
+        <tr class="course-card">
+            <td>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h1>📚 APMA 3080 - Linear Algebra</h1>
+                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Fall 2024</p>
+                </div>
+                <p style="font-size:15px">Helping students with visualization and understanding of linear algebra concepts, focusing on problem-solving, debugging, and computational thinking through MATLAB Programming.</p>
+                <p style="font-size:15px">Develop a MATLAB app for concept visualization and homework assistance, serving as a practical tool for lecture demonstrations and verifying solutions.</p>
+                <br>
+                <div class="badge-container">
+                    <img src="https://img.shields.io/badge/Mathematics-008080?style=flat" alt="Mathematics"/>
+                    <img src="https://img.shields.io/badge/Linear%20Algebra-FF4500?style=flat" alt="Linear Algebra"/>
+                    <img src="https://img.shields.io/badge/MATLAB-F58025?style=flat&logo=matlab&logoColor=white" alt="MATLAB"/>
+                </div>
+            </td>
+        </tr>
+
+        <!-- ODE TA Class -->
+        <tr class="course-card">
+            <td>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h1>📚 APMA 2130 - Ordinary Differential Equations </h1>
+                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Spring 2024</p>
+                </div>
+                <p style="font-size:15px">Assisting students with solving first-order and second-order differential equations, systems of ODEs, and applying methods such as separation of variables, integrating factors, and Laplace transforms.</p>
+                <p style="font-size:15px">Created review sheet solutions and provided one-on-one support to enhance student understanding of key ODE concepts and applications in real-world problems.</p>
+                <br>
+                <div class="badge-container">
+                    <img src="https://img.shields.io/badge/Mathematics-008080?style=flat" alt="Mathematics"/>
+                    <img src="https://img.shields.io/badge/ODEs-FF4500?style=flat" alt="Ordinary Differential Equations"/>
+                </div>
+            </td>
+        </tr>
+
+        <!-- Calculus III TA Class -->
+        <tr class="course-card">
+            <td>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h1>📚 APMA 2120 - Multivariable Calculus</h1>
+                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Fall 2023 & Spring 2024</p>
+                </div>
+                <p style="font-size:15px">Assisting students with multivariable calculus concepts, including vector calculus, partial derivatives, and multiple integrals, while guiding them through complex problem-solving. </p>
+                <p style="font-size:15px">Develop a MATLAB app for concept visualization and homework assistance, serving as a practical tool for lecture demonstrations and verifying solutions.</p>
+                <br>
+                <div class="badge-container">
+                    <img src="https://img.shields.io/badge/Mathematics-008080?style=flat" alt="Mathematics"/>
+                    <img src="https://img.shields.io/badge/Calculus%20III-FF4500?style=flat" alt="Multivariable Calculus"/>
+                    <img src="https://img.shields.io/badge/MATLAB-F58025?style=flat&logo=matlab&logoColor=white" alt="MATLAB"/>
+                </div>
+            </td>
+        </tr>
+
+        <!-- Physics I TA Class -->
+        <tr class="course-card">
+            <td>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h1>🌠 PHYS 1425 - Introductory Physics 1 for Engineers</h1>
+                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Fall 2023</p>
+                </div>
+                <p style="font-size:15px">Assisting students with fundamental physics concepts, including kinematics, dynamics, energy conservation, rotational motion, fluids, waves, and thermodynamics, while helping with problem-solving and real-world applications.</p>
+                <p style="font-size:15px">Facilitate discussions meetings and provide feedback through quiz grading and one-on-one student support.</p>
+                <br>
+                <div class="badge-container">
+                    <img src="https://img.shields.io/badge/Physics-4A90E2?style=flat" alt="Physics"/>
+                    <img src="https://img.shields.io/badge/Kinematics-FF4500?style=flat" alt="Kinematics"/>
+                    <img src="https://img.shields.io/badge/Dynamics-76B900?style=flat" alt="Dynamics"/>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

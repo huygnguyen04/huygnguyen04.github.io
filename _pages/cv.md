@@ -11,24 +11,25 @@ redirect_from:
 
 Here's my academic and professional journey during my time at the University of Virginia, highlighting my work in computer science, applied mathematics, and beyond. Fell free to download my CV and transcript below. 🎓💼  
 
-## [⬇️ Download my CV (May 2024)](https://drive.google.com/file/d/1c7hv_meqLyxJrZSX32EvzqtuQmZ_GI4M/view?usp=sharing)
+## [⬇️ Download my CV (October 2024)](https://drive.google.com/file/d/1c7hv_meqLyxJrZSX32EvzqtuQmZ_GI4M/view?usp=sharing)
 
-## [⬇️ Download my Unofficial Transcript (Fall 2024)](https://drive.google.com/file/d/1RAtPHIxZvxKoMuCbiB1S3wSPBg1ABAfZ/view?usp=sharing)
+## [⬇️ Download my Unofficial Transcript (Fall 2024)](https://drive.google.com/file/d/1H7WNh6AEI6vAsaDJVT7A33gfsgKe8tuQ/view?usp=sharing)
 
 <br>
 
 🎓 Education
 ======
 **University of Virginia, 2026**  
-_B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.991_
-- **Coursework**: Software Development Essentials, Computer System and Organization, Data Structure and Algorithms, Discrete Mathematics, Linear Algebra, Probability, Ordinary Differential Equations (TA), Multivariable Calculus (TA).  
-- **Volunteering**: Student Volunteer and Math Tutor @Madison House, Classroom Consultant at VISAS@UVA.  
-- **Organizations**: Research Assistant at Insight Computer Architecture Lab, Member of ACM@UVA.
+_B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.986_
+- **Coursework**: Computer Systems and Organization I & II, Data Structure and Algorithms I & II, Discrete Math and Theory I & II, Software Engineering I & II, Advanced Computer Architecture.
+- **Teaching Assistant**: Computer Systems and Organization II, Probability, Linear Algebra, MATLAB & R Programming, Ordinary Differential Equations, Multivariable Calculus, and Intro to Programming/Physics.
+- **Awards**: Dean’s Undergraduate Engineering Research Fellowship - Summer 2024 for GPU Research Project
+- **Organizations**: Research Assistant at Insight Computer Architecture Lab, Mentor at UVA CORE Scholar Program, Member of ACM@UVA and ML@UVA.
 
 <br>
 
 💡 Skills
 ======
-**Programming**: Proficient in Python and Java; Familiar with C/C++, CUDA, Assembly, MATLAB and HTML/CSS.  
-**Frameworks and Tools**: NumPy, PyTorch, Pandas, Matplotlib, JUnit, Git, Linux, NVIDIA Nsight Tools, HPC Systems.  
-**Certifications and Training**: CS50P (HarvardX), CS50W (HarvardX), Introductory C Programming Specialization (Coursera), LeetCode and LinkedIn Learning Courses.
+- **Programming**: Python, CUDA, C/C++, Java, SQL (MySQL), MATLAB, R, HTML/CSS/JavaScript.
+- **Frameworks and Tools**: PyTorch, MlPerf, RAPIDS AI (cuMl, cuDF, TensorRT), cuDNN, cuBLAS, Numba, NVIDIA Profiling Tools, HPC Systems, Linux, Git, Flask, Django, React, NumPy, Pandas, Matplotlib, Seaborn.
+- **Certifications and Training**: NVIDIA DLI Accelerated Computing Training Courses and CS50P, CS50W, CS50R, CS50SQL (HarvardX).
