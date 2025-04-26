@@ -53,6 +53,40 @@
     .archive {
       width: 100%;
     }
+    
+    /* Fix for content overlapping with sidebar */
+    .sidebar + .archive,
+    .sidebar + .projects,
+    .sidebar + div {
+      margin-left: 200px;
+      padding-left: 2em;
+    }
+    
+    /* Adjust sidebar width and positioning */
+    .sidebar {
+      width: 200px !important;
+      clear: both;
+      float: left;
+      position: relative;
+      z-index: 10;
+      margin-right: 0;
+    }
+    
+    /* Ensure main content doesn't overflow */
+    .page {
+      float: right;
+      width: calc(100% - 200px);
+      padding-right: 20px;
+    }
+  }
+  
+  /* Fix for mobile layout */
+  @media (max-width: 64em) {
+    .sidebar {
+      margin-bottom: 2em;
+      clear: both;
+      width: 100%;
+    }
   }
 </style>
 
