@@ -49,34 +49,58 @@
     border-radius: 50%;
   }
   
+  /* Fix layout to position content to the right of profile */
   @media (min-width: 64em) {
     .archive {
       width: 100%;
     }
     
-    /* Fix for content overlapping with sidebar */
+    /* Fix for content positioning next to sidebar */
     .sidebar + .archive,
     .sidebar + .projects,
     .sidebar + div {
-      margin-left: 200px;
+      float: right;
+      width: calc(100% - 230px);
+      clear: none;
+      margin-left: 0;
       padding-left: 2em;
+    }
+    
+    /* Main container fixes */
+    .archive .page__content,
+    .projects .page__content {
+      float: right;
+      width: 100%;
+    }
+    
+    /* Page heading position fix */
+    .page__title, 
+    .archive__item-title,
+    h1, h2.projects {
+      clear: none;
+      margin-top: 0;
+    }
+    
+    /* Project section heading position */
+    h1:first-of-type {
+      margin-top: 0;
     }
     
     /* Adjust sidebar width and positioning */
     .sidebar {
-      width: 200px !important;
-      clear: both;
+      width: 200px;
       float: left;
       position: relative;
       z-index: 10;
-      margin-right: 0;
+      margin-right: 30px;
+      clear: left;
     }
     
-    /* Ensure main content doesn't overflow */
-    .page {
-      float: right;
-      width: calc(100% - 200px);
-      padding-right: 20px;
+    /* Ensure main content container structure */
+    #main {
+      clear: both;
+      display: flex;
+      flex-wrap: nowrap;
     }
   }
   
