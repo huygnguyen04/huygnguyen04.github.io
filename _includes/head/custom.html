@@ -58,7 +58,9 @@
     /* Fix for content positioning next to sidebar */
     .sidebar + .archive,
     .sidebar + .projects,
-    .sidebar + div {
+    .sidebar + div,
+    .sidebar + .publications,
+    .sidebar + article {
       float: right;
       width: calc(100% - 230px);
       clear: none;
@@ -68,7 +70,8 @@
     
     /* Main container fixes */
     .archive .page__content,
-    .projects .page__content {
+    .projects .page__content,
+    .publications .page__content {
       float: right;
       width: 100%;
     }
@@ -76,7 +79,9 @@
     /* Page heading position fix */
     .page__title, 
     .archive__item-title,
-    h1, h2.projects {
+    h1, h2.projects, 
+    h1.publications,
+    .publications-title {
       clear: none;
       margin-top: 0;
     }
@@ -101,6 +106,17 @@
       clear: both;
       display: flex;
       flex-wrap: nowrap;
+    }
+    
+    /* Publications page specific fixes */
+    body.layout--archive.path--publications article.page,
+    body.layout--single.path--publications article.page,
+    .publications {
+      float: right;
+      width: calc(100% - 230px);
+      clear: none;
+      margin-left: 0;
+      padding-left: 2em;
     }
   }
   
