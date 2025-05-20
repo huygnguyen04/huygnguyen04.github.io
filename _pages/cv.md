@@ -13,18 +13,18 @@ Here's my academic and professional journey during my time at the University of 
 
 ## [⬇️ Download my CV (October 2024)](https://drive.google.com/file/d/1c7hv_meqLyxJrZSX32EvzqtuQmZ_GI4M/view?usp=sharing)
 
-## [⬇️ Download my Unofficial Transcript (Fall 2024)](https://drive.google.com/file/d/1H7WNh6AEI6vAsaDJVT7A33gfsgKe8tuQ/view?usp=sharing)
+## [⬇️ Download my Unofficial Transcript (Spring 2025)](https://drive.google.com/file/d/1a_nfChExhszLuH-EGvk8-Gc-Z-oQJy4u/view?usp=drive_link)
 
 <br>
 
 🎓 Education
 ======
 **University of Virginia, 2026**  
-_B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.986_
-- **Coursework**: Computer Systems and Organization I & II, Data Structure and Algorithms I & II, Discrete Math and Theory I & II, Software Engineering I & II, Advanced Computer Architecture.
+_B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.988_
+- **Coursework**: Computer Systems and Organization I & II, CPU-GPU Memory and Near Data Processing, Machine Learning, Data Structure and Algorithms I & II, Discrete Math and Theory I & II, Software Engineering I & II.
 - **Teaching Assistant**: Computer Systems and Organization II, Probability, Linear Algebra, MATLAB & R Programming, Ordinary Differential Equations, Multivariable Calculus, and Intro to Programming/Physics.
-- **Awards**: Dean’s Undergraduate Engineering Research Fellowship - Summer 2024 for GPU Research Project
-- **Organizations**: Research Assistant at Insight Computer Architecture Lab, Mentor at UVA CORE Scholar Program, Member of ACM@UVA and ML@UVA.
+- **Awards**: Dean’s Undergraduate Engineering Research Fellowship - Summer 2024 for GPU Research Project.
+- **Organizations**: Research Assistant at LAVA Lab under Prof. Kevin Skadron and Insight Lab under Prof. Jog.
 
 <br>
 
