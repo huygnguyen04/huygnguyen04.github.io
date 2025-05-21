@@ -53,6 +53,37 @@ author_profile: true
             padding-left: 30px;
             padding-bottom: 10px;
         }
+        .section-header {
+            margin: 40px 0 20px 0;
+            padding: 15px 30px;
+            background: linear-gradient(45deg, #3f51b5, #7986cb);
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+        }
+        .section-header i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        .section-header h2 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .section-description {
+            margin: 0 0 30px 0;
+            padding: 0 30px;
+            color: #666;
+            font-size: 16px;
+        }
+        .dark-mode .section-header {
+            background: linear-gradient(45deg, #bb86fc, #9d46ff);
+        }
+        .dark-mode .section-description {
+            color: #ccc;
+        }
     </style>
 </head>
 <body>
@@ -60,15 +91,59 @@ author_profile: true
 <p>Below are some of my research/personal projects since I first entered the field of Computer Science at UVA:</p>
 <br>
 
-<!-- Table for projects -->    
-    
+<!-- Hardware Architecture & Acceleration Projects -->
+<div class="section-header">
+    <i class="ri-cpu-line"></i>
+    <h2>Hardware Architecture & Acceleration Projects</h2>
+</div>
+<div class="section-description">
+    Projects focusing on GPU architecture, hardware optimization, and parallel computing.
+</div>
+
+<!-- Table for Hardware Projects -->
 <table>
+    <tr>
+        <!--Rodinia Benchmark Project-->
+        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/gpu-rodinia-v4.0';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Summer 2025 - Present</p>
+            <h1 class="project_details">🚀 Rodinia Benchmark v4.0</h1>
+            <p class="project_details" style="font-size:15px">Innovating the Rodinia Benchmark Suite by updating, scaling, or retiring workloads and optimizing CUDA implementations to reflect current GPU architectures.
+            </p>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/CUDA%20Toolkits-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="CUDA Toolkits"/>
+                <img src="https://img.shields.io/badge/TensorCore-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="TensorCore"/>
+                <img src="https://img.shields.io/badge/Rodinia%20Benchmark-4A90E2?style=flat" alt="Rodinia Benchmark"/>
+                <img src="https://img.shields.io/badge/GPGPU--Sim-9B59B6?style=flat" alt="GPGPU-Sim"/>
+            </div>
+        </td>
+
+
+        <!--GPU L2 cache project-->
+        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/GPU-L2-Cache-Optimizer';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Spring 2025</p>
+            <h1 class="project_details">💻 GPU L2 Cache Optimizer</h1>
+            <p class="project_details" style="font-size:15px">Simulation and optimization of extended L2 cache architectures in GPUs using GPGPU-Sim to improve CUDA workload performance and analyze area tradeoff.</p>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="CUDA"/>
+                <img src="https://img.shields.io/badge/CACTI-FF6B6B?style=flat" alt="CACTI"/>
+                <img src="https://img.shields.io/badge/Rodinia%20Benchmark-4A90E2?style=flat" alt="Rodinia Benchmark Suite"/>
+                <img src="https://img.shields.io/badge/GPGPU--Sim-9B59B6?style=flat" alt="GPGPU-Sim"/>
+            </div>
+        </td>
+
+    </tr>
+
+
   <tr>
     <!-- PyTorch CUDA Project -->
     <td width="50%" onclick="window.location='https://github.com/huygnguyen04/PyTorch-CUDA-ML-Performance';" style="cursor: pointer;">
         <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
         <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2024 - In Progress</p>
+        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Summer 2024 - Spring 2025</p>
         <h1 style="">⚙️ PyTorch CUDA ML Performance</h1>
         <p style="font-size:15px">Comparative study of PyTorch and CUDA ML models on GPU servers, focusing on manual optimization capabilities, performance gains, and framework selection.</p>
         <br>
@@ -84,7 +159,10 @@ author_profile: true
     <td width="50%" onclick="window.location='https://github.com/huygnguyen04/MLPerf-Benchmark-Suite-Replication';" style="cursor: pointer;">
         <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
         <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2024 - In Progress</p>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Fall 2024</p>
+            <img src="https://img.shields.io/badge/Paper%20Published%20on%20JAP-FF4500?style=flat" alt="Published on JAP" style="margin-top: 60px;"/>
+        </div>
         <h1 style="">⚙️ MLPerf Benchmark Replication</h1>
         <p style="font-size:15px">Expand MLPerf benchmarks to analyze GPU bottlenecks and optimize performance with multi-GPU setups using NVLink and Tensor Cores.</p>
         <br>
@@ -96,143 +174,271 @@ author_profile: true
     </td>
   </tr>
 
-<tr>
+    <tr>
 
-    <!-- GPUMD Project -->
-    <td width="50%" onclick="window.location='https://github.com/huygnguyen04/GPUMD-UVA';" style="cursor: pointer;">
-        <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-        <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2023 - In Progress</p>
-        <h1 style="">⚛️ GPU Molecular Dynamics</h1>
-        <p style="font-size:15px">Utilize Python and GPUMD package for molecular dynamics simulations and train NEP potential for model generation on UVA’s Rivanna supercomputer.</p>
-        <br>
-        <div class="badge-container">
-            <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-            <img src="https://img.shields.io/badge/Numpy-%23013243.svg?&style=flat&logo=numpy&logoColor=white" alt="Numpy"/>
-            <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat" alt="Matplotlib"/>
-            <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux"/>
-            <img src="https://img.shields.io/badge/GPUMD-add8e6?style=flat" alt="GPUMD"/>
-            <img src="https://img.shields.io/badge/UVA%20Rivanna-000000?style=flat" alt="UVA Rivanna"/>
-        </div>
-    </td>
+        <!-- GPUMD Project -->
+        <td width="50%" onclick="window.location='https://github.com/huygnguyen04/GPUMD-UVA';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Spring 2023 - Fall 2024</p>
+            <h1 style="">⚛️ GPU Molecular Dynamics</h1>
+            <p style="font-size:15px">Utilize Python and GPUMD package for molecular dynamics simulations and train NEP potential for model generation on UVA's Rivanna supercomputer.</p>
+            <br>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+                <img src="https://img.shields.io/badge/Numpy-%23013243.svg?&style=flat&logo=numpy&logoColor=white" alt="Numpy"/>
+                <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat" alt="Matplotlib"/>
+                <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux"/>
+                <img src="https://img.shields.io/badge/GPUMD-add8e6?style=flat" alt="GPUMD"/>
+                <img src="https://img.shields.io/badge/UVA%20Rivanna-000000?style=flat" alt="UVA Rivanna"/>
+            </div>
+        </td>
 
-    <!-- MATLAB GUI Project -->
-    <td width="50%" onclick="window.location='https://github.com/huygnguyen04/MATLAB-GUI-main';" style="cursor: pointer;">
-        <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-        <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2023 - In Progress</p>
-        <h1 style="">📈 MATLAB-GUI</h1>
-        <p style="font-size:15px">Simplification of Multivariable Calculus and Linear Algrebra concepts using MATLAB UI Apps for visualizing vector line integral calculations and matrix operations.</p>
-        <br>
-        <div class="badge-container">
-            <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-            <img src="https://img.shields.io/badge/MATLAB-F58025?style=flat&logo=matlab&logoColor=white" alt="MATLAB"/>
-            <img src="https://img.shields.io/badge/Calculus-FF0000.svg?style=flat&logo=libreofficemath&logoColor=white" alt="Calculus"/>
-        </div>
-    </td>
+
+        <!-- CPU/GPU Memory & Near-Data Processing Project -->
+        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/CPU-GPU-Memory-Near-Data-Processing';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Spring 2025</p>
+            <h1 class="project_details">🔬 CPU/GPU Memory & Data</h1>
+            <p class="project_details" style="font-size:15px">Advanced assignments/projects from CS 6501 @ UVA focusing on CPU/GPU memory architecture, cache design, DRAM simulation, GPU programming, and near-data processing (PIM) using industry-standard tools.</p>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="CUDA"/>
+                <img src="https://img.shields.io/badge/CACTI-FF6B6B?style=flat" alt="CACTI"/>
+                <img src="https://img.shields.io/badge/DRAMsim3-4A90E2?style=flat" alt="DRAMsim3"/>
+                <img src="https://img.shields.io/badge/PIMeval-9B59B6?style=flat" alt="PIMeval"/>
+                <img src="https://img.shields.io/badge/Intel%20Advisor-0071C5?style=flat&logo=intel&logoColor=white" alt="Intel Advisor"/>
+            </div>
+        </td>
     
-  </tr>
+    </tr>
 
-
-    
-  <tr>
-    <!-- R Career Salary Project -->
-    <td width="50%" onclick="window.location='https://github.com/huygnguyen04/Early-Career-Salary-Prediction-and-ROI-Analysis';" style="cursor: pointer;">
-        <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-        <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2024</p>
-        <h1 style="">📈 Career Salary & ROI Analysis</h1>
-        <p style="font-size:15px">Predicting early career salaries and evaluates college ROI across the U.S. with data analysis and predictive modeling using R.</p>
-        <br>
-        <div class="badge-container">
-            <img src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white" alt="R"/>
-            <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat&logo=google&logoColor=white" alt="Machine Learning"/>
-        </div>
-    </td>
-    <!-- SAT Score Project -->
-    <td width="50%" onclick="window.location='https://github.com/huygnguyen04/SAT-score-prediction';" style="cursor: pointer;">
-        <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-        <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2023</p>
-        <h1 style="">📊 SAT Score Prediction</h1>
-        <p style="font-size:15px">This project employs custom-built neural network models with PyTorch and Numpy to predict SAT scores from GPA and other factors.</p>
-        <br>
-        <div class="badge-container">
-            <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-            <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&style=flat&logo=PyTorch&logoColor=white" alt="Pytorch"/>
-            <img src="https://img.shields.io/badge/Numpy-%23013243.svg?&style=flat&logo=numpy&logoColor=white" alt="Numpy"/>
-            <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
-        </div>
-    </td>
-  </tr>
-
-    
-  <tr>
-    <!-- Simple Carbon Website -->
-    <td width="50%" onclick="window.location='https://github.com/huygnguyen04/carbon-calculator';" style="cursor: pointer;">
-        <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-        <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2024</p>
-        <h1 style="">♻️ Simple Carbon Footprint Calculator</h1>
-        <p style="font-size:15px">A simple web application calculating the carbon footprint based on user input for electricity usage, miles driven by car, meat consumption, and flight hours per year.</p>
-        <br>
-        <div class="badge-container">
-            <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-            <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask"/>
-            <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" alt="HTML5"/>
-            <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" alt="CSS3"/>
-        </div>
-    </td>
-    <!-- Academic Website -->
-    <td width="50%" onclick="window.location='https://github.com/huygnguyen04/huygnguyen04.github.io';" style="cursor: pointer;">
-        <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-        <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2024</p>
-        <h1 style="">📚 Academic Portfolio Website</h1>
-        <p style="font-size:15px">My Portfolio Website built with HTML and CSS using the template forked from academicpages and deployed by Github pages. Yes! It's the one that you are looking at.</p>
-        <br>
-        <div class="badge-container">
-            <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" alt="HTML5"/>
-            <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" alt="CSS3"/>
-            <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=Markdown&logoColor=white" alt="Markdown"/>
-        </div>
-    </td>
-  </tr>
-
-    
-  <tr>  
-    <!-- Flappy Bird Project -->
-      <td width="50%" onclick="window.location='https://github.com/huygnguyen04/flappy-bird-game';" style="cursor: pointer;">
-        <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-        <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2023</p>
-        <h1 style="">🎮 Flappy Bird Game</h1>
-        <p style="font-size:15px">Replication of Flappy Bird Game at UVA Introduction to Programming course using uvage and pygame library.</p>
-        <br>
-        <div class="badge-container">
-            <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-            <img src="https://img.shields.io/badge/pygame-FFFF00?style=flat&logo=pygame&logoColor=white" alt="pygame"/>
-            <img src="https://img.shields.io/badge/uvage-F58025?style=flat" alt="uvage"/>
-            <img src="https://img.shields.io/badge/Programming%20Fundamentals-E34F26?style=flat&logo=basic-knowledge&logoColor=white" alt="Programming Fundamentals"/>
-        </div>
-    </td>
-    <!-- Number Test Game -->
-    <td width="50%" onclick="window.location='https://github.com/huygnguyen04/number-test-game';" style="cursor: pointer;">
-        <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-        <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2023</p>
-        <h1 style="">⌨️ Number Test Game</h1>
-        <p style="font-size:15px">A CLI-based Python game where players input a number to receive scores based on its traits, featuring account management and a leaderboard.</p>
-        <br>
-        <div class="badge-container">
-            <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-            <img src="https://img.shields.io/badge/tkinter-3776AB?style=flat&logo=tkinter&logoColor=white" alt="tkinter"/>
-            <img src="https://img.shields.io/badge/Programming%20Fundamentals-E34F26?style=flat&logo=basic-knowledge&logoColor=white" alt="Programming Fundamentals"/>
-            <img src="https://img.shields.io/badge/OOP-4CA143?style=flat&logo=object-oriented-programming&logoColor=white" alt="OOP"/>
-        </div>
-    </td>
-  </tr>
 </table>
+
+
+    
+
+<!-- Software & AI Projects -->
+<div class="section-header">
+    <i class="ri-code-box-line"></i>
+    <h2>Software & AI Projects</h2>
+</div>
+<div class="section-description">
+    Projects involving software development and machine learning applications.
+</div>
+
+<!-- Table for Software & AI Projects -->
+<table>
+    <tr>
+        <!-- Virginia Social Vulnerability Project -->
+        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/Virginia-Social-Vulnerability-Identification';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Spring 2025</p>
+            <h1 class="project_details">🧭 Virginia Social Vulnerability Analysis</h1>
+            <p class="project_details" style="font-size:15px">Applied unsupervised ML techniques (PCA, K-Means, DBSCAN) to analyze CDC's Social Vulnerability Index data, identifying and visualizing vulnerable communities across Virginia.</p>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat&logo=python&logoColor=white" alt="Machine Learning"/>
+                <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/>
+                <img src="https://img.shields.io/badge/Geospatial%20Analysis-4B8BBE?style=flat" alt="Geospatial Analysis"/>
+                <img src="https://img.shields.io/badge/Data%20Visualization-FF4B4B?style=flat&logo=plotly&logoColor=white" alt="Data Visualization"/>
+            </div>
+        </td>
+
+        <!-- Word2Walls Project -->
+        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/word2walls';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Spring 2025</p>
+            <h1 class="project_details">🏠 Word2Walls</h1>
+            <p class="project_details" style="font-size:15px">A text-driven framework for generating diverse and realistic 3D room layouts from natural language prompts, featuring floorplan generation, furniture placement, and photorealistic rendering.</p>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI API"/>
+                <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+                <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat&logo=opengl&logoColor=white" alt="OpenGL"/>
+                <img src="https://img.shields.io/badge/3D%20Rendering-FF4B4B?style=flat" alt="3D Rendering"/>
+                <img src="https://img.shields.io/badge/Computer%20Vision-6B4FBB?style=flat" alt="Computer Vision"/>
+            </div>
+        </td>
+    </tr>
+
+
+    <tr>
+        <!-- CineDonum Movies Lending App -->
+        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/CineDonum-Movies-Lending-App';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Spring 2025</p>
+            <h1 class="project_details">🎬 CineDonum Movies Lending App</h1>
+            <p class="project_details" style="font-size:15px">A Django-based web application for cataloging and lending physical movies, featuring user authentication, movie collections, borrowing system, and AWS S3 integration. Developed for CS 3240 Software Engineering at UVA.</p>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" alt="Django"/>
+                <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+                <img src="https://img.shields.io/badge/AWS%20S3-232F3E?style=flat&logo=amazon-aws&logoColor=white" alt="AWS S3"/>
+                <img src="https://img.shields.io/badge/Google%20Auth-4285F4?style=flat&logo=google&logoColor=white" alt="Google Auth"/>
+                <img src="https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white" alt="Heroku"/>
+            </div>
+        </td>
+
+        <!-- MATLAB GUI Project -->
+        <td width="50%" onclick="window.location='https://github.com/huygnguyen04/MATLAB-GUI-main';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2023 - 2024</p>
+            <h1 style="">📈 MATLAB-GUI</h1>
+            <p style="font-size:15px">Simplification of Multivariable Calculus and Linear Algebra concepts using MATLAB UI Apps for visualizing vector line integral calculations and matrix operations.</p>
+            <br>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/MATLAB-F58025?style=flat&logo=matlab&logoColor=white" alt="MATLAB"/>
+                <img src="https://img.shields.io/badge/UI%20Design-00B4CC?style=flat" alt="UI Design"/>
+                <img src="https://img.shields.io/badge/Calculus-FF0000.svg?style=flat&logo=libreofficemath&logoColor=white" alt="Calculus"/>
+            </div>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+<!-- Beginner Projects -->
+<div class="section-header">
+    <i class="ri-rocket-line"></i>
+    <h2>Beginner Projects</h2>
+</div>
+<div class="section-description">
+    Early projects that helped build my foundation in programming and Computer Science.
+</div>
+
+<!-- Table for Beginner Projects -->
+<table>
+
+    <!--Row-->
+    <tr>  
+        <!-- Flappy Bird Project -->
+          <td width="50%" onclick="window.location='https://github.com/huygnguyen04/flappy-bird-game';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2023</p>
+            <h1>🎮 Flappy Bird Game</h1>
+            <p style="font-size:15px">Replication of Flappy Bird Game at UVA Introduction to Programming course using uvage and pygame library.</p>
+            <br>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+                <img src="https://img.shields.io/badge/pygame-FFFF00?style=flat&logo=pygame&logoColor=white" alt="pygame"/>
+                <img src="https://img.shields.io/badge/uvage-F58025?style=flat" alt="uvage"/>
+                <img src="https://img.shields.io/badge/Programming%20Fundamentals-E34F26?style=flat&logo=basic-knowledge&logoColor=white" alt="Programming Fundamentals"/>
+            </div>
+        </td>
+
+        <!-- Number Test Game -->
+        <td width="50%" onclick="window.location='https://github.com/huygnguyen04/number-test-game';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2023</p>
+            <h1 style="">⌨️ Number Test Game</h1>
+            <p style="font-size:15px">A CLI-based Python game where players input a number to receive scores based on its traits, featuring account management and a leaderboard.</p>
+            <br>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+                <img src="https://img.shields.io/badge/tkinter-3776AB?style=flat&logo=tkinter&logoColor=white" alt="tkinter"/>
+                <img src="https://img.shields.io/badge/Programming%20Fundamentals-E34F26?style=flat&logo=basic-knowledge&logoColor=white" alt="Programming Fundamentals"/>
+                <img src="https://img.shields.io/badge/OOP-4CA143?style=flat&logo=object-oriented-programming&logoColor=white" alt="OOP"/>
+            </div>
+        </td>
+    </tr>
+
+
+    <tr>
+        <!-- SAT Score Project -->
+        <td width="50%" onclick="window.location='https://github.com/huygnguyen04/SAT-score-prediction';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2023</p>
+            <h1 style="">📊 SAT Score Prediction</h1>
+            <p style="font-size:15px">This project employs custom-built neural network models with PyTorch and Numpy to predict SAT scores from GPA and other factors.</p>
+            <br>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+                <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&style=flat&logo=PyTorch&logoColor=white" alt="Pytorch"/>
+                <img src="https://img.shields.io/badge/Numpy-%23013243.svg?&style=flat&logo=numpy&logoColor=white" alt="Numpy"/>
+                <img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
+            </div>
+        </td>
+
+
+        <!-- Simple Carbon Website -->
+        <td width="50%" onclick="window.location='https://github.com/huygnguyen04/carbon-calculator';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2024</p>
+            <h1 style="">♻️ Simple Carbon Footprint Calculator</h1>
+            <p style="font-size:15px">A simple web application calculating the carbon footprint based on user input for electricity usage, miles driven by car, meat consumption, and flight hours per year.</p>
+            <br>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+                <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask"/>
+                <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" alt="HTML5"/>
+                <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" alt="CSS3"/>
+            </div>
+        </td>
+    </tr>
+
+    <!--Row-->
+    <tr>
+        <!-- R Career Salary Project -->
+        <td width="50%" onclick="window.location='https://github.com/huygnguyen04/Early-Career-Salary-Prediction-and-ROI-Analysis';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2024</p>
+            <h1 style="">📈 Career Salary & ROI Analysis</h1>
+            <p style="font-size:15px">Predicting early career salaries and evaluates college ROI across the U.S. with data analysis and predictive modeling using R.</p>
+            <br>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white" alt="R"/>
+                <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat&logo=google&logoColor=white" alt="Machine Learning"/>
+            </div>
+        </td>
+
+        <!-- Linear Regression Shiny App -->
+        <td width="50%" onclick="window.location='https://github.com/huygnguyen04/linear-regression-shiny';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2024</p>
+            <h1>📊 Linear Regression Shiny App</h1>
+            <p style="font-size:15px">Interactive R Shiny application for linear regression analysis with visualizations, model diagnostics, and automated statistical outputs. Created for APMA 3150 From Data to Knowledge.</p>
+            <br>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white" alt="R"/>
+                <img src="https://img.shields.io/badge/Shiny-02569B?style=flat&logo=r&logoColor=white" alt="Shiny"/>
+                <img src="https://img.shields.io/badge/Statistics-FF6B6B?style=flat" alt="Statistics"/>
+                <img src="https://img.shields.io/badge/Data%20Analysis-4B8BBE?style=flat" alt="Data Analysis"/>
+            </div>
+        </td>
+    </tr>
+
+    <!--Row-->
+    <tr>
+
+        <!-- Academic Website -->
+        <td width="50%" onclick="window.location='https://github.com/huygnguyen04/huygnguyen04.github.io';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">2024</p>
+            <h1 style="">📚 Academic Portfolio Website</h1>
+            <p style="font-size:15px">My Portfolio Website built with HTML and CSS using the template forked from academicpages and deployed by Github pages. Yes! It's the one that you are looking at.</p>
+            <br>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" alt="HTML5"/>
+                <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" alt="CSS3"/>
+                <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=Markdown&logoColor=white" alt="Markdown"/>
+            </div>
+        </td>
+    </tr>
+
+</table>
+
 </body>
 </html>
 

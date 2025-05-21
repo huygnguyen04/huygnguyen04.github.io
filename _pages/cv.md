@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Here's my academic and professional journey during my time at the University of Virginia, highlighting my work in computer science, applied mathematics, and beyond. Fell free to download my CV and transcript below. 🎓💼  
+Here's my academic and professional journey during my time at the University of Virginia, highlighting my work in computer science, applied mathematics, and beyond. Feel free to download my CV and transcript below. 🎓💼  
 
 ## [⬇️ Download my CV (October 2024)](https://drive.google.com/file/d/1c7hv_meqLyxJrZSX32EvzqtuQmZ_GI4M/view?usp=sharing)
 
