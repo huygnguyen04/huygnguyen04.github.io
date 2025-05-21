@@ -55,34 +55,64 @@ author_profile: true
         }
         .section-header {
             margin: 40px 0 20px 0;
-            padding: 15px 30px;
-            background: linear-gradient(45deg, #3f51b5, #7986cb);
+            padding: 20px 30px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             display: flex;
             align-items: center;
+            position: relative;
+            overflow: hidden;
         }
-        .section-header i {
-            margin-right: 10px;
-            font-size: 24px;
+        .section-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+            z-index: 1;
         }
         .section-header h2 {
             margin: 0;
-            font-size: 24px;
+            font-size: 28px;
             font-weight: 600;
+            letter-spacing: 0.5px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            z-index: 2;
+            position: relative;
         }
         .section-description {
             margin: 0 0 30px 0;
-            padding: 0 30px;
+            padding: 15px 30px;
             color: #666;
             font-size: 16px;
+            line-height: 1.6;
+            border-left: 4px solid #2a5298;
+            background: rgba(42,82,152,0.05);
+            border-radius: 0 8px 8px 0;
         }
         .dark-mode .section-header {
-            background: linear-gradient(45deg, #bb86fc, #9d46ff);
+            background: linear-gradient(135deg, #2d1b4e 0%, #45278d 100%);
         }
         .dark-mode .section-description {
             color: #ccc;
+            border-left: 4px solid #45278d;
+            background: rgba(69,39,141,0.05);
+        }
+        /* Hardware Section Specific */
+        .hardware-section .section-header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+        }
+        /* Software Section Specific */
+        .software-section .section-header {
+            background: linear-gradient(135deg, #134e5e 0%, #71b280 100%);
+        }
+        /* Beginner Section Specific */
+        .beginner-section .section-header {
+            background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
         }
     </style>
 </head>
@@ -92,11 +122,13 @@ author_profile: true
 <br>
 
 <!-- Hardware Architecture & Acceleration Projects -->
-<div class="section-header">
-    <h2>⚙️ Hardware Architecture & Acceleration Projects</h2>
-</div>
-<div class="section-description">
-    Projects focusing on GPU architecture, hardware optimization, and parallel computing.
+<div class="hardware-section">
+    <div class="section-header">
+        <h2>🔧 Hardware Architecture & Acceleration Projects</h2>
+    </div>
+    <div class="section-description">
+        Projects focusing on GPU architecture, hardware optimization, and parallel computing.
+    </div>
 </div>
 
 <!-- Table for Hardware Projects -->
@@ -158,10 +190,7 @@ author_profile: true
     <td width="50%" onclick="window.location='https://github.com/huygnguyen04/MLPerf-Benchmark-Suite-Replication';" style="cursor: pointer;">
         <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
         <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-        <div style="display: flex; justify-content: space-between; align-items: center;">
-            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Fall 2024</p>
-            <img src="https://img.shields.io/badge/Paper%20Published%20on%20JAP-FF4500?style=flat" alt="Published on JAP" style="margin-top: 60px;"/>
-        </div>
+        <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Fall 2024</p>
         <h1 style="">📊 MLPerf Benchmark Replication</h1>
         <p style="font-size:15px">Expand MLPerf benchmarks to analyze GPU bottlenecks and optimize performance with multi-GPU setups using NVLink and Tensor Cores.</p>
         <br>
@@ -179,7 +208,10 @@ author_profile: true
         <td width="50%" onclick="window.location='https://github.com/huygnguyen04/GPUMD-UVA';" style="cursor: pointer;">
             <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
             <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-            <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Spring 2023 - Fall 2024</p>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Spring 2023 - Fall 2024</p>
+                <img src="https://img.shields.io/badge/Paper%20Published%20on%20JAP-FF4500?style=flat" alt="Published on JAP" style="margin-top: 60px;"/>
+            </div>
             <h1 style="">⚛️ GPU Molecular Dynamics</h1>
             <p style="font-size:15px">Utilize Python and GPUMD package for molecular dynamics simulations and train NEP potential for model generation on UVA's Rivanna supercomputer.</p>
             <br>
@@ -215,14 +247,16 @@ author_profile: true
 </table>
 
 
-    
+<br>
 
 <!-- Software & AI Projects -->
-<div class="section-header">
-    <h2>💻 Software & AI Projects</h2>
-</div>
-<div class="section-description">
-    Projects involving software development and machine learning applications.
+<div class="software-section">
+    <div class="section-header">
+        <h2>💻 Software & AI Projects</h2>
+    </div>
+    <div class="section-description">
+        Projects involving software development and machine learning applications.
+    </div>
 </div>
 
 <!-- Table for Software & AI Projects -->
@@ -297,15 +331,17 @@ author_profile: true
 
 
 
-
+<br>
 
 
 <!-- Beginner Projects -->
-<div class="section-header">
-    <h2>🌱 Beginner Projects</h2>
-</div>
-<div class="section-description">
-    Early projects that helped build my foundation in programming and Computer Science.
+<div class="beginner-section">
+    <div class="section-header">
+        <h2>🌱 Beginner Projects</h2>
+    </div>
+    <div class="section-description">
+        Early projects that helped build my foundation in programming and Computer Science.
+    </div>
 </div>
 
 <!-- Table for Beginner Projects -->
