@@ -172,31 +172,6 @@ redirect_from:
             font-size: 15px;
             line-height: 1.5;
         }
-
-        body.dark-mode {
-            background-color: #121212;
-            color: white;
-        }
-        .timeline-block.dark-mode::before {
-            background: #bb86fc;
-        }
-        .timeline-block .details.dark-mode {
-            background: #333;
-            border-left-color: #bb86fc;
-        }
-        .award.dark-mode {
-            background-color: #333;
-            border-left-color: #bb86fc;
-            color: white;
-        }
-        .project_table_data.dark-mode {
-            background-color: #333;
-            color: white;
-        }
-        button.dark-mode {
-            background-color: #bb86fc;
-            color: black;
-        }
         .certificate-link {
             display: inline-block;
             padding: 6px 12px;
@@ -226,6 +201,39 @@ redirect_from:
     </style>
 </head>
 <body>
+
+    <!-- 🎓 PhD Countdown Timer -->
+<div id="countdown-container" style="padding: 10px 20px; font-weight: bold; text-align: center; z-index: 1000;">
+    <h3>🕒 Ph.D. Application Countdown: <span id="countdown"></span> until Dec 15, 2025</h3>
+</div>
+
+<script>
+  function updateCountdown() {
+      const countdownElement = document.getElementById("countdown");
+      const targetDate = new Date("2025-12-15T23:59:59");
+      const now = new Date();
+      const timeDiff = targetDate - now;
+
+      if (timeDiff <= 0) {
+          countdownElement.innerHTML = "🎉 It's time to submit!";
+          return;
+      }
+
+      const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeDiff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((timeDiff / (1000 * 60)) % 60);
+      const seconds = Math.floor((timeDiff / 1000) % 60);
+
+      countdownElement.innerHTML = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+</script>
+
+
+
+
 <section id="introduction">
     <h1>👉 Introduction</h1>
     <hr>
@@ -497,43 +505,5 @@ redirect_from:
         </td>
       </tr>
     </table>
-
-    <button id="darkModeToggle" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; font-size: 16px;">Dark Mode 🌙</button>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const toggleButton = document.getElementById('darkModeToggle');
-            const body = document.body;
-            const timelineBlocks = document.querySelectorAll('.timeline-block');
-            const details = document.querySelectorAll('.details');
-            const awards = document.querySelectorAll('.award');
-            const projectTables = document.querySelectorAll('.project_table_data');
-            
-            const currentMode = localStorage.getItem('darkMode') || 'light';
-            if (currentMode === 'dark') {
-                body.classList.add('dark-mode');
-                timelineBlocks.forEach(block => block.classList.add('dark-mode'));
-                details.forEach(detail => detail.classList.add('dark-mode'));
-                awards.forEach(award => award.classList.add('dark-mode'));
-                projectTables.forEach(project => project.classList.add('dark-mode'));
-                toggleButton.classList.add('dark-mode');
-            }
-
-            toggleButton.addEventListener('click', function() {
-                body.classList.toggle('dark-mode');
-                timelineBlocks.forEach(block => block.classList.toggle('dark-mode'));
-                details.forEach(detail => detail.classList.toggle('dark-mode'));
-                awards.forEach(award => award.classList.toggle('dark-mode'));
-                projectTables.forEach(project => project.classList.toggle('dark-mode'));
-                toggleButton.classList.toggle('dark-mode');
-                
-                let mode = 'light';
-                if (body.classList.contains('dark-mode')) {
-                    mode = 'dark';
-                }
-                localStorage.setItem('darkMode', mode);
-            });
-        });
-    </script>
 </body>
 </html>
