@@ -2,5 +2,5 @@ A Github Pages template for academic websites. This was forked (then detached) b
 
 ### Tabs were customed and built again with html and css by Huy Nguyen in [`pages`](./_pages) - Last updated September 2025
 
-### [🌐 Visit website here](https://huygnguyen04.github.io)
+### [🌐 Visit website here](https://huygnguyen04.com)
 
