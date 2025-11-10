@@ -16,12 +16,26 @@ redirect_from:
     <title>Huy Nguyen's Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
     <style>
+        /* Override Jekyll theme width constraints */
+        #main {
+            max-width: 100% !important;
+        }
+        .page {
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+        .page__inner-wrap {
+            max-width: 1400px !important;
+            margin: 0 auto;
+        }
+        
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             padding: 20px;
             margin-bottom: 100px;
             background: #fff;
+            max-width: 100%;
         }
 
         .awards-container {
@@ -57,7 +71,6 @@ redirect_from:
         .award p {
             margin: 0;
             font-size: 15px;
-            line-height: 1.5;
         }
         .certificate-link {
             display: inline-block;
@@ -89,8 +102,9 @@ redirect_from:
 </head>
 <body>
 
-<section id="introduction">
+  <section id="introduction">
     <style>
+        #introduction { max-width: 100%; }
         #introduction p { font-size: 14px;}
         #introduction h3 { font-size: 14px; font-weight: 600; }
     </style>
@@ -109,7 +123,7 @@ redirect_from:
 <section id="research">
   <style>
     /* Scoped to this section */
-    #research { font-size: 14px; }
+    #research { font-size: 14px; max-width: 100%; }
     #research .award { margin-bottom: 18px; }
     #research .award-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
     #research .title-col { flex: 1 1 auto; }
@@ -205,6 +219,9 @@ redirect_from:
           <a class="btn-pill" href="https://github.com/huygnguyen04/GPU-L2-Cache-Optimizer" target="_blank" rel="noopener">
             <i class="ri-external-link-line"></i> Project
           </a>
+          <a class="btn-pill" href="https://drive.google.com/file/d/1bnj3lVTmmjsZ-c9gJl_UhUW7wr3oCc2J/view" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Report
+          </a>
         </div>
         <div class="timeline">Feb 2025 – May 2025 · Completed</div>
       </div>
@@ -229,6 +246,12 @@ redirect_from:
           <a class="btn-pill" href="https://github.com/huygnguyen04/PyTorch-CUDA-ML-Performance" target="_blank" rel="noopener">
             <i class="ri-external-link-line"></i> Project
           </a>
+          <a class="btn-pill" href="https://drive.google.com/file/d/1c4pSJ82F9Fzw5xPglq0QTTm-QNZDaoFW/view" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Report
+          </a>
+          <a class="btn-pill" href="https://drive.google.com/file/d/1DgrHPqi_ic-62I6c6JHDk_6YCY23tq-9/view" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Poster
+          </a>
         </div>
         <div class="timeline">May 2024 – Aug 2024 · Completed</div>
       </div>
@@ -238,7 +261,7 @@ redirect_from:
       I work on investigating the performance gap between hand-optimized CUDA, PyTorch implementations, and LLM-generated code through direct 
       implementation of core ML operators (matrix multiplication, convolution). I discovered an iterative feedback pipeline guides LLMs to automatically 
       refine kernels using profiling insights. Moreover, I also extended the research with MLPerf-based evaluation across architectures and workloads. 
-      This reveals not just execution time differences, but the architectural bottlenecks—memory patterns, warp divergence, synchronization overhead 
+      This reveals not just execution time differences, but the architectural bottlenecks such as memory patterns, warp divergence, synchronization overhead 
       are those that explain why performance varies.
     </p>
   </div>
@@ -247,7 +270,7 @@ redirect_from:
   <div class="award">
     <div class="award-header">
       <div class="title-col">
-        <h2>GPU-Accelerated Molecular Dynamics & NEP Modeling (ELM Group, UVA Materials Science)</h2>
+        <h2>GPU-Accelerated Molecular Dynamics & NEP Modeling (ELM Group)</h2>
         <div class="meta-row">Advised by Prof. Keivan Esfarjani</div>
       </div>
       <div class="links">
