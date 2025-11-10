@@ -12,7 +12,7 @@ redirect_from:
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.85">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
     <title>Huy Nguyen's Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
     <style>
@@ -91,21 +91,21 @@ redirect_from:
 
 <section id="introduction">
     <style>
-        #introduction h1 { font-size: 20px; }
-        #introduction p { font-size: 14px; line-height: 1.5; }
+        #introduction p { font-size: 14px;}
         #introduction h3 { font-size: 14px; font-weight: 600; }
     </style>
     <h1>Introduction</h1>
     <hr>
-    <p>Hi there! 👋 I'm Huy Nguyen, a fourth-year Undergraduate researcher at the University of Virginia pursuing a Bachelor's degree in Computer Science with a minor in Applied Mathematics.</p>
+    <p>Hi there! I'm Huy Nguyen, a fourth-year Undergraduate researcher at the University of Virginia pursuing a Bachelor's degree in Computer Science with a minor in Applied Mathematics.</p>
     <p>Originally from Ho Chi Minh City, Vietnam, I moved to the United States as an international student with aspirations to pursue a Ph.D. in Computer Science.</p>
-    <p>I am currently conducting research in <em>Hardware Architecture and Acceleration</em> at the <a href="https://www.cs.virginia.edu/~skadron/">Lava Lab</a> under <a href="https://www.cs.virginia.edu/~skadron/">Prof. Kevin Skadron</a>, where I'm working on innovating the Rodinia Benchmark. Previously, I was involved in GPU research at the <a href="https://insight-cal.github.io/">Insight Lab</a> under Prof. Adwait Jog.</p>
+    <p>I am currently conducting research in <strong><em>Hardware Architecture and Acceleration</em></strong> at the <a href="https://www.cs.virginia.edu/~skadron/">Lava Lab</a> under <a href="https://www.cs.virginia.edu/~skadron/">Prof. Kevin Skadron</a>, where I'm working on innovating the <strong>Rodinia Benchmark Innovation</strong>. Previously, I was involved in <strong>GPU performance and optimization</strong> research at the <a href="https://insight-cal.github.io/">Insight Lab</a> under Prof. Adwait Jog.</p>
     <p>My research interests lie in hardware optimization and parallel computing, with particular expertise in CUDA programming, NVIDIA technologies, and microarchitectural optimizations.</p>
     <p>Beyond research, I serve as a <a href="https://huynguyen04.github.io/teaching/">Teaching Assistant and Grader</a> for Computer Science and Applied Mathematics courses, where I find fulfillment in mentoring and supporting fellow students.</p>
     <h3>I am actively searching for PhD programs for this upcoming 2025 application cycle! I am specifically interested in universities with labs working on computer architecture with an emphasis on GPU architecture, performance modeling, and reproducible benchmarking.</h3>
 </section>
 
 <br>
+
 <section id="research">
   <style>
     /* Scoped to this section */
@@ -159,8 +159,8 @@ redirect_from:
   <hr>
 
   <p>
-    Moore's Law is running into physical and economic limits—shrinking transistors no longer guarantees easy speedups.
-    To keep improving performance, we have to go beyond scaling with smarter microarchitectures, tighter memory and interconnect design,
+    <strong>My Motivation:</strong> Moore's Law is running into physical limits as we can no longer keep shrinking transistors to pack more into a single core.
+    Therefore, to keep improving performance, we have to go beyond scaling with smarter microarchitectures, tighter memory and interconnect design,
     and software that actually exploits these features. That motivates my work in Computer Architecture and Hardware Acceleration with a specific emphasis on GPUs:
     I am interested in building reproducible benchmarking and feature-isolating microbenchmarks that explain where performance comes from and how to unlock it on real-life workloads.
   </p>
@@ -182,11 +182,14 @@ redirect_from:
             <i class="ri-external-link-line"></i> Project
           </a>
         </div>
-        <div class="timeline">May 2025 – present · Ongoing</div>
+        <div class="timeline">May 2025 – Present · Ongoing</div>
       </div>
     </div>
     <p>
-      I am leading the modernization of Rodinia for CUDA 12+, larger datasets, and contemporary GPU features such as Tensor Cores, Cooperative Groups, and multi-GPU. I built a reproducible harness to compare legacy versus modernized implementations across GPU generations and created microbenchmarks that isolate memory hierarchy, warp scheduling, and synchronization effects. Using Nsight tooling and GPGPU-Sim, I focus on making results explainable so architectural choices map cleanly to application-level behavior.
+        I am leading the modernization of Rodinia for CUDA 12+, larger datasets, and contemporary GPU features such as Tensor Cores, Cooperative Groups,
+        and multi-GPU. I built a reproducible harness to compare legacy versus modernized implementations across GPU generations 
+        and created microbenchmarks that isolate memory hierarchy, warp scheduling, and synchronization effects.
+        Using Nsight tooling and GPGPU-Sim, I focus on making results explainable so architectural choices map cleanly to application-level behavior.
     </p>
   </div>
 
@@ -207,7 +210,10 @@ redirect_from:
       </div>
     </div>
     <p>
-      I simulated extended L2 cache designs in GPGPU-Sim and co-modeled area and latency with CACTI to study bandwidth–latency trade-offs, hit-rate impacts, and workload sensitivity. I evaluated design points with Rodinia and ML kernels, scripted parameter sweeps, and analyzed how cache capacity and organization shape end-to-end performance. This study complements my benchmark modernization by tying memory-system choices to observed kernel behavior.
+        I simulated extended L2 cache designs in GPGPU-Sim and co-modeled area and latency with CACTI to study bandwidth-latency trade-offs, 
+        hit-rate impacts, and workload sensitivity. I evaluated design points with Rodinia and ML kernels, scripted parameter sweeps, and analyzed 
+        how cache capacity and organization shape end-to-end performance. 
+        This study complements my benchmark modernization by tying memory-system choices to observed kernel behavior.
     </p>
   </div>
 
@@ -228,7 +234,12 @@ redirect_from:
       </div>
     </div>
     <p>
-      I implemented core ML operators directly in CUDA and compared hand-tuned kernels with PyTorch implementations and LLM-generated CUDA. I developed an iterative feedback pipeline that guides LLMs to refine kernels and profiled results across architectures and workloads using MLPerf. The goal was not only to measure how fast things run but to explain why performance differs by uncovering memory access, scheduling, and fusion bottlenecks hidden by higher-level abstractions.
+      Modern ML frameworks abstract away low-level GPU details, often masking inefficiencies in memory access, scheduling, and kernel fusion. 
+      I work on investigating the performance gap between hand-optimized CUDA, PyTorch implementations, and LLM-generated code through direct 
+      implementation of core ML operators (matrix multiplication, convolution). I discovered an iterative feedback pipeline guides LLMs to automatically 
+      refine kernels using profiling insights. Moreover, I also extended the research with MLPerf-based evaluation across architectures and workloads. 
+      This reveals not just execution time differences, but the architectural bottlenecks—memory patterns, warp divergence, synchronization overhead 
+      are those that explain why performance varies.
     </p>
   </div>
 
@@ -252,7 +263,13 @@ redirect_from:
       </div>
     </div>
     <p>
-      I built a GPU-first, reproducible MD workflow for entropy-stabilized oxides using GPUMD and a Neuroevolution ML Potential. I automated large simulation batches with SLURM job arrays, improved NEP training on GPUs to reduce energy and force error, and analyzed thermal trends across temperatures and compositions. The project culminated in a Journal of Applied Physics publication and seeded my interest in the hardware–software interface that ultimately drives performance.
+      I built a GPU reproducible MD workflow for entropy-stabilized oxides using GPUMD and a Neuroevolution ML Potential. Additionally,
+      I automated large simulation batches with SLURM job arrays, improved NEP training on GPUs to reduce energy and force error, 
+      and analyzed thermal trends across temperatures and compositions. 
+      The project lead to a Journal of Applied Physics publication and seeded my interest in the hardware–software interface, especially GPU computing 
+      that ultimately drives performance.
     </p>
   </div>
 </section>
+
+<br>
