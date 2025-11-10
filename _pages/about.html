@@ -235,275 +235,170 @@ redirect_from:
 
 
 <section id="introduction">
-    <h1>👉 Introduction</h1>
+    <h1>Introduction</h1>
     <hr>
-    <p>Hi there! 👋 I'm Huy Nguyen, a fourth-year student at the University of Virginia pursuing a Bachelor's degree in Computer Science with a minor in Applied Mathematics.</p>
+    <p>Hi there! 👋 I'm Huy Nguyen, a fourth-year Undergraduate researcher at the University of Virginia pursuing a Bachelor's degree in Computer Science with a minor in Applied Mathematics.</p>
     <p>Originally from Ho Chi Minh City, Vietnam, I moved to the United States as an international student with aspirations to pursue a Ph.D. in Computer Science.</p>
     <p>I am currently conducting research in <em>Hardware Architecture and Acceleration</em> at the <a href="https://www.cs.virginia.edu/~skadron/">Lava Lab</a> under <a href="https://www.cs.virginia.edu/~skadron/">Prof. Kevin Skadron</a>, where I'm working on innovating the Rodinia Benchmark. Previously, I was involved in GPU research at the <a href="https://insight-cal.github.io/">Insight Lab</a> under Prof. Adwait Jog.</p>
     <p>My research interests lie in hardware optimization and parallel computing, with particular expertise in CUDA programming, NVIDIA technologies, and microarchitectural optimizations.</p>
     <p>Beyond research, I serve as a <a href="https://huynguyen04.github.io/teaching/">Teaching Assistant and Grader</a> for Computer Science and Applied Mathematics courses, where I find fulfillment in mentoring and supporting fellow students.</p>
-    <p>From writing my first "Hello World!" in an Intro CS course at UVA to conducting advanced research, I am committed to making meaningful contributions to the field of Computer Science.</p>
-    <blockquote>The more you sleep, the higher your GPA. <img src="https://media.giphy.com/media/itdYhaQ5GKXczC1WFJ/giphy.gif" width="40"></blockquote>
+    <h3>I am actively searching for PhD programs for this upcoming 2025 application cycle! I am specifically interested in universities with labs working on computer architecture with an emphasis on GPU architecture, performance modeling, and reproducible benchmarking.</h3>
 </section>
 
 <br>
-  
-<section id="education">
-    <h1>🎓 Education</h1>
-    <hr>
-    <table style="border-collapse: collapse; border: none;">
-        <tr>
-            <td rowspan="2" style="border: none; width: 90px; padding-right: 5px; vertical-align: top;">
-                <a href="https://engineering.virginia.edu/">
-                    <img src="https://github.com/huygnguyen04/huygnguyen04.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="70">
-                </a>
-            </td>
-            <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 5px;">University of Virginia - School of Engineering, 2026</td>
-        </tr>
-        <tr>
-            <td style="border: none; font-size: 20px; font-style: italic; line-height: 1; padding-top: 5px;">B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.988</td>
-        </tr>
-    </table>
-  
-<!-- Add space -->
-  <p></p>
-  
-    <table style="border: none;">
-        <tr style="border: none;">
-            <td rowspan="2" style="border: none; width: 90px; padding-right: 5px; vertical-align: top;">
-                <a href="https://ptnk.edu.vn/">
-                    <img src="https://github.com/huygnguyen04/huygnguyen04.github.io/assets/114793725/3a24b89a-24b3-45c8-a2b1-85923dddc63d" width="70">
-                </a>
-            </td>
-            <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 5px;">High School for the Gifted VNU-HCM, 2022</td>
-        </tr>
-        <tr>
-            <td style="border: none; font-size: 20px; font-style:italic; line-height: 1; padding-top: 5px;">High School Diploma - KC3 1922</td>
-        </tr>
-    </table>
-</section>
+<section id="research">
+  <style>
+    /* Scoped to this section */
+    #research { font-size: 14px; }
+    #research .award { margin-bottom: 18px; }
+    #research .award-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+    #research .title-col { flex: 1 1 auto; }
+    #research h1 { font-size: 22px; margin: 0 0 8px 0; }
+    #research h2 { margin: 0 0 4px 0; font-size: 16px; font-weight: 700; }
+    #research p { margin: 0 0 9px 0; font-size: 14px; line-height: 1.55; }
 
-<br><br>
-  
-<section id="experience">
-    <h1>💼 Experience</h1>
-    <hr>
-    <div class="timeline-container">
-        <div class="timeline-block">
-            <div class="milestone">Undergraduate Research Assistant - Rodinia Benchmark Innovation @ LAVA Lab</div>
-            <div class="time-and-info">
-                <span class="time">May 2025 - Present</span>
-                <span class="additional-info">Summer Research Fellowship 2025</span>
-            </div>
-            <div class="details">
-                Innovating the Rodinia Benchmark Suite by updating, scaling, or retiring workloads and optimizing CUDA implementations to reflect current GPU architectures, under Prof. Kevin Skadron's guidance.
-            </div>
+    /* Meta row on the left (advisor only) */
+    #research .meta-row {
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      gap: 8px;
+      margin: 0 0 8px 0;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #444;
+    }
+
+    /* Right side: buttons on top, timeline right below */
+    #research .links { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; white-space: nowrap; }
+    #research .btn-row { display: flex; gap: 10px; }
+    #research .timeline { font-size: 12.5px; font-weight: 600; color: #555; }
+
+    /* Pill buttons */
+    #research .btn-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 999px;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      background: linear-gradient(135deg, #6973d8 0%, #6f7eea 100%);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+      border: 1px solid rgba(255,255,255,0.25);
+      transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
+    }
+    #research .btn-pill:hover { transform: translateY(-1px); box-shadow: 0 10px 18px rgba(0,0,0,0.2); filter: brightness(1.03); }
+    #research .btn-pill:active { transform: translateY(0); box-shadow: 0 6px 12px rgba(0,0,0,0.16); }
+    #research .btn-pill i { font-size: 13px; }
+  </style>
+
+  <h1>Research Interests & Experience</h1>
+  <hr>
+
+  <!-- Motivation -->
+  <p>
+    Moore's Law is running into physical and economic limits—shrinking transistors no longer guarantees easy speedups.
+    To keep improving performance, we have to go beyond scaling with smarter microarchitectures, tighter memory and interconnect design,
+    and software that actually exploits these features. That motivates my work in Computer Architecture and Hardware Acceleration with a specific emphasis on GPUs:
+    I am interested in building reproducible benchmarking and feature-isolating microbenchmarks that explain where performance comes from and how to unlock it on real-life workloads.
+  </p>
+
+  <p>
+    Below are my research projects addressing these challenges, advised by amazing professors and labs at UVA.
+  </p>
+
+  <!-- LAVA Lab / Rodinia v4.0 (Ongoing) -->
+  <div class="award">
+    <div class="award-header">
+      <div class="title-col">
+        <h2>Rodinia Benchmark v4.0 — Modernizing Benchmarks for Emerging GPU Architectures (LAVA Lab, UVA)</h2>
+        <div class="meta-row">Advised by Prof. Kevin Skadron</div>
+      </div>
+      <div class="links">
+        <div class="btn-row">
+          <a class="btn-pill" href="https://github.com/huygnguyen04/gpu-rodinia-v4.0" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Project
+          </a>
         </div>
-        <div class="timeline-block">
-            <div class="milestone">Undergraduate Research Assistant - PyTorch and CUDA ML Models Optimization</div>
-            <div class="time-and-info">
-                <span class="time">August 2023 - January 2025</span>
-                <span class="additional-info">Dean's Research Fellowship 2024</span>
-            </div>
-            <div class="details">
-                Researched on GPU computing and optimization techniques to enhance the performance of PyTorch and CUDA ML frameworks under Prof. Adwait Jog's guidance.
-            </div>
-        </div>
-        <div class="timeline-block">
-            <div class="milestone">Undergraduate Research Assistant - Molecular Dynamics on HPC Systems</div>
-            <div class="time-and-info">
-                <span class="time">April 2023 - January 2025</span>    
-            </div>
-            <div class="details">
-                Utilized Python and GPUMD for molecular dynamics simulations to analyze thermal properties of high-entropy alloys and NEP model training for model generation on UVA's Rivanna supercomputer.
-            </div>
-        </div>
-        <div class="timeline-block">
-            <div class="milestone">Undergraduate Research Assistant - Enhancing Learning through Interactive GUIs</div>
-            <div class="time-and-info">
-                <span class="time">August 2023 - May 2025</span>
-                <span class="additional-info">Dean's Research Fellowship 2024</span>
-            </div>
-            <div class="details">
-                Lead a team of 5 students to create interactive Python and MATLAB Applications and Visualization for improving students' learning Multivariable Calculus and Linear Algebra courses at UVA.
-            </div>
-        </div>
-        <div class="timeline-block">
-            <div class="milestone">Teaching Assistant and Grader @UVA</div>
-            <div class="time-and-info">
-                <span class="time">August 2023 - Present</span>
-            </div>
-            <div class="details">
-                Support students in Computer Systems and Organization II, Linear Algebra, Probability, Programming with MATLAB & R, Intro to Programming, Ordinary Differential Equations, Multivariable Calculus, and Intro to Physics courses.            
-            </div>
-        </div>
-        <div class="timeline-block">
-            <div class="milestone">Developer Intern @SHIFT ASIA</div>
-            <div class="time-and-info">
-                <span class="time">May 2023 - August 2023</span>
-            </div>
-            <div class="details">
-                Enhance existing e-commerce sales forecasting models and develop regression models for predicting SAT scores, improving prediction accuracy and efficiency.
-            </div>
-        </div>
-        <div class="timeline-block">
-            <div class="milestone">CORE Scholar Peer Academic Mentor @UVA</div>
-            <div class="time-and-info">
-                <span class="time">August 2023 - August 2024</span>
-            </div>
-            <div class="details">
-                Improve STEM education for CORE Scholar students through academic support, course guidance, and community-building activities.
-            </div>
-        </div>
+        <div class="timeline">May 2025 – present · Ongoing</div>
+      </div>
     </div>
-</section>
+    <p>
+      I am leading the modernization of Rodinia for CUDA 12+, larger datasets, and contemporary GPU features such as Tensor Cores, Cooperative Groups, and multi-GPU. I built a reproducible harness to compare legacy versus modernized implementations across GPU generations and created microbenchmarks that isolate memory hierarchy, warp scheduling, and synchronization effects. Using Nsight tooling and GPGPU-Sim, I focus on making results explainable so architectural choices map cleanly to application-level behavior.
+    </p>
+  </div>
 
-<br><br>
-
-<section id="honors-and-awards">
-    <h1>🏆 Honors and Awards</h1>
-    <hr>
-    <div class="awards-container">
-
-
-        <div class="award">
-            <div class="award-header">
-                <div class="award-title">
-                    <img src="../images/raven_society_logo.jpg" alt="Raven Society Icon" class="award-icon">
-                    <h2>The Raven Society @ UVA</h2>
-                </div>
-                <a href="https://drive.google.com/file/d/1ll1HM_1TI0je1qkDf8qeV024bPr4pacR/view?usp=sharing" target="_blank" class="certificate-link"><i class="ri-award-line"></i>View Certificate</a>
-            </div>
-            <p>The Raven Society is UVA's oldest and most prestigious honorary society, recognizing exceptional students for academic excellence, leadership, and service to the University and Charlottesville community. Membership is highly selective and considered one of the highest honors a student can receive at UVA.</p>
+  <!-- GPU L2 Cache Optimizer (Completed) -->
+  <div class="award">
+    <div class="award-header">
+      <div class="title-col">
+        <h2>GPU L2 Cache Architecture Exploration with GPGPU-Sim</h2>
+        <div class="meta-row">Advised by Prof. Kevin Skadron</div>
+      </div>
+      <div class="links">
+        <div class="btn-row">
+          <a class="btn-pill" href="https://github.com/huygnguyen04/GPU-L2-Cache-Optimizer" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Project
+          </a>
         </div>
-
-        <div class="award">
-            <div class="award-header">
-                <div class="award-title">
-                    <img src="../images/uva_engineering.png" alt="Research Fellowship Icon" class="award-icon">
-                    <h2>Dean's Engineering Research Fellowship Summer 2024</h2>
-                </div>
-                <a href="https://drive.google.com/file/d/1N6OXTyofL1Z5brQNxiv_thkDqfCF94w4/view?usp=sharing" target="_blank" class="certificate-link"><i class="ri-award-line"></i>View Certificate</a>
-            </div>
-            <p>Awarded $4,800 for a 10-week full-time research project with additional engagement in professional development workshops and presentation of findings at Fall Undergraduate Research Expo.</p>
-        </div>
-      
-        <div class="award">
-            <div class="award-header">
-                <div class="award-title">
-                    <img src="../images/uva_engineering.png" alt="Dean's List Icon" class="award-icon">
-                    <h2>Dean's List - All Semesters</h2>
-                </div>
-                <a href="https://drive.google.com/file/d/1VFWQpVaDZx2R8QlbMcizK5HIXkxmqQQ9/view?usp=sharing" target="_blank" class="certificate-link"><i class="ri-award-line"></i>View Transcript</a>
-            </div>
-            <p>Achieved Dean's List recognition for maintaining a GPA of 3.40 or higher and completing over 15 credits of graded coursework in the preceding semester.</p>
-        </div>
-
-
+        <div class="timeline">Feb 2025 – May 2025 · Completed</div>
+      </div>
     </div>
-</section>
+    <p>
+      I simulated extended L2 cache designs in GPGPU-Sim and co-modeled area and latency with CACTI to study bandwidth–latency trade-offs, hit-rate impacts, and workload sensitivity. I evaluated design points with Rodinia and ML kernels, scripted parameter sweeps, and analyzed how cache capacity and organization shape end-to-end performance. This study complements my benchmark modernization by tying memory-system choices to observed kernel behavior.
+    </p>
+  </div>
 
-<br><br>
-
-<section id="publications">
-    <h1>📝 Publications</h1>
-    <hr>
-    <div class="timeline-container">
-
-        <div class="timeline-block">
-            <div class="milestone">
-                Neuroevolution Machine Learning Potential for High-Temperature Deformation Studies of Entropy-Stabilized Oxide MgNiCoCuZnO₅
-            </div>
-            <div class="time-and-info">
-                <span class="authors">
-                    <strong>Authors:</strong> B. Timalsina, <strong>H. G. Nguyen</strong>, K. Esfarjani
-                </span>
-                <br>
-                <span class="additional-info">
-                    <i>Published in Journal of Applied Physics, October 2024</i>
-                </span>
-            </div>
-            <div class="details">
-                This study presents the development of a neuroevolution machine learning potential (NEP) for entropy-stabilized oxide MgNiCoCuZnO₅ (J14) to explore its lattice distortion, elastic properties, and thermal conductivity across a wide temperature range. The NEP potential demonstrates high accuracy compared to density functional theory (DFT) calculations and experimental data.
-                <a href="https://doi.org/10.1063/5.0224282" target="_blank">
-                    [J. Appl. Phys. 136, 155109 (2024), DOI: 10.1063/5.0224282]
-                </a>
-            </div>
+  <!-- Insight Lab / LLM-driven CUDA & MLPerf (Completed) -->
+  <div class="award">
+    <div class="award-header">
+      <div class="title-col">
+        <h2>LLM-Driven CUDA Optimization & MLPerf Profiling (Insight Lab)</h2>
+        <div class="meta-row">Advised by Prof. Adwait Jog</div>
+      </div>
+      <div class="links">
+        <div class="btn-row">
+          <a class="btn-pill" href="https://github.com/huygnguyen04/PyTorch-CUDA-ML-Performance" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Project
+          </a>
         </div>
-
+        <div class="timeline">May 2024 – Aug 2024 · Completed</div>
+      </div>
     </div>
+    <p>
+      I implemented core ML operators directly in CUDA and compared hand-tuned kernels with PyTorch implementations and LLM-generated CUDA. I developed an iterative feedback pipeline that guides LLMs to refine kernels and profiled results across architectures and workloads using MLPerf. The goal was not only to measure how fast things run but to explain why performance differs by uncovering memory access, scheduling, and fusion bottlenecks hidden by higher-level abstractions.
+    </p>
+  </div>
+
+  <!-- ELM Group / GPUMD + NEP (Completed) -->
+  <div class="award">
+    <div class="award-header">
+      <div class="title-col">
+        <h2>GPU-Accelerated Molecular Dynamics & NEP Modeling (ELM Group, UVA Materials Science)</h2>
+        <div class="meta-row">Advised by Prof. Keivan Esfarjani</div>
+      </div>
+      <div class="links">
+        <div class="btn-row">
+          <a class="btn-pill" href="https://github.com/huygnguyen04/GPUMD-UVA" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Project
+          </a>
+          <a class="btn-pill" href="https://doi.org/10.1063/5.0224282" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Paper
+          </a>
+        </div>
+        <div class="timeline">Apr 2023 – Jan 2025 · Completed</div>
+      </div>
+    </div>
+    <p>
+      I built a GPU-first, reproducible MD workflow for entropy-stabilized oxides using GPUMD and a Neuroevolution ML Potential. I automated large simulation batches with SLURM job arrays, improved NEP training on GPUs to reduce energy and force error, and analyzed thermal trends across temperatures and compositions. The project culminated in a Journal of Applied Physics publication and seeded my interest in the hardware–software interface that ultimately drives performance.
+    </p>
+  </div>
+
+  <!-- Interest one-liner -->
+  <p style="margin-top:12px;">
+    <strong>Current focus:</strong> computer architecture broadly with a specific emphasis on <strong>GPU architecture</strong>, memory systems, interconnects, and <strong>reproducible, benchmark-driven evaluation</strong>. See Featured Projects below for repositories.
+  </p>
 </section>
-
-
-<br><br>
-  
-<section id="featured-projects">
-    <h1>💻 Featured Projects</h1>
-    <hr>
-    <table class="project_table">
-      <tr>
-
-        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/gpu-rodinia-v4.0';" style="cursor: pointer;">
-            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">May 2025 - Present</p>
-            <h1 class="project_details">🚀 Rodinia Benchmark v4.0</h1>
-            <p class="project_details" style="font-size:15px">Innovating the Rodinia Benchmark Suite by updating, scaling, or retiring workloads and optimizing CUDA implementations to reflect current GPU architectures.
-            </p>
-            <div class="badge-container">
-                <img src="https://img.shields.io/badge/CUDA%20Toolkits-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="CUDA Toolkits"/>
-                <img src="https://img.shields.io/badge/TensorCore-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="TensorCore"/>
-                <img src="https://img.shields.io/badge/Rodinia%20Benchmark-4A90E2?style=flat" alt="Rodinia Benchmark"/>
-                <img src="https://img.shields.io/badge/GPGPU--Sim-9B59B6?style=flat" alt="GPGPU-Sim"/>
-            </div>
-        </td>
-
-        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/GPU-L2-Cache-Optimizer';" style="cursor: pointer;">
-            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Feb 2025 - May 2025</p>
-            <h1 class="project_details">💻 GPU L2 Cache Optimizer</h1>
-            <p class="project_details" style="font-size:15px">Simulation and optimization of extended L2 cache architectures in GPUs using GPGPU-Sim to improve CUDA workload performance and analyze area tradeoff.</p>
-            <div class="badge-container">
-                <img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="CUDA"/>
-                <img src="https://img.shields.io/badge/CACTI-FF6B6B?style=flat" alt="CACTI"/>
-                <img src="https://img.shields.io/badge/Rodinia%20Benchmark-4A90E2?style=flat" alt="Rodinia Benchmark Suite"/>
-                <img src="https://img.shields.io/badge/GPGPU--Sim-9B59B6?style=flat" alt="GPGPU-Sim"/>
-            </div>
-        </td>
-
-      </tr>
-
-      <tr>
-        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/PyTorch-CUDA-ML-Performance';" style="cursor: pointer;">
-            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">May 2024 - August 2024</p>
-            <h1 class="project_details">🔬 PyTorch CUDA ML</h1>
-            <p class="project_details" style="font-size:15px">Comparative study of PyTorch and LLM-generated CUDA models for machine learning, focusing on manual optimization capabilities, performance gains, and framework selection.</p>
-            <div class="badge-container">
-                <img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="CUDA"/>
-                <img src="https://img.shields.io/badge/NVIDIA-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="NVIDIA"/>
-                <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=C++&logoColor=white" alt="C/C++"/>
-                <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&style=flat&logo=PyTorch&logoColor=white" alt="Pytorch"/>
-            </div>
-        </td>
-        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/GPUMD-UVA';" style="cursor: pointer;">
-            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
-            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
-            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">April 2023 - January 2025</p>
-            <h1 class="project_details">🧬 GPU Molecular Dynamics</h1>
-            <p class="project_details" style="font-size:15px">This project focuses on investigating the thermal properties of high-entropy alloys (HEAs) using molecular dynamics (MD) simulations through GPUMD package.</p>
-            <div class="badge-container">
-                <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-                <img src="https://img.shields.io/badge/Numpy-%23013243.svg?&style=flat&logo=numpy&logoColor=white" alt="Numpy"/>
-                <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat" alt="Matplotlib"/>
-                <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux"/>
-                <img src="https://img.shields.io/badge/GPUMD-add8e6?style=flat" alt="GPUMD"/>
-                <img src="https://img.shields.io/badge/UVA%20Rivanna-000000?style=flat" alt="UVA Rivanna"/>
-            </div>
-        </td>
-      </tr>
-    </table>
-</body>
-</html>
