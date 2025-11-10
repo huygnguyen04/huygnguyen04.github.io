@@ -12,7 +12,7 @@ redirect_from:
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.85">
     <title>Huy Nguyen's Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
     <style>
@@ -22,119 +22,6 @@ redirect_from:
             padding: 20px;
             margin-bottom: 100px;
             background: #fff;
-        }
-
-        .timeline-container {
-            position: relative;
-            max-width: 1200px;
-            margin-left: 0px;
-        }
-        .timeline-container::before {
-            content: '';
-            position: absolute;
-            left: 24px;
-            top: 0;
-            bottom: 0;
-            width: 2px;
-            background: #ccc;
-        }
-        .timeline-block {
-            position: relative;
-            margin-bottom: 20px;
-            padding-left: 60px;
-        }
-        .timeline-block::before {
-            content: '';
-            position: absolute;
-            left: 10px;
-            top: 0;
-            height: 30px;
-            width: 30px;
-            border-radius: 50%;
-            background: #3f51b5;
-            border: 4px solid #fff;
-        }
-        .timeline-block .milestone {
-            font-size: 17.5px;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .timeline-block .details {
-            font-size: 15px;
-            font-weight: 400;
-            margin-top: 10px;
-            padding: 15px;
-            background: #f4f4f4;
-            border-radius: 4px;
-            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-            border-left: 5px solid #3f51b5;
-        }
-        .time-and-info {
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-        }
-        .time {
-            text-align: left;
-            font-style: italic;
-            font-weight: bold;
-            font-size: 13.5px;
-        }
-        .additional-info {
-            text-align: right;
-            font-style: italic;
-            font-weight: bold;
-            font-size: 13.5px
-        }
-
-        .authors {
-            text-align: left;
-            font-style: italic;
-            font-size: 13.5px;
-        }
-      
-        .project_table {
-            width: 100%;
-            border-collapse: separate;
-            border-spacing: 15px 30px; 
-            border: none;
-        }
-        .project_table_data {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            cursor: pointer;
-            background-color: #fff; 
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
-            transform-origin: center; 
-            position: relative;
-            border: none;
-        }
-        .project_table_data:hover {
-            transform: scale(1.03); 
-            box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
-            border: none;
-        }
-        .folder-icon {
-            width: 35px; 
-            position: absolute;
-            left: 35px;
-            top: 20px;
-        }
-        .github-icon {
-            width: 35px; 
-            position: absolute;
-            right: 30px;
-            top: 20px;
-        }
-        .project_details{
-            margin: 0 0 10px 0; 
-            padding: 0 30px;
-            text-align: left;
-        }
-        .badge-container {
-            text-align: left;
-            padding-left: 30px;
-            padding-bottom: 10px;
         }
 
         .awards-container {
@@ -202,39 +89,12 @@ redirect_from:
 </head>
 <body>
 
-    <!-- 🎓 PhD Countdown Timer -->
-<div id="countdown-container"style="padding: 10px 20px; font-weight: bold; text-align: center; z-index: 1000;">
-    <h2>Ph.D. Application: <span id="countdown"></span> until Dec 15, 2025</h2>
-</div>
-
-<script>
-  function updateCountdown() {
-      const countdownElement = document.getElementById("countdown");
-      const targetDate = new Date("2025-12-15T23:59:59");
-      const now = new Date();
-      const timeDiff = targetDate - now;
-
-      if (timeDiff <= 0) {
-          countdownElement.innerHTML = "🎉 It's time to submit!";
-          return;
-      }
-
-      const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((timeDiff / (1000 * 60 * 60)) % 24);
-      const minutes = Math.floor((timeDiff / (1000 * 60)) % 60);
-      const seconds = Math.floor((timeDiff / 1000) % 60);
-
-      countdownElement.innerHTML = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
-  }
-
-  updateCountdown();
-  setInterval(updateCountdown, 1000);
-</script>
-
-
-
-
 <section id="introduction">
+    <style>
+        #introduction h1 { font-size: 20px; }
+        #introduction p { font-size: 13px; line-height: 1.5; }
+        #introduction h3 { font-size: 14px; font-weight: 600; }
+    </style>
     <h1>Introduction</h1>
     <hr>
     <p>Hi there! 👋 I'm Huy Nguyen, a fourth-year Undergraduate researcher at the University of Virginia pursuing a Bachelor's degree in Computer Science with a minor in Applied Mathematics.</p>
@@ -298,7 +158,6 @@ redirect_from:
   <h1>Research Interests & Experience</h1>
   <hr>
 
-  <!-- Motivation -->
   <p>
     Moore's Law is running into physical and economic limits—shrinking transistors no longer guarantees easy speedups.
     To keep improving performance, we have to go beyond scaling with smarter microarchitectures, tighter memory and interconnect design,
@@ -396,9 +255,4 @@ redirect_from:
       I built a GPU-first, reproducible MD workflow for entropy-stabilized oxides using GPUMD and a Neuroevolution ML Potential. I automated large simulation batches with SLURM job arrays, improved NEP training on GPUs to reduce energy and force error, and analyzed thermal trends across temperatures and compositions. The project culminated in a Journal of Applied Physics publication and seeded my interest in the hardware–software interface that ultimately drives performance.
     </p>
   </div>
-
-  <!-- Interest one-liner -->
-  <p style="margin-top:12px;">
-    <strong>Current focus:</strong> computer architecture broadly with a specific emphasis on <strong>GPU architecture</strong>, memory systems, interconnects, and <strong>reproducible, benchmark-driven evaluation</strong>. See Featured Projects below for repositories.
-  </p>
 </section>
