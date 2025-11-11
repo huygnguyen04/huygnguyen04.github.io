@@ -98,6 +98,73 @@ redirect_from:
         .award.dark-mode .certificate-link:hover {
             background: linear-gradient(45deg, #9d46ff, #bb86fc);
         }
+        .timeline-container {
+            position: relative;
+            max-width: 1400px;
+            margin-left: 0px;
+        }
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            left: 24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ccc;
+        }
+        .timeline-block {
+            position: relative;
+            margin-bottom: 20px;
+            padding-left: 60px;
+        }
+        .timeline-block::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background: #3f51b5;
+            border: 4px solid #fff;
+        }
+        .timeline-block .milestone {
+            font-size: 17.5px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .timeline-block .details {
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 10px;
+            padding: 15px;
+            background: #f4f4f4;
+            border-radius: 4px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            border-left: 5px solid #3f51b5;
+        }
+        .time-and-info {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .authors {
+            text-align: left;
+            font-style: italic;
+            font-size: 13.5px;
+        }
+        .time {
+            text-align: left;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 13.5px;
+        }
+        .additional-info {
+            text-align: right;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 13.5px
+        }
     </style>
 </head>
 <body>
@@ -187,7 +254,7 @@ redirect_from:
   <div class="award">
     <div class="award-header">
       <div class="title-col">
-        <h2>Rodinia Benchmark v4.0 — Modernizing Benchmarks for Emerging GPU Architectures (LAVA Lab, UVA)</h2>
+        <h2>Rodinia Benchmark v4.0 — Modernizing Benchmarks for Emerging GPU Architectures</h2>
         <div class="meta-row">Advised by Prof. Kevin Skadron</div>
       </div>
       <div class="links">
@@ -238,7 +305,7 @@ redirect_from:
   <div class="award">
     <div class="award-header">
       <div class="title-col">
-        <h2>LLM-Driven CUDA Optimization & MLPerf Profiling (Insight Lab)</h2>
+        <h2>LLM-Driven CUDA Optimization & MLPerf Profiling</h2>
         <div class="meta-row">Advised by Prof. Adwait Jog</div>
       </div>
       <div class="links">
@@ -270,7 +337,7 @@ redirect_from:
   <div class="award">
     <div class="award-header">
       <div class="title-col">
-        <h2>GPU-Accelerated Molecular Dynamics & NEP Modeling (ELM Group)</h2>
+        <h2>GPU-Accelerated Molecular Dynamics & NEP Modeling</h2>
         <div class="meta-row">Advised by Prof. Keivan Esfarjani</div>
       </div>
       <div class="links">
@@ -293,6 +360,37 @@ redirect_from:
       that ultimately drives performance.
     </p>
   </div>
+</section>
+
+<br>
+
+<section id="publications">
+    <h1>Publications</h1>
+    <hr>
+    <div class="timeline-container">
+
+        <div class="timeline-block">
+            <div class="milestone">
+                Neuroevolution Machine Learning Potential for High-Temperature Deformation Studies of Entropy-Stabilized Oxide MgNiCoCuZnO₅
+            </div>
+            <div class="time-and-info">
+                <span class="authors">
+                    <strong>Authors:</strong> B. Timalsina, <strong>H. G. Nguyen</strong>, K. Esfarjani
+                </span>
+                <br>
+                <span class="additional-info">
+                    <i>Published in Journal of Applied Physics, October 2024</i>
+                </span>
+            </div>
+            <div class="details">
+                This study presents the development of a neuroevolution machine learning potential (NEP) for entropy-stabilized oxide MgNiCoCuZnO₅ (J14) to explore its lattice distortion, elastic properties, and thermal conductivity across a wide temperature range. The NEP potential demonstrates high accuracy compared to density functional theory (DFT) calculations and experimental data.
+                <a href="https://doi.org/10.1063/5.0224282" target="_blank">
+                    [J. Appl. Phys. 136, 155109 (2024), DOI: 10.1063/5.0224282]
+                </a>
+            </div>
+        </div>
+
+    </div>
 </section>
 
 <br>
