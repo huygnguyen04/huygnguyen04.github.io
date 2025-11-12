@@ -291,6 +291,37 @@ redirect_from:
 </head>
 <body>
 
+    <!-- 🎓 PhD Countdown Timer -->
+  <div id="countdown-container"style="padding: 10px 20px; font-weight: bold; text-align: center; z-index: 1000;">
+    <h2 style="font-size: 17px">Ph.D. Application Countdown: <span id="countdown"></span> until Dec 15, 2025</h2> 
+    <p style="margin: 5px 0 0 0; font-size: 15px; font-style: italic; color: #666; font-weight: normal;">Every second brings me closer to my dream</p>
+  </div>
+
+  <script>
+  function updateCountdown() {
+      const countdownElement = document.getElementById("countdown");
+      const targetDate = new Date("2025-12-15T23:59:59");
+      const now = new Date();
+      const timeDiff = targetDate - now;
+
+      if (timeDiff <= 0) {
+          countdownElement.innerHTML = "🎉 It's time to submit!";
+          return;
+      }
+
+      const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeDiff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((timeDiff / (1000 * 60)) % 60);
+      const seconds = Math.floor((timeDiff / 1000) % 60);
+
+      countdownElement.innerHTML = `${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`;
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+  </script>
+
+
   <section id="introduction">
     <style>
         #introduction { max-width: 100%; }
