@@ -11,16 +11,12 @@ redirect_from:
 /* Force 80% scale */
 body {
     zoom: 0.8;
-    transform: scale(0.8);
-    transform-origin: 0 0;
-    -moz-transform: scale(0.8);
-    -moz-transform-origin: 0 0;
 }
 </style>
 
 {% include base_path %}
 
-Here's my academic and professional journey during my time at the University of Virginia, highlighting my work in computer science, applied mathematics, and beyond. Feel free to download my CV and transcript below. 🎓💼  
+Here's my academic and professional journey during my time at the University of Virginia, highlighting my work in computer science, applied mathematics, and beyond. Feel free to download my CV and transcript below. 
 
 ## [⬇️ Download my CV (August 2025)](https://drive.google.com/file/d/1hoDkHu9l6-awK2rVuS4EAYIhArsEU1ni/view?usp=sharing)
 
@@ -28,7 +24,7 @@ Here's my academic and professional journey during my time at the University of 
 
 <br>
 
-🎓 Education
+Education
 ======
 **University of Virginia, 2026**  
 _B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.988_
@@ -39,7 +35,7 @@ _B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.988_
 
 <br>
 
-💡 Skills
+Skills
 ======
 - **Programming**: Python, CUDA, C/C++, Java, SQL (MySQL), MATLAB, R, HTML/CSS/JavaScript.
 - **Frameworks and Tools**: PyTorch, MlPerf, RAPIDS AI (cuMl, cuDF, TensorRT), cuDNN, cuBLAS, Numba, NVIDIA Profiling Tools, HPC Systems, Linux, Git, Flask, Django, React, NumPy, Pandas, Matplotlib, Seaborn.
