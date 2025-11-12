@@ -99,7 +99,7 @@ author_profile: true
             margin: 0 0 30px 0;
             padding: 15px 30px;
             color: #666;
-            font-size: 20px;
+            font-size: 14px;
             line-height: 1.6;
             border-left: 4px solid #2a5298;
             background: rgba(42,82,152,0.05);
@@ -124,6 +124,93 @@ author_profile: true
         /* Beginner Section Specific */
         .beginner-section .section-header {
             background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+        }
+
+        /* Mobile responsive styles */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 15px 20px;
+            }
+            table {
+                border-spacing: 8px 16px;
+            }
+            td {
+                display: block;
+                width: 100% !important;
+                margin-bottom: 16px;
+            }
+            tr {
+                display: block;
+                margin-bottom: 0;
+            }
+            .folder-icon {
+                width: 24px;
+                left: 16px;
+                top: 12px;
+            }
+            .github-icon {
+                width: 24px;
+                right: 16px;
+                top: 12px;
+            }
+            h1 {
+                font-size: 16px;
+                padding: 0 16px;
+            }
+            h2, p {
+                padding: 0 16px;
+            }
+            .badge-container {
+                padding-left: 16px;
+                padding-bottom: 8px;
+            }
+            .badge-container img {
+                height: 14px;
+                margin: 2px;
+            }
+            .section-header {
+                margin: 20px 0 12px 0;
+                padding: 12px 16px;
+                border-radius: 8px;
+            }
+            .section-header h2 {
+                font-size: 20px;
+            }
+            .section-description {
+                margin: 0 0 20px 0;
+                padding: 12px 20px;
+                font-size: 13px;
+            }
+            /* Fix for GPUMD project specific layout */
+            td div[style*="display: flex"] {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 8px !important;
+            }
+            td div[style*="display: flex"] img[alt="Published on JAP"] {
+                margin-top: 0 !important;
+            }
+        }
+
+        /* Extra small mobile devices */
+        @media screen and (max-width: 480px) {
+            body {
+                padding: 10px 15px;
+            }
+            h1 {
+                font-size: 14px;
+                padding: 0 12px;
+            }
+            .section-header h2 {
+                font-size: 18px;
+            }
+            .badge-container img {
+                height: 12px;
+            }
+            .folder-icon, .github-icon {
+                width: 20px;
+            }
         }
     </style>
 </head>

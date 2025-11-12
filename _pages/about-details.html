@@ -197,6 +197,168 @@ redirect_from:
         .award.dark-mode .certificate-link:hover {
             background: linear-gradient(45deg, #9d46ff, #bb86fc);
         }
+
+        /* Mobile responsive styles */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 15px 20px;
+                margin-bottom: 50px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+            }
+            /* Education Section */
+            #education table {
+                display: block;
+            }
+            #education tr {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+            #education td {
+                display: block;
+                width: 100% !important;
+                padding: 5px 0 !important;
+                text-align: center !important;
+            }
+            #education td img {
+                margin: 0 auto;
+            }
+            #education td[style*="font-size: 20px"] {
+                font-size: 16px !important;
+            }
+            /* Timeline */
+            .timeline-container {
+                margin-left: 0;
+            }
+            .timeline-container::before {
+                left: 15px;
+            }
+            .timeline-block {
+                padding-left: 45px;
+                margin-bottom: 16px;
+            }
+            .timeline-block::before {
+                left: 5px;
+                height: 24px;
+                width: 24px;
+            }
+            .timeline-block .milestone {
+                font-size: 15px;
+            }
+            .timeline-block .details {
+                font-size: 13px;
+                padding: 12px;
+            }
+            .time-and-info {
+                flex-direction: column;
+                gap: 8px;
+            }
+            .time,
+            .additional-info,
+            .authors {
+                text-align: left !important;
+                font-size: 12px;
+            }
+            /* Awards */
+            .award {
+                padding: 10px 15px;
+                margin-bottom: 16px;
+            }
+            .award h2 {
+                font-size: 15px;
+                padding-top: 8px;
+            }
+            .award p {
+                font-size: 13px;
+            }
+            .award-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            .award-title {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .award-icon {
+                margin-bottom: 8px;
+            }
+            .certificate-link {
+                margin-left: 0;
+                margin-top: 8px;
+                font-size: 12px;
+                padding: 5px 10px;
+            }
+            /* Projects */
+            .project_table {
+                border-spacing: 8px 16px;
+            }
+            .project_table_data {
+                display: block;
+                width: 100% !important;
+                margin-bottom: 16px;
+            }
+            .project_table tr {
+                display: block;
+            }
+            .folder-icon {
+                width: 24px;
+                left: 16px;
+                top: 12px;
+            }
+            .github-icon {
+                width: 24px;
+                right: 16px;
+                top: 12px;
+            }
+            .project_details {
+                padding: 0 16px !important;
+            }
+            .project_details[style*="font-size:15px"] {
+                font-size: 13px !important;
+            }
+            .project_details h1 {
+                font-size: 16px;
+            }
+            .badge-container {
+                padding-left: 16px;
+                padding-bottom: 8px;
+            }
+            .badge-container img {
+                height: 14px;
+                margin: 2px;
+            }
+        }
+
+        /* Extra small mobile devices */
+        @media screen and (max-width: 480px) {
+            body {
+                padding: 10px 15px;
+            }
+            h1 {
+                font-size: 18px;
+            }
+            #education td[style*="font-size: 20px"] {
+                font-size: 14px !important;
+            }
+            .timeline-block .milestone {
+                font-size: 14px;
+            }
+            .award h2 {
+                font-size: 14px;
+            }
+            .badge-container img {
+                height: 12px;
+            }
+            .folder-icon, .github-icon {
+                width: 20px;
+            }
+        }
     </style>
 </head>
 <body>
