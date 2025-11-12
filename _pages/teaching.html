@@ -11,35 +11,48 @@ author_profile: true
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        /* Scale everything to 80% by reducing sizes */
+        body {
+            font-size: 12.8px; /* 16px * 0.8 = 12.8px */
+        }
         table {
             width: 100%;
             border-collapse: separate;
-            border-spacing: 15px 30px;
+            border-spacing: 12px 24px; /* 15px->12px, 30px->24px */
             border: none;
         }
         td {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             cursor: pointer;
             background-color: #fff;
-            border-radius: 5px;
+            border-radius: 4px; /* 5px->4px */
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 20px;
+            padding: 16px; /* 20px->16px */
         }
         td:hover {
             transform: scale(1.03);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
-        h1, h2, p {
-            margin: 0 0 10px 0;
-            padding: 0 10px;
+        h1 {
+            font-size: 20px; /* ~25px default->20px */
+            margin: 0 0 8px 0; /* 10px->8px */
+            padding: 0 8px; /* 10px->8px */
+            text-align: left;
+        }
+        h2, p {
+            margin: 0 0 8px 0;
+            padding: 0 8px;
             text-align: left;
         }
         .badge-container {
             text-align: left;
-            padding-left: 10px;
+            padding-left: 8px; /* 10px->8px */
+        }
+        .badge-container img {
+            height: 16px; /* Scale badge images */
         }
         .course-card {
-            margin-bottom: 40px;
+            margin-bottom: 32px; /* 40px->32px */
             width: 100%;
         }
     </style>
@@ -62,10 +75,10 @@ author_profile: true
             <td>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <h1>💻 CS 3130 - Computer Systems and Organization II</h1>
-                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Spring 2025 & Fall 2025</p>
+                    <p style="font-size:20px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -4px;">Spring 2025 & Fall 2025</p>
                 </div>
-                <p style="font-size:15px">Conduct weekly lab sessions on CPU design, memory hierarchy, and I/O systems.</p>
-                <p style="font-size:15px">Hold office hours and staff meetings to support students and enhance the curriculum.</p>                
+                <p style="font-size:12px">Conduct weekly lab sessions on CPU design, memory hierarchy, and I/O systems.</p>
+                <p style="font-size:12px">Hold office hours and staff meetings to support students and enhance the curriculum.</p>                
                 <br>
                 <div class="badge-container">
                     <img src="https://img.shields.io/badge/Computer Science-008080?style=flat" alt="CS"/>
@@ -80,10 +93,10 @@ author_profile: true
             <td>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <h1>📚 APMA 2501 - Programming with MATLAB & R</h1>
-                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Fall 2024 & Spring 2025</p>
+                    <p style="font-size:20px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -4px;">Fall 2024 & Spring 2025</p>
                 </div>
-                <p style="font-size:15px">Assisting students with MATLAB and R programming, focusing on basic concepts, calculus applications, and data analysis.</p>
-                <p style="font-size:15px">Designing homework problems and configuring an autograder for both MATLAB and R.</p>                
+                <p style="font-size:12px">Assisting students with MATLAB and R programming, focusing on basic concepts, calculus applications, and data analysis.</p>
+                <p style="font-size:12px">Designing homework problems and configuring an autograder for both MATLAB and R.</p>                
                 <br>
                 <div class="badge-container">
                     <img src="https://img.shields.io/badge/Mathematics-008080?style=flat" alt="Mathematics"/>
@@ -99,10 +112,10 @@ author_profile: true
             <td>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <h1>💻 CS 1110 - Intro to Programming</h1>
-                    <p style="font-size: 25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Fall 2024 & Spring 2025 & Fall 2025</p>
+                    <p style="font-size: 20px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -4px;">Fall 2024 & Spring 2025 & Fall 2025</p>
                 </div>
-                <p style="font-size:15px">Supporting students with Python programming, lab exercises, and a final data analysis project. Focused on teaching core programming concepts and debugging techniques.</p>
-                <p style="font-size:15px">Responding to Piazza questions and providing help with debugging code during one-on-one office hours.</p>                
+                <p style="font-size:12px">Supporting students with Python programming, lab exercises, and a final data analysis project. Focused on teaching core programming concepts and debugging techniques.</p>
+                <p style="font-size:12px">Responding to Piazza questions and providing help with debugging code during one-on-one office hours.</p>                
                 <br>
                 <div class="badge-container">
                     <img src="https://img.shields.io/badge/Computer Science-008080?style=flat" alt="CS"/>
@@ -118,10 +131,10 @@ author_profile: true
             <td>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <h1>📚 APMA 3100 - Probability</h1>
-                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Spring 2025</p>
+                    <p style="font-size:20px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -4px;">Spring 2025</p>
                 </div>
-                <p style="font-size:15px">Assisting students with fundamental probability concepts, including random variables, probability distributions, expectation, statistical inference, p-value and significance testing, focusing on problem-solving and applications.</p>
-                <p style="font-size:15px">Conducting review sessions, grading assignments, providing one-on-one support, and helping with solving applied projects to enhance students' understanding of probabilistic reasoning and its real-world applications.</p>
+                <p style="font-size:12px">Assisting students with fundamental probability concepts, including random variables, probability distributions, expectation, statistical inference, p-value and significance testing, focusing on problem-solving and applications.</p>
+                <p style="font-size:12px">Conducting review sessions, grading assignments, providing one-on-one support, and helping with solving applied projects to enhance students' understanding of probabilistic reasoning and its real-world applications.</p>
                 <br>
                 <div class="badge-container">
                     <img src="https://img.shields.io/badge/Mathematics-008080?style=flat" alt="Mathematics"/>
@@ -136,10 +149,10 @@ author_profile: true
             <td>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <h1>📚 APMA 3080 - Linear Algebra</h1>
-                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Fall 2024</p>
+                    <p style="font-size:20px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -4px;">Fall 2024</p>
                 </div>
-                <p style="font-size:15px">Helping students with visualization and understanding of linear algebra concepts, focusing on problem-solving, debugging, and computational thinking through MATLAB Programming.</p>
-                <p style="font-size:15px">Develop a MATLAB app for concept visualization and homework assistance, serving as a practical tool for lecture demonstrations and verifying solutions.</p>
+                <p style="font-size:12px">Helping students with visualization and understanding of linear algebra concepts, focusing on problem-solving, debugging, and computational thinking through MATLAB Programming.</p>
+                <p style="font-size:12px">Develop a MATLAB app for concept visualization and homework assistance, serving as a practical tool for lecture demonstrations and verifying solutions.</p>
                 <br>
                 <div class="badge-container">
                     <img src="https://img.shields.io/badge/Mathematics-008080?style=flat" alt="Mathematics"/>
@@ -155,10 +168,10 @@ author_profile: true
             <td>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <h1>📚 APMA 2130 - Ordinary Differential Equations </h1>
-                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Spring 2024 & Summer 2025</p>
+                    <p style="font-size:20px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -4px;">Spring 2024 & Summer 2025</p>
                 </div>
-                <p style="font-size:15px">Assisting students with solving first-order and second-order differential equations, systems of ODEs, and applying methods such as separation of variables, integrating factors, and Laplace transforms.</p>
-                <p style="font-size:15px">Created review sheet solutions and provided one-on-one support to enhance student understanding of key ODE concepts and applications in real-world problems.</p>
+                <p style="font-size:12px">Assisting students with solving first-order and second-order differential equations, systems of ODEs, and applying methods such as separation of variables, integrating factors, and Laplace transforms.</p>
+                <p style="font-size:12px">Created review sheet solutions and provided one-on-one support to enhance student understanding of key ODE concepts and applications in real-world problems.</p>
                 <br>
                 <div class="badge-container">
                     <img src="https://img.shields.io/badge/Mathematics-008080?style=flat" alt="Mathematics"/>
@@ -172,10 +185,10 @@ author_profile: true
             <td>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <h1>📚 APMA 2120 - Multivariable Calculus</h1>
-                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Fall 2023 & Spring 2024</p>
+                    <p style="font-size:20px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -4px;">Fall 2023 & Spring 2024</p>
                 </div>
-                <p style="font-size:15px">Assisting students with multivariable calculus concepts, including vector calculus, partial derivatives, and multiple integrals, while guiding them through complex problem-solving. </p>
-                <p style="font-size:15px">Develop a MATLAB app for concept visualization and homework assistance, serving as a practical tool for lecture demonstrations and verifying solutions.</p>
+                <p style="font-size:12px">Assisting students with multivariable calculus concepts, including vector calculus, partial derivatives, and multiple integrals, while guiding them through complex problem-solving. </p>
+                <p style="font-size:12px">Develop a MATLAB app for concept visualization and homework assistance, serving as a practical tool for lecture demonstrations and verifying solutions.</p>
                 <br>
                 <div class="badge-container">
                     <img src="https://img.shields.io/badge/Mathematics-008080?style=flat" alt="Mathematics"/>
@@ -190,10 +203,10 @@ author_profile: true
             <td>
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                     <h1>🌠 PHYS 1425 - Introductory Physics 1 for Engineers</h1>
-                    <p style="font-size:25px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -5px;">Fall 2023</p>
+                    <p style="font-size:20px; color: cyan; font-weight: bold; margin: 0; position: relative; top: -4px;">Fall 2023</p>
                 </div>
-                <p style="font-size:15px">Assisting students with fundamental physics concepts, including kinematics, dynamics, energy conservation, rotational motion, fluids, waves, and thermodynamics, while helping with problem-solving and real-world applications.</p>
-                <p style="font-size:15px">Facilitate discussions meetings and provide feedback through quiz grading and one-on-one student support.</p>
+                <p style="font-size:12px">Assisting students with fundamental physics concepts, including kinematics, dynamics, energy conservation, rotational motion, fluids, waves, and thermodynamics, while helping with problem-solving and real-world applications.</p>
+                <p style="font-size:12px">Facilitate discussions meetings and provide feedback through quiz grading and one-on-one student support.</p>
                 <br>
                 <div class="badge-container">
                     <img src="https://img.shields.io/badge/Physics-4A90E2?style=flat" alt="Physics"/>
