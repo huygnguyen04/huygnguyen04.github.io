@@ -8,9 +8,14 @@ redirect_from:
 ---
 
 <style>
-/* Force 80% scale */
-body {
+/* Scale content to 80% but keep page layout at full width */
+#main,
+.page,
+.page__inner-wrap {
     zoom: 0.8;
+    transform: scale(0.8);
+    transform-origin: top center;
+    width: 125%; /* Compensate for 80% zoom: 100/0.8 = 125% */
 }
 </style>
 

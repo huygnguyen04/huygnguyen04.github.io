@@ -9,11 +9,16 @@ author_profile: true
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* Force 80% scale */
-        body {
+        /* Scale content to 80% but keep page layout at full width */
+        #main,
+        .page,
+        .page__inner-wrap {
             zoom: 0.8;
+            transform: scale(0.8);
+            transform-origin: top center;
+            width: 125%; /* Compensate for 80% zoom: 100/0.8 = 125% */
         }
         
         table {
