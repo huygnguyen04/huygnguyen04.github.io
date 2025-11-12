@@ -7,6 +7,20 @@ redirect_from:
   - /resume
 ---
 
+<style>
+/* Scale content to 80% but keep navigation normal size */
+#main,
+.page__content,
+.page h1,
+.page h2,
+.page h3,
+.page p,
+.page ul,
+.page li {
+    font-size: 80%;
+}
+</style>
+
 {% include base_path %}
 
 Here's my academic and professional journey during my time at the University of Virginia, highlighting my work in computer science, applied mathematics, and beyond. Feel free to download my CV and transcript below. 

@@ -11,8 +11,10 @@ author_profile: true
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* Scale everything to 80% by reducing sizes */
-        body {
+        /* Scale content to 80% but keep navigation normal size */
+        #main,
+        .page__content,
+        body > p {
             font-size: 12.8px; /* 16px * 0.8 = 12.8px */
         }
         table {

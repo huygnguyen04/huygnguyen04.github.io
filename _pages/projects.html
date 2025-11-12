@@ -10,17 +10,25 @@ author_profile: true
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        /* Scale content to 80% but keep navigation normal size */
+        #main,
+        .page__content,
+        body > p,
+        body > h1 {
+            font-size: 80%;
+        }
+        
         table {
             width: 100%;
             border-collapse: separate;
-            border-spacing: 15px 30px; 
+            border-spacing: 12px 24px; /* 15px->12px, 30px->24px at 80% */
             border: none;
         }
         td {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             cursor: pointer;
             background-color: #fff; 
-            border-radius: 5px;
+            border-radius: 4px; /* 5px->4px at 80% */
             box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
             transform-origin: center; 
             position: relative;
@@ -32,34 +40,37 @@ author_profile: true
             border: none;
         }
         .folder-icon {
-            width: 35px; 
+            width: 28px; /* 35px->28px at 80% */
             position: absolute;
-            left: 35px;
-            top: 20px;
+            left: 28px; /* 35px->28px at 80% */
+            top: 16px; /* 20px->16px at 80% */
         }
         .github-icon {
-            width: 35px; 
+            width: 28px; /* 35px->28px at 80% */
             position: absolute;
-            right: 30px;
-            top: 20px;
+            right: 24px; /* 30px->24px at 80% */
+            top: 16px; /* 20px->16px at 80% */
         }
         h1, h2, p {
-            margin: 0 0 10px 0; 
-            padding: 0 30px;
+            margin: 0 0 8px 0; /* 10px->8px at 80% */
+            padding: 0 24px; /* 30px->24px at 80% */
             text-align: left;
         }
         .badge-container {
             text-align: left;
-            padding-left: 30px;
-            padding-bottom: 10px;
+            padding-left: 24px; /* 30px->24px at 80% */
+            padding-bottom: 8px; /* 10px->8px at 80% */
+        }
+        .badge-container img {
+            height: 16px; /* Scale badge images to 80% */
         }
         .section-header {
-            margin: 40px 0 20px 0;
-            padding: 20px 30px;
+            margin: 32px 0 16px 0; /* 40px->32px, 20px->16px at 80% */
+            padding: 16px 24px; /* 20px->16px, 30px->24px at 80% */
             background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             color: white;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 12px; /* 15px->12px at 80% */
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1); /* 4px->3px, 15px->12px at 80% */
             display: flex;
             align-items: center;
             position: relative;
