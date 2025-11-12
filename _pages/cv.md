@@ -7,6 +7,17 @@ redirect_from:
   - /resume
 ---
 
+<style>
+/* Force 80% scale */
+body {
+    zoom: 0.8;
+    transform: scale(0.8);
+    transform-origin: 0 0;
+    -moz-transform: scale(0.8);
+    -moz-transform-origin: 0 0;
+}
+</style>
+
 {% include base_path %}
 
 Here's my academic and professional journey during my time at the University of Virginia, highlighting my work in computer science, applied mathematics, and beyond. Feel free to download my CV and transcript below. 🎓💼  
