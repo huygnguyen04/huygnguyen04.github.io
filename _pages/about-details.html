@@ -1,0 +1,466 @@
+---
+permalink: /about-details/
+title: "About"
+author_profile: true
+redirect_from: 
+  - /about-me/
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <title>Huy Nguyen's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px 60px;
+            margin-bottom: 100px;
+            background: #fff;
+        }
+
+        .timeline-container {
+            position: relative;
+            max-width: 1200px;
+            margin-left: 0px;
+        }
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            left: 24px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ccc;
+        }
+        .timeline-block {
+            position: relative;
+            margin-bottom: 20px;
+            padding-left: 60px;
+        }
+        .timeline-block::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background: #3f51b5;
+            border: 4px solid #fff;
+        }
+        .timeline-block .milestone {
+            font-size: 17.5px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .timeline-block .details {
+            font-size: 15px;
+            font-weight: 400;
+            margin-top: 10px;
+            padding: 15px;
+            background: #f4f4f4;
+            border-radius: 4px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            border-left: 5px solid #3f51b5;
+        }
+        .time-and-info {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .time {
+            text-align: left;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 13.5px;
+        }
+        .additional-info {
+            text-align: right;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 13.5px
+        }
+
+        .authors {
+            text-align: left;
+            font-style: italic;
+            font-size: 13.5px;
+        }
+      
+        .project_table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 15px 30px; 
+            border: none;
+        }
+        .project_table_data {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #fff; 
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+            transform-origin: center; 
+            position: relative;
+            border: none;
+        }
+        .project_table_data:hover {
+            transform: scale(1.03); 
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+            border: none;
+        }
+        .folder-icon {
+            width: 35px; 
+            position: absolute;
+            left: 35px;
+            top: 20px;
+        }
+        .github-icon {
+            width: 35px; 
+            position: absolute;
+            right: 30px;
+            top: 20px;
+        }
+        .project_details{
+            margin: 0 0 10px 0; 
+            padding: 0 30px;
+            text-align: left;
+        }
+        .badge-container {
+            text-align: left;
+            padding-left: 30px;
+            padding-bottom: 10px;
+        }
+
+        .awards-container {
+            margin-top: 20px;
+        }
+        .award {
+            background-color: #f9f9f9;
+            border-left: 5px solid #3f51b5;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .award-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .award-title {
+            display: flex;
+            align-items: center;
+        }
+        .award-icon {
+            margin-right: 10px;
+            width: 40px;
+        }
+        .award h2 {
+            margin: 0;
+            padding-top: 10px;
+            font-size: 17.5px;
+        }
+        .award p {
+            margin: 0;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        .certificate-link {
+            display: inline-block;
+            padding: 6px 12px;
+            background: linear-gradient(45deg, #3f51b5, #7986cb);
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 13px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            margin-left: 15px;
+        }
+        .certificate-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            background: linear-gradient(45deg, #303f9f, #5c6bc0);
+        }
+        .certificate-link i {
+            margin-right: 5px;
+        }
+        .award.dark-mode .certificate-link {
+            background: linear-gradient(45deg, #bb86fc, #9d46ff);
+        }
+        .award.dark-mode .certificate-link:hover {
+            background: linear-gradient(45deg, #9d46ff, #bb86fc);
+        }
+    </style>
+</head>
+<body>
+
+  
+<section id="education">
+    <h1>🎓 Education</h1>
+    <hr>
+    <table style="border-collapse: collapse; border: none;">
+        <tr>
+            <td rowspan="2" style="border: none; width: 90px; padding-right: 5px; vertical-align: top;">
+                <a href="https://engineering.virginia.edu/">
+                    <img src="https://github.com/huygnguyen04/huygnguyen04.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="70">
+                </a>
+            </td>
+            <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 5px;">University of Virginia - School of Engineering, 2026</td>
+        </tr>
+        <tr>
+            <td style="border: none; font-size: 20px; font-style: italic; line-height: 1; padding-top: 5px;">B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.988</td>
+        </tr>
+    </table>
+  
+<!-- Add space -->
+  <p></p>
+  
+    <table style="border: none;">
+        <tr style="border: none;">
+            <td rowspan="2" style="border: none; width: 90px; padding-right: 5px; vertical-align: top;">
+                <a href="https://ptnk.edu.vn/">
+                    <img src="https://github.com/huygnguyen04/huygnguyen04.github.io/assets/114793725/3a24b89a-24b3-45c8-a2b1-85923dddc63d" width="70">
+                </a>
+            </td>
+            <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 5px;">High School for the Gifted VNU-HCM, 2022</td>
+        </tr>
+        <tr>
+            <td style="border: none; font-size: 20px; font-style:italic; line-height: 1; padding-top: 5px;">High School Diploma - KC3 1922</td>
+        </tr>
+    </table>
+</section>
+
+<br><br>
+  
+<section id="experience">
+    <h1>💼 Experience</h1>
+    <hr>
+    <div class="timeline-container">
+        <div class="timeline-block">
+            <div class="milestone">Undergraduate Research Assistant - Rodinia Benchmark Innovation @ LAVA Lab</div>
+            <div class="time-and-info">
+                <span class="time">May 2025 - Present</span>
+                <span class="additional-info">Summer Research Fellowship 2025</span>
+            </div>
+            <div class="details">
+                Innovating the Rodinia Benchmark Suite by updating, scaling, or retiring workloads and optimizing CUDA implementations to reflect current GPU architectures, under Prof. Kevin Skadron's guidance.
+            </div>
+        </div>
+        <div class="timeline-block">
+            <div class="milestone">Undergraduate Research Assistant - PyTorch and CUDA ML Models Optimization</div>
+            <div class="time-and-info">
+                <span class="time">August 2023 - January 2025</span>
+                <span class="additional-info">Dean's Research Fellowship 2024</span>
+            </div>
+            <div class="details">
+                Researched on GPU computing and optimization techniques to enhance the performance of PyTorch and CUDA ML frameworks under Prof. Adwait Jog's guidance.
+            </div>
+        </div>
+        <div class="timeline-block">
+            <div class="milestone">Undergraduate Research Assistant - Molecular Dynamics on HPC Systems</div>
+            <div class="time-and-info">
+                <span class="time">April 2023 - January 2025</span>    
+            </div>
+            <div class="details">
+                Utilized Python and GPUMD for molecular dynamics simulations to analyze thermal properties of high-entropy alloys and NEP model training for model generation on UVA's Rivanna supercomputer.
+            </div>
+        </div>
+        <div class="timeline-block">
+            <div class="milestone">Undergraduate Research Assistant - Enhancing Learning through Interactive GUIs</div>
+            <div class="time-and-info">
+                <span class="time">August 2023 - May 2025</span>
+                <span class="additional-info">Dean's Research Fellowship 2024</span>
+            </div>
+            <div class="details">
+                Lead a team of 5 students to create interactive Python and MATLAB Applications and Visualization for improving students' learning Multivariable Calculus and Linear Algebra courses at UVA.
+            </div>
+        </div>
+        <div class="timeline-block">
+            <div class="milestone">Teaching Assistant and Grader @UVA</div>
+            <div class="time-and-info">
+                <span class="time">August 2023 - Present</span>
+            </div>
+            <div class="details">
+                Support students in Computer Systems and Organization II, Linear Algebra, Probability, Programming with MATLAB & R, Intro to Programming, Ordinary Differential Equations, Multivariable Calculus, and Intro to Physics courses.            
+            </div>
+        </div>
+        <div class="timeline-block">
+            <div class="milestone">Developer Intern @SHIFT ASIA</div>
+            <div class="time-and-info">
+                <span class="time">May 2023 - August 2023</span>
+            </div>
+            <div class="details">
+                Enhance existing e-commerce sales forecasting models and develop regression models for predicting SAT scores, improving prediction accuracy and efficiency.
+            </div>
+        </div>
+        <div class="timeline-block">
+            <div class="milestone">CORE Scholar Peer Academic Mentor @UVA</div>
+            <div class="time-and-info">
+                <span class="time">August 2023 - August 2024</span>
+            </div>
+            <div class="details">
+                Improve STEM education for CORE Scholar students through academic support, course guidance, and community-building activities.
+            </div>
+        </div>
+    </div>
+</section>
+
+<br><br>
+
+<section id="honors-and-awards">
+    <h1>🏆 Honors and Awards</h1>
+    <hr>
+    <div class="awards-container">
+
+
+        <div class="award">
+            <div class="award-header">
+                <div class="award-title">
+                    <img src="../images/raven_society_logo.jpg" alt="Raven Society Icon" class="award-icon">
+                    <h2>The Raven Society @ UVA</h2>
+                </div>
+                <a href="https://drive.google.com/file/d/1ll1HM_1TI0je1qkDf8qeV024bPr4pacR/view?usp=sharing" target="_blank" class="certificate-link"><i class="ri-award-line"></i>View Certificate</a>
+            </div>
+            <p>The Raven Society is UVA's oldest and most prestigious honorary society, recognizing exceptional students for academic excellence, leadership, and service to the University and Charlottesville community. Membership is highly selective and considered one of the highest honors a student can receive at UVA.</p>
+        </div>
+
+        <div class="award">
+            <div class="award-header">
+                <div class="award-title">
+                    <img src="../images/uva_engineering.png" alt="Research Fellowship Icon" class="award-icon">
+                    <h2>Dean's Engineering Research Fellowship Summer 2024</h2>
+                </div>
+                <a href="https://drive.google.com/file/d/1N6OXTyofL1Z5brQNxiv_thkDqfCF94w4/view?usp=sharing" target="_blank" class="certificate-link"><i class="ri-award-line"></i>View Certificate</a>
+            </div>
+            <p>Awarded $4,800 for a 10-week full-time research project with additional engagement in professional development workshops and presentation of findings at Fall Undergraduate Research Expo.</p>
+        </div>
+      
+        <div class="award">
+            <div class="award-header">
+                <div class="award-title">
+                    <img src="../images/uva_engineering.png" alt="Dean's List Icon" class="award-icon">
+                    <h2>Dean's List - All Semesters</h2>
+                </div>
+                <a href="https://drive.google.com/file/d/1VFWQpVaDZx2R8QlbMcizK5HIXkxmqQQ9/view?usp=sharing" target="_blank" class="certificate-link"><i class="ri-award-line"></i>View Transcript</a>
+            </div>
+            <p>Achieved Dean's List recognition for maintaining a GPA of 3.40 or higher and completing over 15 credits of graded coursework in the preceding semester.</p>
+        </div>
+
+
+    </div>
+</section>
+
+<br><br>
+
+<section id="publications">
+    <h1>📝 Publications</h1>
+    <hr>
+    <div class="timeline-container">
+
+        <div class="timeline-block">
+            <div class="milestone">
+                Neuroevolution Machine Learning Potential for High-Temperature Deformation Studies of Entropy-Stabilized Oxide MgNiCoCuZnO₅
+            </div>
+            <div class="time-and-info">
+                <span class="authors">
+                    <strong>Authors:</strong> B. Timalsina, <strong>H. G. Nguyen</strong>, K. Esfarjani
+                </span>
+                <br>
+                <span class="additional-info">
+                    <i>Published in Journal of Applied Physics, October 2024</i>
+                </span>
+            </div>
+            <div class="details">
+                This study presents the development of a neuroevolution machine learning potential (NEP) for entropy-stabilized oxide MgNiCoCuZnO₅ (J14) to explore its lattice distortion, elastic properties, and thermal conductivity across a wide temperature range. The NEP potential demonstrates high accuracy compared to density functional theory (DFT) calculations and experimental data.
+                <a href="https://doi.org/10.1063/5.0224282" target="_blank">
+                    [J. Appl. Phys. 136, 155109 (2024), DOI: 10.1063/5.0224282]
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<br><br>
+  
+<section id="featured-projects">
+    <h1>💻 Featured Projects</h1>
+    <hr>
+    <table class="project_table">
+      <tr>
+
+        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/gpu-rodinia-v4.0';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">May 2025 - Present</p>
+            <h1 class="project_details">🚀 Rodinia Benchmark v4.0</h1>
+            <p class="project_details" style="font-size:15px">Innovating the Rodinia Benchmark Suite by updating, scaling, or retiring workloads and optimizing CUDA implementations to reflect current GPU architectures.
+            </p>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/CUDA%20Toolkits-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="CUDA Toolkits"/>
+                <img src="https://img.shields.io/badge/TensorCore-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="TensorCore"/>
+                <img src="https://img.shields.io/badge/Rodinia%20Benchmark-4A90E2?style=flat" alt="Rodinia Benchmark"/>
+                <img src="https://img.shields.io/badge/GPGPU--Sim-9B59B6?style=flat" alt="GPGPU-Sim"/>
+            </div>
+        </td>
+
+        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/GPU-L2-Cache-Optimizer';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">Feb 2025 - May 2025</p>
+            <h1 class="project_details">💻 GPU L2 Cache Optimizer</h1>
+            <p class="project_details" style="font-size:15px">Simulation and optimization of extended L2 cache architectures in GPUs using GPGPU-Sim to improve CUDA workload performance and analyze area tradeoff.</p>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="CUDA"/>
+                <img src="https://img.shields.io/badge/CACTI-FF6B6B?style=flat" alt="CACTI"/>
+                <img src="https://img.shields.io/badge/Rodinia%20Benchmark-4A90E2?style=flat" alt="Rodinia Benchmark Suite"/>
+                <img src="https://img.shields.io/badge/GPGPU--Sim-9B59B6?style=flat" alt="GPGPU-Sim"/>
+            </div>
+        </td>
+
+      </tr>
+
+      <tr>
+        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/PyTorch-CUDA-ML-Performance';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">May 2024 - August 2024</p>
+            <h1 class="project_details">🔬 PyTorch CUDA ML</h1>
+            <p class="project_details" style="font-size:15px">Comparative study of PyTorch and LLM-generated CUDA models for machine learning, focusing on manual optimization capabilities, performance gains, and framework selection.</p>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/CUDA-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="CUDA"/>
+                <img src="https://img.shields.io/badge/NVIDIA-76B900?style=flat&logo=NVIDIA&logoColor=white" alt="NVIDIA"/>
+                <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=C++&logoColor=white" alt="C/C++"/>
+                <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&style=flat&logo=PyTorch&logoColor=white" alt="Pytorch"/>
+            </div>
+        </td>
+        <td class="project_table_data" width="50%" onclick="window.location='https://github.com/huygnguyen04/GPUMD-UVA';" style="cursor: pointer;">
+            <img class="folder-icon" src="../images/icons8-folder.gif" alt="Folder Icon"/>
+            <img class="github-icon" src="../images/github.png" alt="GitHub Icon"/>
+            <p class="project_details" style="padding-top: 60px; font-size:15px; color: cyan; font-weight: bold;">April 2023 - January 2025</p>
+            <h1 class="project_details">🧬 GPU Molecular Dynamics</h1>
+            <p class="project_details" style="font-size:15px">This project focuses on investigating the thermal properties of high-entropy alloys (HEAs) using molecular dynamics (MD) simulations through GPUMD package.</p>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+                <img src="https://img.shields.io/badge/Numpy-%23013243.svg?&style=flat&logo=numpy&logoColor=white" alt="Numpy"/>
+                <img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat" alt="Matplotlib"/>
+                <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux"/>
+                <img src="https://img.shields.io/badge/GPUMD-add8e6?style=flat" alt="GPUMD"/>
+                <img src="https://img.shields.io/badge/UVA%20Rivanna-000000?style=flat" alt="UVA Rivanna"/>
+            </div>
+        </td>
+      </tr>
+    </table>
+</body>
+</html>
+
+
+
