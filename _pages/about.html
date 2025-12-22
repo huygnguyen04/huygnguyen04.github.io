@@ -343,8 +343,8 @@ redirect_from:
     <hr>
     <p>Hi there! I'm Huy Nguyen, a fourth-year Undergraduate researcher at the <a href="https://engineering.virginia.edu/department/computer-science">University of Virginia</a> pursuing a Bachelor's degree in Computer Science with a minor in Applied Mathematics. 
         Originally from Ho Chi Minh City, Vietnam, I moved to the United States as an international student with aspirations to pursue a Ph.D. in Computer Science.</p>
-    <p>I am currently conducting research in <strong><em>Hardware Architecture and Acceleration</em></strong> at the <a href="https://www.cs.virginia.edu/~skadron/">Lava Lab</a> under <a href="https://www.cs.virginia.edu/~skadron/">Prof. Kevin Skadron</a>, where I'm working on innovating the <strong>Rodinia Benchmark Innovation</strong>. 
-        Previously, I was involved in <strong>GPU performance and optimization</strong> research at the <a href="https://insight-cal.github.io/">Insight Lab</a> under <a href="https://adwaitjog.github.io/">Prof. Adwait Jog</a>, focusing on LLM-driven CUDA optimization and MLPerf benchmarking across multi-GPU systems.</p>
+    <p>I am currently conducting research in <strong><em>Hardware Architecture and Acceleration</em></strong> at the <a href="https://www.cs.virginia.edu/~skadron/">LAVA Lab</a> under <a href="https://www.cs.virginia.edu/~skadron/">Prof. Kevin Skadron</a>, where I'm working on innovating the <strong>Rodinia Benchmark Innovation</strong>. 
+        Previously, I was involved in <strong>GPU performance and optimization</strong> research at the <a href="https://insight-cal.github.io/">Insight Lab</a>, focusing on LLM-driven CUDA optimization and MLPerf benchmarking across multi-GPU systems.</p>
     <p>My research interests lie in GPU architecture, benchmark-driven performance evaluation, and memory systems, with particular expertise in CUDA programming, architectural simulation (GPGPU-Sim), and characterizing workload behavior across GPU generations. 
         I am passionate about building reproducible evaluation methodologies that bridge the gap between theoretical hardware capabilities and practical performance.</p>
     <p>Beyond research, I serve as a <a href="https://huygnguyen04.com/teaching/">Teaching Assistant and Grader</a> for Computer Science and Applied Mathematics courses, where I find fulfillment in mentoring and supporting fellow students.</p>
@@ -400,6 +400,11 @@ redirect_from:
     #research .btn-pill:hover { transform: translateY(-1px); box-shadow: 0 10px 18px rgba(0,0,0,0.2); filter: brightness(1.03); }
     #research .btn-pill:active { transform: translateY(0); box-shadow: 0 6px 12px rgba(0,0,0,0.16); }
     #research .btn-pill i { font-size: 13px; }
+    
+    /* Report button with different color */
+    #research .btn-pill.report {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    }
   </style>
 
   <h1>Research Interests & Experience</h1>
@@ -407,11 +412,15 @@ redirect_from:
 
   <p>
     <strong>My Motivation:</strong> Moore's Law is running into physical limits as we can no longer keep shrinking transistors to pack more into a single core.
-    Therefore, to keep improving performance, we have to go beyond scaling with smarter microarchitectures, tighter memory and interconnect design,
-    and software that actually exploits these features. That motivates my work in Computer Architecture and Hardware Acceleration with a specific emphasis on GPUs:
-    Currently, I am interested in developing reproducible benchmarking suites and feature-isolating microbenchmarks that systematically characterize where performance comes from, identify architectural bottlenecks, and inform design decisions for emerging GPU generations. 
-    My work on modernizing Rodinia v4.0 addresses these challenges by creating evaluation tools that stress modern GPUs and enable meaningful architectural research.
+    Thus, future performance gains must come from architectural innovation: by squeezing more useful work
+    from every transistor on the die, not just making them smaller.
   </p>
+
+  <p> This mesmerizing idea drew me toward GPUs and cemented my research interest with two approaches: 
+    <strong>(1) GPU architecture and benchmarking</strong> and <strong>(2) GPU-accelerated AI systems.</strong></p>
+
+  <p>Currently, I am interested in developing reproducible benchmarking suites and feature-isolating microbenchmarks that systematically characterize where performance comes from, identify architectural bottlenecks, and inform design decisions for emerging GPU generations. 
+    My work on modernizing Rodinia v4.0 addresses these challenges by creating evaluation tools that stress modern GPUs and enable meaningful architectural research.</p>
 
   <p>
     Below are my research projects addressing these challenges, advised by amazing professors and labs at UVA.
@@ -428,6 +437,9 @@ redirect_from:
         <div class="btn-row">
           <a class="btn-pill" href="https://github.com/huygnguyen04/gpu-rodinia-v4.0" target="_blank" rel="noopener">
             <i class="ri-external-link-line"></i> Project
+          </a>
+          <a class="btn-pill report" href="https://drive.google.com/file/d/1i8x5kvpJm-GqTta-PAp6gsCNFZhNlsTO/view?usp=sharing" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Report
           </a>
         </div>
         <div class="timeline">May 2025 – Present · Ongoing</div>
@@ -453,7 +465,7 @@ redirect_from:
           <a class="btn-pill" href="https://github.com/huygnguyen04/GPU-L2-Cache-Optimizer" target="_blank" rel="noopener">
             <i class="ri-external-link-line"></i> Project
           </a>
-          <a class="btn-pill" href="https://drive.google.com/file/d/1bnj3lVTmmjsZ-c9gJl_UhUW7wr3oCc2J/view" target="_blank" rel="noopener">
+          <a class="btn-pill report" href="https://drive.google.com/file/d/1bnj3lVTmmjsZ-c9gJl_UhUW7wr3oCc2J/view" target="_blank" rel="noopener">
             <i class="ri-external-link-line"></i> Report
           </a>
         </div>
@@ -480,11 +492,11 @@ redirect_from:
           <a class="btn-pill" href="https://github.com/huygnguyen04/PyTorch-CUDA-ML-Performance" target="_blank" rel="noopener">
             <i class="ri-external-link-line"></i> Project
           </a>
-          <a class="btn-pill" href="https://drive.google.com/file/d/1c4pSJ82F9Fzw5xPglq0QTTm-QNZDaoFW/view" target="_blank" rel="noopener">
-            <i class="ri-external-link-line"></i> Report
-          </a>
           <a class="btn-pill" href="https://drive.google.com/file/d/1DgrHPqi_ic-62I6c6JHDk_6YCY23tq-9/view" target="_blank" rel="noopener">
             <i class="ri-external-link-line"></i> Poster
+          </a>
+          <a class="btn-pill report" href="https://drive.google.com/file/d/1c4pSJ82F9Fzw5xPglq0QTTm-QNZDaoFW/view" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Report
           </a>
         </div>
         <div class="timeline">Aug 2023 – March 2025 · Revising</div>
@@ -512,7 +524,7 @@ redirect_from:
           <a class="btn-pill" href="https://github.com/huygnguyen04/GPUMD-UVA" target="_blank" rel="noopener">
             <i class="ri-external-link-line"></i> Project
           </a>
-          <a class="btn-pill" href="https://doi.org/10.1063/5.0224282" target="_blank" rel="noopener">
+          <a class="btn-pill report" href="https://doi.org/10.1063/5.0224282" target="_blank" rel="noopener">
             <i class="ri-external-link-line"></i> Paper
           </a>
         </div>
