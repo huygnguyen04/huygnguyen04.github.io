@@ -45,7 +45,7 @@ To my professors, advisors, and TAs in Computer Science and Applied Math, I woul
 
 Thanks too to all the friends, and classmates whom I studied, taught, or struggled alongside - you all made UVA not just a place to take courses, but a community.
 
-And finally, I would like to thank my family for their limitless support, encouragement, and faith in me, even when I was deep in code, simulation, or applications. The person I am today, and the projects I've been able to create, would not exist without your guidance and support.
+And finally, I would like to thank my family for their limitless support, encouragement, and faith in me. The person I am today, and the projects I've been able to create, would not exist without your guidance and support.
 
 
 
