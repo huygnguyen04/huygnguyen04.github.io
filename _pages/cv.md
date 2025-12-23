@@ -27,9 +27,9 @@ Here's my academic and professional journey during my time at the University of 
 
 ---
 
-## [⬇️ Download my CV (November 2025)](https://drive.google.com/file/d/1hoDkHu9l6-awK2rVuS4EAYIhArsEU1ni/view?usp=sharing)
+## [⬇️ Download my CV (December 2025)](https://drive.google.com/file/d/1hoDkHu9l6-awK2rVuS4EAYIhArsEU1ni/view?usp=sharing)
 
-## [⬇️ Download my Unofficial Transcript (Fall 2025)](https://drive.google.com/file/d/1VFWQpVaDZx2R8QlbMcizK5HIXkxmqQQ9/view?usp=sharing)
+## [⬇️ Download my Unofficial Transcript (Fall 2025)](https://drive.google.com/file/d/1kWIYuubNUZzq7TPwHdZapiEzpkiCDx3h/view?usp=sharing)
 
 ---
 
