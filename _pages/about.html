@@ -161,6 +161,50 @@ redirect_from:
             font-style: italic;
             font-size: 13.5px;
         }
+      
+        .project_table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 15px 30px; 
+            border: none;
+        }
+        .project_table_data {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            background-color: #fff; 
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+            transform-origin: center; 
+            position: relative;
+            border: none;
+        }
+        .project_table_data:hover {
+            transform: scale(1.03); 
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+            border: none;
+        }
+        .folder-icon {
+            width: 35px; 
+            position: absolute;
+            left: 35px;
+            top: 20px;
+        }
+        .github-icon {
+            width: 35px; 
+            position: absolute;
+            right: 30px;
+            top: 20px;
+        }
+        .project_details{
+            margin: 0 0 10px 0; 
+            padding: 0 30px;
+            text-align: left;
+        }
+        .badge-container {
+            text-align: left;
+            padding-left: 30px;
+            padding-bottom: 10px;
+        }
         .time {
             text-align: left;
             font-style: italic;
@@ -272,6 +316,45 @@ redirect_from:
             #research h2 {
                 font-size: 14px;
             }
+            /* Projects */
+            .project_table {
+                border-spacing: 8px 16px;
+            }
+            .project_table_data {
+                display: block;
+                width: 100% !important;
+                margin-bottom: 16px;
+            }
+            .project_table tr {
+                display: block;
+            }
+            .folder-icon {
+                width: 24px;
+                left: 16px;
+                top: 12px;
+            }
+            .github-icon {
+                width: 24px;
+                right: 16px;
+                top: 12px;
+            }
+            .project_details {
+                padding: 0 16px !important;
+            }
+            .project_details[style*="font-size:15px"] {
+                font-size: 13px !important;
+            }
+            .project_details h1 {
+                font-size: 16px;
+            }
+            .badge-container {
+                padding-left: 16px;
+                padding-bottom: 8px;
+            }
+            .badge-container img {
+                height: 14px;
+                margin: 2px;
+            }
         }
 
         /* Extra small mobile devices */
@@ -293,6 +376,12 @@ redirect_from:
             #research .btn-pill {
                 font-size: 10px;
                 padding: 5px 10px;
+            }
+            .badge-container img {
+                height: 12px;
+            }
+            .folder-icon, .github-icon {
+                width: 20px;
             }
         }
     </style>
@@ -344,11 +433,35 @@ redirect_from:
     <p>Hi there! I'm Huy Nguyen, a fourth-year Undergraduate researcher at the <a href="https://engineering.virginia.edu/department/computer-science">University of Virginia</a> pursuing a Bachelor's degree in Computer Science with a minor in Applied Mathematics. 
         Originally from Ho Chi Minh City, Vietnam, I moved to the United States as an international student with aspirations to pursue a Ph.D. in Computer Science.</p>
     <p>I am currently conducting research in <strong><em>Hardware Architecture and Acceleration</em></strong> at the <a href="https://www.cs.virginia.edu/~skadron/">LAVA Lab</a> under <a href="https://www.cs.virginia.edu/~skadron/">Prof. Kevin Skadron</a>, where I'm working on innovating the <strong>Rodinia Benchmark Innovation</strong>. 
-        Previously, I was involved in <strong>GPU performance and optimization</strong> research at the <a href="https://insight-cal.github.io/">Insight Lab</a>, focusing on LLM-driven CUDA optimization and MLPerf benchmarking across multi-GPU systems.</p>
+        Previously, I was involved in <strong>GPU performance and optimization</strong> research at the <a href="https://insight-cal.github.io/">Insight Lab</a>, focusing on LLM-driven CUDA optimization and MLPerf benchmarking across multi-GPU systems.
+        In parallel, from April 2023 to March 2025, I conducted GPU-accelerated simulation and machine learning research with Keivan Esfarjani, applying molecular dynamics and neural potentials to materials modeling.</p>
     <p>My research interests lie in GPU architecture, benchmark-driven performance evaluation, and memory systems, with particular expertise in CUDA programming, architectural simulation (GPGPU-Sim), and characterizing workload behavior across GPU generations. 
         I am passionate about building reproducible evaluation methodologies that bridge the gap between theoretical hardware capabilities and practical performance.</p>
     <p>Beyond research, I serve as a <a href="https://huygnguyen04.com/teaching/">Teaching Assistant and Grader</a> for Computer Science and Applied Mathematics courses, where I find fulfillment in mentoring and supporting fellow students.</p>
     <h3>I am actively searching for PhD programs for this upcoming Fall 2026 cycle! I am specifically interested in research groups working on GPU architecture, memory systems, performance modeling, hardware accelerators, and reproducible benchmarking methodologies.</h3>
+</section>
+
+<br>
+
+<section id="education">
+  <style>
+      #education h1 { font-size: 22px; margin: 0 0 8px 0; }
+  </style>
+  <h1>Education</h1>
+  <hr>
+  <table style="border-collapse: collapse; border: none;">
+      <tr>
+          <td rowspan="2" style="border: none; width: 90px; padding-right: 5px; vertical-align: top;">
+              <a href="https://engineering.virginia.edu/">
+                  <img src="https://github.com/huygnguyen04/huygnguyen04.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0" width="70">
+              </a>
+          </td>
+          <td style="border: none; font-weight: bold; font-size: 20px; line-height: 1; padding-bottom: 5px;">University of Virginia - School of Engineering, 2026</td>
+      </tr>
+      <tr>
+          <td style="border: none; font-size: 20px; font-style: italic; line-height: 1; padding-top: 5px;">B.S. in Computer Science and Minor in Applied Mathematics - GPA: 3.98</td>
+      </tr>
+  </table>
 </section>
 
 <br>
@@ -409,7 +522,7 @@ redirect_from:
 
   <h1>Research Interests & Experience</h1>
   <hr>
-
+  
   <p>
     <strong>My Motivation:</strong> Moore's Law is running into physical limits as we can no longer keep shrinking transistors to pack more into a single core.
     Thus, future performance gains must come from architectural innovation: by squeezing more useful work
@@ -417,11 +530,8 @@ redirect_from:
   </p>
 
   <p> This mesmerizing idea drew me toward GPUs and cemented my research interest with two approaches: 
-    <strong>(1) GPU architecture and benchmarking</strong> and <strong>(2) GPU-accelerated AI systems.</strong></p>
-
-  <p>Currently, I am interested in developing reproducible benchmarking suites and feature-isolating microbenchmarks that systematically characterize where performance comes from, identify architectural bottlenecks, and inform design decisions for emerging GPU generations. 
-    My work on modernizing Rodinia v4.0 addresses these challenges by creating evaluation tools that stress modern GPUs and enable meaningful architectural research.</p>
-
+    <strong>(1) GPU architecture and benchmarking</strong> and <strong>(2) GPU-accelerated AI systems.</strong>
+    In particular, I am interested in understanding where GPU performance is lost in real workloads and designing architectures, systems, and benchmarks that expose and close those gaps.
   <p>
     Below are my research projects addressing these challenges, advised by amazing professors and labs at UVA.
   </p>
@@ -430,8 +540,8 @@ redirect_from:
   <div class="award">
     <div class="award-header">
       <div class="title-col">
-        <h2>Rodinia Benchmark v4.0 — Modernizing Benchmarks for Emerging GPU Architectures</h2>
-        <div class="meta-row">Advised by Prof. Kevin Skadron</div>
+        <h2>Rodinia v4.0: Modernizing Benchmark Design and Datasets for Emerging GPU Architectures</h2>
+        <div class="meta-row">Advised by Prof. Kevin Skadron @ LAVA Lab · UVA Computer Science Summer Research Fellowship Summer 2025</div>
       </div>
       <div class="links">
         <div class="btn-row">
@@ -451,6 +561,9 @@ redirect_from:
         and created microbenchmarks that isolate memory hierarchy, warp scheduling, and synchronization effects.
         Using Nsight tooling and GPGPU-Sim, I focus on making results explainable so architectural choices map cleanly to application-level behavior.
     </p>
+    <p style="margin-top: 8px; padding: 8px 12px; background: #f0f4ff; border-radius: 4px; font-size: 13px; line-height: 1.5;">
+        <strong>Presentation:</strong> University of Virginia - Undergraduate Engineering Research and Design Symposium, Charlottesville, VA (Expected April 2026)
+    </p>
   </div>
 
   <!-- GPU L2 Cache Optimizer (Completed) -->
@@ -458,7 +571,7 @@ redirect_from:
     <div class="award-header">
       <div class="title-col">
         <h2>GPU L2 Cache Architecture Exploration with GPGPU-Sim</h2>
-        <div class="meta-row">Advised by Prof. Kevin Skadron</div>
+        <div class="meta-row">Advised by Prof. Kevin Skadron @ LAVA Lab</div>
       </div>
       <div class="links">
         <div class="btn-row">
@@ -478,14 +591,17 @@ redirect_from:
         how cache capacity and organization shape end-to-end performance. 
         This study complements my benchmark modernization by tying memory-system choices to observed kernel behavior.
     </p>
+    <p style="margin-top: 8px; padding: 8px 12px; background: #f0f4ff; border-radius: 4px; font-size: 13px; line-height: 1.5;">
+        <strong>Presentation:</strong> University of Virginia Engineering Research Expo, Charlottesville, VA (November 2025)
+    </p>
   </div>
 
-  <!-- Insight Lab / LLM-driven CUDA & MLPerf (Completed) -->
+  <!-- Insight Lab / LLM-driven CUDA (Split 1) -->
   <div class="award">
     <div class="award-header">
       <div class="title-col">
-        <h2>LLM-Driven CUDA Optimization & MLPerf Profiling</h2>
-        <div class="meta-row">Advised by Prof. Adwait Jog</div>
+        <h2>LLM-Driven CUDA Code Optimization: A Comparative Study with PyTorch</h2>
+        <div class="meta-row">Advised by Prof. Adwait Jog @ Insight Lab · Dean's Engineering Summer Research Scholarship Summer 2024</div>
       </div>
       <div class="links">
         <div class="btn-row">
@@ -503,12 +619,41 @@ redirect_from:
       </div>
     </div>
     <p>
-      Modern ML frameworks abstract away low-level GPU details, often masking inefficiencies in memory access, scheduling, and kernel fusion. 
-      I work on investigating the performance gap between hand-optimized CUDA, PyTorch implementations, and LLM-generated code through direct 
-      implementation of core ML operators (matrix multiplication, convolution). I discovered an iterative feedback pipeline guides LLMs to automatically 
-      refine kernels using profiling insights. Moreover, I also extended the research with MLPerf-based evaluation across architectures and workloads. 
-      This reveals not just execution time differences, but the architectural bottlenecks such as memory patterns, warp divergence, synchronization overhead 
-      are those that explain why performance varies.
+      I developed an iterative optimization pipeline using LLM-based prompting to accelerate GPT-4o-generated CUDA code, 
+      documenting recurring bottlenecks and best practices for LLM-assisted GPU programming. 
+      I profiled and compared LLM-optimized CUDA against PyTorch implementations on NVIDIA H100/A100 GPUs, 
+      revealing framework trade-offs for ML workload selection. 
+      Additionally, I stress-tested large-scale models (ResNet-50, BERT) with RAPIDS AI libraries (cuML, cuDF, TensorRT) 
+      to assess scalability and performance across different optimization strategies.
+    </p>
+    <p style="margin-top: 8px; padding: 8px 12px; background: #f0f4ff; border-radius: 4px; font-size: 13px; line-height: 1.5;">
+        <strong>Presentations:</strong><br>
+        • University of Virginia - Undergraduate Engineering Research and Design Symposium, Charlottesville, VA (April 2025)<br>
+        • University of Virginia Engineering Research Expo, Charlottesville, VA (October 2024)
+    </p>
+  </div>
+
+  <!-- Insight Lab / MLPerf Profiling (Split 2) -->
+  <div class="award">
+    <div class="award-header">
+      <div class="title-col">
+        <h2>Profiling GPU Performance Across MLCommons Tools</h2>
+        <div class="meta-row">Advised by Prof. Adwait Jog @ Insight Lab · Dean's Engineering Summer Research Scholarship Summer 2024</div>
+      </div>
+      <div class="links">
+        <div class="btn-row">
+          <a class="btn-pill report" href="https://drive.google.com/file/d/1xsDntxP1VSPvCr0xhoczCK_U16Pbi77t/view?usp=sharing" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Report
+          </a>
+        </div>
+        <div class="timeline">Aug 2024 – December 2024 · Revising</div>
+      </div>
+    </div>
+    <p>
+      I reproduced the MLPerf v4.0 ResNet-50 Training benchmark on UVA GPU servers, 
+      identifying throughput bottlenecks and tuning multi-GPU NVLink scaling with mixed-precision Tensor Cores and XLA. 
+      I am currently comparing MLPerf Training/Inference with MLPerf Tiny to characterize scaling inefficiencies 
+      between edge deployments and large-scale GPU clusters.
     </p>
   </div>
 
@@ -517,7 +662,7 @@ redirect_from:
     <div class="award-header">
       <div class="title-col">
         <h2>GPU-Accelerated Molecular Dynamics & NEP Modeling</h2>
-        <div class="meta-row">Advised by Prof. Keivan Esfarjani</div>
+        <div class="meta-row">Advised by Prof. Keivan Esfarjani @ ELM Group</div>
       </div>
       <div class="links">
         <div class="btn-row">
@@ -537,6 +682,130 @@ redirect_from:
       and analyzed thermal trends across temperatures and compositions. 
       The project lead to a Journal of Applied Physics publication and seeded my interest in the hardware–software interface, especially GPU computing 
       that ultimately drives performance.
+    </p>
+    <p style="margin-top: 8px; padding: 8px 12px; background: #f0f4ff; border-radius: 4px; font-size: 13px; line-height: 1.5;">
+        <strong>Presentation:</strong> University of Virginia Research Computing Exhibition, Charlottesville, VA (April 2025)
+    </p>
+  </div>
+</section>
+
+<br>
+
+<section id="hardware-projects">
+  <style>
+    /* Reuse research section styles */
+    #hardware-projects { font-size: 14px; max-width: 100%; }
+    #hardware-projects .award { margin-bottom: 18px; }
+    #hardware-projects .award-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+    #hardware-projects .title-col { flex: 1 1 auto; }
+    #hardware-projects h1 { font-size: 22px; margin: 0 0 8px 0; }
+    #hardware-projects h2 { margin: 0 0 4px 0; font-size: 16px; font-weight: 700; }
+    #hardware-projects p { margin: 0 0 9px 0; font-size: 14px; line-height: 1.55; }
+    #hardware-projects .meta-row {
+      display: flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      gap: 8px;
+      margin: 0 0 8px 0;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #444;
+    }
+    #hardware-projects .links { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; white-space: nowrap; }
+    #hardware-projects .btn-row { display: flex; gap: 10px; }
+    #hardware-projects .timeline { font-size: 12.5px; font-weight: 600; color: #555; }
+    #hardware-projects .btn-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 999px;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      background: linear-gradient(135deg, #6973d8 0%, #6f7eea 100%);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+      border: 1px solid rgba(255,255,255,0.25);
+      transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
+    }
+    #hardware-projects .btn-pill:hover { transform: translateY(-1px); box-shadow: 0 10px 18px rgba(0,0,0,0.2); filter: brightness(1.03); }
+    #hardware-projects .btn-pill:active { transform: translateY(0); box-shadow: 0 6px 12px rgba(0,0,0,0.16); }
+    #hardware-projects .btn-pill i { font-size: 13px; }
+    #hardware-projects .btn-pill.report {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    }
+  </style>
+
+  <h1>Selected Hardware Projects</h1>
+  <hr>
+
+  <!-- GPU L2 Cache Optimizer -->
+  <div class="award">
+    <div class="award-header">
+      <div class="title-col">
+        <h2>GPU L2 Cache Optimizer</h2>
+        <div class="meta-row">CS 6501 – Spring 2025 · In revision for Rodinia v4.0 Integration at LAVA Lab</div>
+      </div>
+      <div class="links">
+        <div class="btn-row">
+          <a class="btn-pill" href="https://github.com/huygnguyen04/GPU-L2-Cache-Optimizer" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> GitHub
+          </a>
+          <a class="btn-pill report" href="https://drive.google.com/file/d/1bnj3lVTmmjsZ-c9gJl_UhUW7wr3oCc2J/view?usp=sharing" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> Report
+          </a>
+        </div>
+      </div>
+    </div>
+    <p>
+      I modeled extended GPU L2 cache architectures in GPGPU-Sim using memory-bound Rodinia benchmarks (BFS, K-means,
+      Gaussian Elimination, Needleman–Wunsch) to evaluate cache behavior under realistic workloads.
+      I evaluated trade-offs between larger L2 capacity, higher associativity, and prefetching, pinpointing configurations where extra
+      cache lowers miss rates and runtime without prohibitive area or energy overheads.
+    </p>
+  </div>
+
+  <!-- GPU Sparse Matrix Multiplication -->
+  <div class="award">
+    <div class="award-header">
+      <div class="title-col">
+        <h2>GPU Sparse Matrix – Sparse Matrix (SpMSpM) Multiplication</h2>
+        <div class="meta-row">CS 4444 – Fall 2025</div>
+      </div>
+      <div class="links">
+        <div class="btn-row">
+          <a class="btn-pill" href="https://github.com/huygnguyen04/GPU-Optimized-SpMSpM" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> GitHub & Report
+          </a>
+        </div>
+      </div>
+    </div>
+    <p>
+      I designed and tuned multiple CUDA kernels for SpMSpM using shared-memory hashing and dynamic scheduling across
+      NVIDIA GPUs to balance parallelism, occupancy, and memory traffic, achieving significant speedups over CPU baselines by exploiting GPU memory hierarchies and warp-level operations. 
+      The project involved profiling with Nsight Compute to identify bottlenecks and iteratively optimizing for different matrix sizes and sparsity levels.
+    </p>
+  </div>
+
+  <!-- CPU/GPU Memory & Data -->
+  <div class="award">
+    <div class="award-header">
+      <div class="title-col">
+        <h2>CPU/GPU Memory & Near-Data Processing</h2>
+        <div class="meta-row">CS 6501 – Spring 2025</div>
+      </div>
+      <div class="links">
+        <div class="btn-row">
+          <a class="btn-pill" href="https://github.com/huygnguyen04/cpu-gpu-ndp-work" target="_blank" rel="noopener">
+            <i class="ri-external-link-line"></i> GitHub & Report
+          </a>
+        </div>
+      </div>
+    </div>
+    <p>
+      I explored CPU/GPU memory hierarchies, cache modeling, DRAM simulation, CUDA programming, and near-data processing
+      using PIMeval-PIMbench to build intuition for memory-centric architectures.
     </p>
   </div>
 </section>
@@ -570,6 +839,62 @@ redirect_from:
                     [J. Appl. Phys. 136, 155109 (2024), DOI: 10.1063/5.0224282]
                 </a>
             </div>
+        </div>
+
+    </div>
+</section>
+
+<br><br>
+
+<section id="honors-and-awards">
+    <style>
+        #honors-and-awards h1 { font-size: 22px; margin: 0 0 8px 0; }
+    </style>
+    <h1>🏆 Honors and Awards</h1>
+    <hr>
+    <div class="awards-container">
+
+        <div class="award">
+            <div class="award-header">
+                <div class="award-title">
+                    <img src="../images/raven_society_logo.jpg" alt="Raven Society Icon" class="award-icon">
+                    <h2>The Raven Society (UVA's highest honor for academic leadership) 2025, 2026</h2>
+                </div>
+                <a href="https://drive.google.com/file/d/1ll1HM_1TI0je1qkDf8qeV024bPr4pacR/view?usp=sharing" target="_blank" class="certificate-link"><i class="ri-award-line"></i>View Certificate</a>
+            </div>
+            <p>The Raven Society is UVA's oldest and most prestigious honorary society, recognizing exceptional students for academic excellence, leadership, and service to the University and Charlottesville community. Membership is highly selective and considered one of the highest honors a student can receive at UVA.</p>
+        </div>
+
+        <div class="award">
+            <div class="award-header">
+                <div class="award-title">
+                    <img src="../images/uva_cs_logo.png" alt="CS Fellowship Icon" class="award-icon">
+                    <h2>UVA Computer Science Summer Research Fellowship Summer 2025</h2>
+                </div>
+            </div>
+            <p>Awarded $5000 for a 10-week full-time research project with additional engagement in professional development workshops and presentation of findings at UVA Research Symposium.</p>
+        </div>
+
+        <div class="award">
+            <div class="award-header">
+                <div class="award-title">
+                    <img src="../images/uva_engineering.png" alt="Research Fellowship Icon" class="award-icon">
+                    <h2>Dean's Engineering Summer Research Scholarship Summer 2024</h2>
+                </div>
+                <a href="https://drive.google.com/file/d/1N6OXTyofL1Z5brQNxiv_thkDqfCF94w4/view?usp=sharing" target="_blank" class="certificate-link"><i class="ri-award-line"></i>View Certificate</a>
+            </div>
+            <p>Awarded $4,800 for a 10-week full-time research project with additional engagement in professional development workshops and presentation of findings at Fall Undergraduate Research Expo.</p>
+        </div>
+      
+        <div class="award">
+            <div class="award-header">
+                <div class="award-title">
+                    <img src="../images/uva_engineering.png" alt="Dean's List Icon" class="award-icon">
+                    <h2>UVA Engineering Dean's List All Semesters</h2>
+                </div>
+                <a href="https://drive.google.com/file/d/1VFWQpVaDZx2R8QlbMcizK5HIXkxmqQQ9/view?usp=sharing" target="_blank" class="certificate-link"><i class="ri-award-line"></i>View Transcript</a>
+            </div>
+            <p>Achieved Dean's List recognition for maintaining a GPA of 3.40 or higher and completing over 15 credits of graded coursework in the preceding semester.</p>
         </div>
 
     </div>
