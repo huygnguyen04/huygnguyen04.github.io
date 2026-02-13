@@ -10,7 +10,6 @@ author_profile: true
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* Scale content to 80% but keep navigation normal size */
         #main,
         .page__content,
         body > p,
@@ -21,14 +20,14 @@ author_profile: true
         table {
             width: 100%;
             border-collapse: separate;
-            border-spacing: 12px 24px; /* 15px->12px, 30px->24px at 80% */
+            border-spacing: 12px 24px;
             border: none;
         }
         td {
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             cursor: pointer;
             background-color: #fff; 
-            border-radius: 4px; /* 5px->4px at 80% */
+            border-radius: 4px; 
             box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
             transform-origin: center; 
             position: relative;
@@ -40,37 +39,37 @@ author_profile: true
             border: none;
         }
         .folder-icon {
-            width: 28px; /* 35px->28px at 80% */
+            width: 28px; 
             position: absolute;
-            left: 28px; /* 35px->28px at 80% */
-            top: 16px; /* 20px->16px at 80% */
+            left: 28px;
+            top: 16px;
         }
         .github-icon {
-            width: 28px; /* 35px->28px at 80% */
+            width: 28px;
             position: absolute;
-            right: 24px; /* 30px->24px at 80% */
-            top: 16px; /* 20px->16px at 80% */
+            right: 24px;
+            top: 16px;
         }
         h1, h2, p {
-            margin: 0 0 8px 0; /* 10px->8px at 80% */
-            padding: 0 24px; /* 30px->24px at 80% */
+            margin: 0 0 8px 0;
+            padding: 0 24px;
             text-align: left;
         }
         .badge-container {
             text-align: left;
-            padding-left: 24px; /* 30px->24px at 80% */
-            padding-bottom: 8px; /* 10px->8px at 80% */
+            padding-left: 24px;
+            padding-bottom: 8px;
         }
         .badge-container img {
-            height: 16px; /* Scale badge images to 80% */
+            height: 16px;
         }
         .section-header {
-            margin: 32px 0 16px 0; /* 40px->32px, 20px->16px at 80% */
-            padding: 16px 24px; /* 20px->16px, 30px->24px at 80% */
+            margin: 32px 0 16px 0;
+            padding: 16px 24px;
             background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             color: white;
-            border-radius: 12px; /* 15px->12px at 80% */
-            box-shadow: 0 3px 12px rgba(0,0,0,0.1); /* 4px->3px, 15px->12px at 80% */
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
             display: flex;
             align-items: center;
             position: relative;
@@ -113,20 +112,16 @@ author_profile: true
             border-left: 4px solid #45278d;
             background: rgba(69,39,141,0.05);
         }
-        /* Hardware Section Specific */
         .hardware-section .section-header {
             background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
         }
-        /* Software Section Specific */
         .software-section .section-header {
             background: linear-gradient(135deg, #134e5e 0%, #71b280 100%);
         }
-        /* Beginner Section Specific */
         .beginner-section .section-header {
             background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
         }
 
-        /* Mobile responsive styles */
         @media screen and (max-width: 768px) {
             body {
                 padding: 15px 20px;
@@ -181,7 +176,6 @@ author_profile: true
                 padding: 12px 20px;
                 font-size: 13px;
             }
-            /* Fix for GPUMD project specific layout */
             td div[style*="display: flex"] {
                 display: flex !important;
                 flex-direction: column !important;
@@ -193,7 +187,6 @@ author_profile: true
             }
         }
 
-        /* Extra small mobile devices */
         @media screen and (max-width: 480px) {
             body {
                 padding: 10px 15px;
@@ -223,7 +216,7 @@ author_profile: true
 <div class="hardware-section">
     <h2 class="section-header">⚙️ Hardware Architecture & Acceleration Projects</h2>
     <div class="section-description">
-        Advanced research projects focusing on GPU architecture optimization, parallel computing, and hardware acceleration. These projects involve working with industry-standard tools like CUDA, exploring memory hierarchies, and implementing novel optimization techniques for high-performance computing systems.
+        Advanced research projects focusing on GPU architecture optimization, parallel computing, and hardware acceleration. 
     </div>
 </div>
 
@@ -359,7 +352,7 @@ author_profile: true
 <div class="software-section">
     <h2 class="section-header">💻 Software & AI Projects</h2>
     <div class="section-description">
-        Full-stack development and machine learning projects that demonstrate proficiency in modern software engineering practices. From web applications to data analysis systems, these projects showcase expertise in various programming languages, frameworks, and AI/ML technologies while solving real-world problems.
+        Full-stack development and machine learning projects that demonstrate proficiency in modern software engineering practices.
     </div>
 </div>
 
@@ -461,7 +454,7 @@ author_profile: true
 <div class="beginner-section">
     <h2 class="section-header">🌱 Beginner Projects</h2>
     <div class="section-description">
-        Foundational projects that marked the beginning of my Computer Science journey at UVA. These projects, while simpler in scope, demonstrate core programming concepts, algorithm implementation, and problem-solving skills that laid the groundwork for more advanced development work.
+        Foundational projects that marked the beginning of my Computer Science journey at UVA. These projects has demonstrated core programming concepts and problem-solving skills that laid the groundwork for more advanced development work.
     </div>
 </div>
 
