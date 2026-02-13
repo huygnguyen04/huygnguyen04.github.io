@@ -23,13 +23,13 @@ redirect_from:
 
 {% include base_path %}
 
-Here's my academic and professional journey during my time at the University of Virginia, highlighting my work in computer science, applied mathematics, and beyond. Feel free to download my CV and transcript below.
+I am really proud of my academic journey during my time at the University of Virginia as I was able to learn a lot of new things. It has shaped and prepared me for the next stage of my professional growth in my PhD years.
 
 ---
 
-## [⬇️ Download my CV (December 2025)](https://drive.google.com/file/d/1hoDkHu9l6-awK2rVuS4EAYIhArsEU1ni/view?usp=sharing)
+## [⬇️ View my CV (Feb 2026)](https://drive.google.com/file/d/1hoDkHu9l6-awK2rVuS4EAYIhArsEU1ni/view?usp=sharing)
 
-## [⬇️ Download my Unofficial Transcript (Fall 2025)](https://drive.google.com/file/d/1kWIYuubNUZzq7TPwHdZapiEzpkiCDx3h/view?usp=sharing)
+## [⬇️ View my Unofficial Transcript (Spring 2026)](https://drive.google.com/file/d/1kWIYuubNUZzq7TPwHdZapiEzpkiCDx3h/view?usp=sharing)
 
 ---
 
@@ -37,15 +37,15 @@ Here's my academic and professional journey during my time at the University of 
 
 I am very grateful to all those who have assisted me during my UVA years.
 
-I would like to start by thanking my research advisors, Prof. Kevin Skadron, Prof. Adwait Jog, and Prof. Keivan Esfarjani, for believing in me, being very patient with me, and encouraging me to think about research issues in a more thoughtful, in-depth manner. I have indeed learned an immense amount from their guidance and feedback.
+I would like to start by thanking my research advisors, Prof. Kevin Skadron, Prof. Adwait Jog, and Prof. Keivan Esfarjani, for believing in me, being very patient with me, and encouraging me to think about research issues in a more thoughtful and in-depth manner. I have indeed learned a lot from their guidance and feedback.
 
-I'm also grateful for all PhD students in LAVA Lab, Insight Lab, and ELM Group, for having made debugging, late night runs, and meeting deadlines significantly less painful. I have probably learned just as much from our discussions as I have from any other course.
+I am also grateful for all PhD students in LAVA Lab, Insight Lab, and ELM Group, for having made debugging and meeting deadlines significantly less painful. I have probably learned just as much from our discussions as I have from any other courses.
 
-To my professors, advisors, and TAs in Computer Science and Applied Math, I would like to thank you for providing me with the foundation for my research, not to mention for all the additional hours spent on answering my many questions, writing references, and advising on courses, careers, and graduate school.
+To my professors, advisors, and TAs in Computer Science and Applied Math, I would like to thank you for providing me with the foundation for my research, not to mention for all the additional hours spent on answering my many questions and advising on courses, careers, and graduate school.
 
-Thanks too to all the friends, and classmates whom I studied, taught, or struggled alongside - you all made UVA not just a place to take courses, but a community.
+Thanks too to all the friends and classmates whom I studied, taught, or struggled alongside. You all made UVA not just a place to take courses but a community.
 
-And finally, I would like to thank my family for their limitless support, encouragement, and faith in me. The person I am today, and the projects I've been able to create, would not exist without your guidance and support.
+And finally, I would like to thank my family for their limitless support and faith in me. The person I am today, and the projects I have been able to create, would not exist without your guidance and support.
 
 
 
