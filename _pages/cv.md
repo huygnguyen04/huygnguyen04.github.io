@@ -43,7 +43,7 @@ I am also grateful for all PhD students in LAVA Lab, Insight Lab, and ELM Group,
 
 To my professors, advisors, and TAs in Computer Science and Applied Math, I would like to thank you for providing me with the foundation for my research, not to mention for all the additional hours spent on answering my many questions and advising on courses, careers, and graduate school.
 
-Thanks too to all the friends and classmates whom I studied, taught, or struggled alongside. You all made UVA not just a place to take courses but a community.
+Thanks too to all the friends and classmates whom I studied, taught, or struggled alongside. You all made UVA not just a place to take courses but a community. And I am really proud to be a member of that community.
 
 And finally, I would like to thank my family for their limitless support and faith in me. The person I am today, and the projects I have been able to create, would not exist without your guidance and support.
 
