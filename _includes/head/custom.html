@@ -52,8 +52,8 @@
   }
   
   .author__avatar img {
-    max-width: 200px; /* Increased from 110px */
-    border-radius: 50%;
+    max-width: 200px !important;
+    border-radius: 50% !important;
     margin: 0 auto;
   }
   
@@ -66,9 +66,15 @@
   
   /* Increase name font size */
   .author__name {
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: bold;
     margin-top: 0.5em;
+  }
+  
+  /* Fix bio text to consistent size across all pages */
+  .author__bio {
+    font-size: 14px !important;
+    line-height: 1.4;
   }
   
   /* Better alignment for contact/social icons */
@@ -123,12 +129,16 @@
     
     /* Adjust sidebar width and positioning */
     .sidebar {
-      width: 200px;
-      float: left;
-      position: relative;
+      width: 200px !important;
+      min-width: 200px !important;
+      max-width: 200px !important;
+      flex-shrink: 0;
+      position: sticky !important;
+      top: 110px !important;
       z-index: 10;
       margin-right: 30px;
-      clear: left;
+      align-self: flex-start;
+      font-size: 16px !important; /* Prevent page-level font-size overrides from shrinking sidebar */
     }
     
     /* Ensure main content container structure */
