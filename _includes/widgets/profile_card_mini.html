@@ -84,6 +84,17 @@
                             <i class="fab fa-orcid"></i>
                         </a>
                         {% endif %}
+
+                        {% if site.data.profile.cv_link %}
+                        {%- if site.data.profile.cv_link contains '://' -%}
+                        {%- assign cv_url = site.data.profile.cv_link -%}
+                        {%- else -%}
+                        {%- assign cv_url = site.data.profile.cv_link | relative_url -%}
+                        {%- endif -%}
+                        <a class="px-1 no-break" target="_blank" rel="noopener" href="{{ cv_url }}">
+                            <i class="fas fa-file-lines"></i>
+                        </a>
+                        {% endif %}
                     </div>
                 </div>
             </div>

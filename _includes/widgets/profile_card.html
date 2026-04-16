@@ -41,9 +41,6 @@
                             {% assign teaching_url = '/teaching/' | relative_url %}
                             {{ site.data.profile.short_bio | replace: 'TEACHING_URL_PLACEHOLDER', teaching_url }}
                         </div>
-                        {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}"><i class="fas fa-file-alt"></i> Curriculum Vitae</a> <br/>
-                        {% endif %}
                     </div>
         
                 </div>
