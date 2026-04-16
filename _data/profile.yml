@@ -45,7 +45,7 @@ education:
     date: "Fall 2026 – Present"
 
   - name: University of Virginia
-    logo: https://github.com/huygnguyen04/huygnguyen04.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0
+    logo: /assets/images/badges/UVA_logo.png
     dept: School of Engineering and Applied Sciences
     position: >- 
       B.S. in Computer Science and Minor in Applied Mathematics — GPA 3.98 / 4.00
