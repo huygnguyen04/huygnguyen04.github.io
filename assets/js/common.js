@@ -39,4 +39,23 @@ $(function () {
     $(".lazy").on("load", function () {
         $grid.masonry('layout');
     });
+
+    // Publications page: year sidebar — Bootstrap scrollspy + reliable .active on click
+    var $pubYearNav = $('#navbar-year');
+    if ($pubYearNav.length) {
+        var pubSpyOffset = 96;
+        $('body').scrollspy({
+            target: '#navbar-year',
+            offset: pubSpyOffset
+        });
+        var refreshPubSpy = function () {
+            $('body').scrollspy('refresh');
+        };
+        $(window).on('load', refreshPubSpy);
+        $(window).on('resize', refreshPubSpy);
+        $pubYearNav.on('click', 'a.nav-link', function () {
+            $pubYearNav.find('.nav-link').removeClass('active');
+            $(this).addClass('active');
+        });
+    }
 })

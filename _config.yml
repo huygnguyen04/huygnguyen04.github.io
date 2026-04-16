@@ -13,24 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
+# User site: https://huygnguyen04.github.io (repo huygnguyen04.github.io — keep baseurl empty)
+url: "https://huygnguyen04.github.io"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-email-protect
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .github
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - node_modules
+  - vendor
 
 # timezone: Asia/Shanghai
 

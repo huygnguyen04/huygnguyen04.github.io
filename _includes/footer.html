@@ -1,16 +1,20 @@
-<footer class="footer border-top py-2 mt-5 bg-white small">
+{% assign f = site.data.display.footer %}
+{% assign footer_font_size = f.font_size | default: "1rem" %}
+<footer class="footer site-footer border-top bg-white w-100 small">
     <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
-        <div class="row my-3">
-            <div class="col-6">
-                <div class="text-muted">
-                    <i>Last updated: {{ "now" | date: "%b %Y" }}</i>
-                </div>
+        <div class="site-footer-inner text-center text-muted" style="font-size: {{ footer_font_size }};">
+            {% if f.single_line %}
+            <i>{{ f.single_line }}</i>
+            {% else %}
+            <i>Last updated: {{ "now" | date: "%b %Y" }}</i>
+            {% endif %}
+            {% if f.gif_url %}
+            <div class="mt-1">
+                <a href="{{ '/' | relative_url }}" aria-label="Home">
+                    <img src="{{ f.gif_url }}" alt="" style="max-width: 120px; width: 100%; height: auto; border-radius: 0.35rem;">
+                </a>
             </div>
-            <div class="col-6">
-                <div class="text-right text-muted">
-                    {{ site.data.display.footer_text }}
-                </div>
-            </div>
+            {% endif %}
         </div>
     </div>
 </footer>

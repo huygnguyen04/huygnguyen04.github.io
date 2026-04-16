@@ -1,0 +1,87 @@
+# Projects page (/projects/).
+# Optional per item: `cover: /path/to.png` for thumbnails.
+# Optional `conference_line`: only add this field when you have talks/posters; omit it (or leave empty) to hide the line.
+
+intro:
+  heading: Research interests
+  body: |
+    <p>My research interests lie in <strong>GPU architecture</strong>, <strong>benchmark-driven performance evaluation</strong>, and <strong>memory systems</strong>, 
+    with particular expertise in <strong>CUDA programming</strong>, <strong>architectural simulation</strong> (GPGPU-Sim), and characterizing workload 
+    behavior across GPU generations. In particular, I am interested in understanding where <strong>GPU performance</strong> is lost in 
+    real workloads and designing architectures and benchmarks that expose and close those gaps.</p>
+
+sections:
+  - heading: Research Projects
+    items:
+      - title: "Rodinia v4.0: Modernizing Benchmark Design and Datasets for Emerging GPU Architectures"
+        cover: "/assets/images/rodinia_thumb.png"
+        venue_line: "Prof. Kevin Skadron, LAVA Lab · June 2025 – Present"
+        conference_line: "UVA Undergraduate Research Symposium, Apr 2026 (poster)"
+        abstract: "Modernizing Rodinia for CUDA 12+, larger datasets, and emerging GPU features (e.g., Tensor Cores, 
+          cooperative groups, multi-GPU), with a focus on reproducible benchmarking and microarchitectural 
+          analysis using NVIDIA Nsight Tools and GPGPU-Sim."
+        links:
+          Rodinia Website: "https://rodinia.cs.virginia.edu/"
+          Code: "https://github.com/huygnguyen04/gpu-rodinia-v4.0"
+          Report (BFS): "https://drive.google.com/file/d/1i8x5kvpJm-GqTta-PAp6gsCNFZhNlsTO/view?usp=sharing"
+          Poster: "https://drive.google.com/file/d/1YG8SX2vVxliddAujH-RensdoWd9EAUKf/view?usp=sharing"
+
+      - title: "GPU L2 Cache Architecture Exploration with GPGPU-Sim"
+        cover: "/assets/images/L2_cache_thumb.png"
+        venue_line: "Prof. Kevin Skadron, LAVA Lab · Feb 2025 – May 2025"
+        abstract: "Simulated extended L2 cache designs in GPGPU-Sim and modeled area and latency with CACTI, analyzing bandwidth–latency trade-offs, hit rates, and workload sensitivity. 
+          Evaluated designs on Rodinia and ML kernels, showing how cache capacity and organization impact performance."
+        links:
+          Code: "https://github.com/huygnguyen04/GPU-L2-Cache-Optimizer"
+          Report: "https://drive.google.com/file/d/1bnj3lVTmmjsZ-c9gJl_UhUW7wr3oCc2J/view"
+
+      - title: "LLM-Driven CUDA Code Optimization: A Comparative Study with PyTorch"
+        cover: "/assets/images/cuda_pytorch_thumb.png"
+        venue_line: "Insight Lab · Dean's Research Scholarship · Aug 2023 – Mar 2025"
+        conference_line: "UVA Engineering Research Expo, Nov 2024 (poster)"
+        abstract: "Developed an LLM-assisted CUDA optimization pipeline, benchmarked against PyTorch on H100/A100 GPUs,
+         and stress-tested large models (ResNet-50, BERT) using RAPIDS (cuML, cuDF, TensorRT)."
+        links:
+          Code: "https://github.com/huygnguyen04/PyTorch-CUDA-ML-Performance"
+          Poster: "https://drive.google.com/file/d/1DgrHPqi_ic-62I6c6JHDk_6YCY23tq-9/view"
+          Report: "https://drive.google.com/file/d/1c4pSJ82F9Fzw5xPglq0QTTm-QNZDaoFW/view"
+
+      - title: "Profiling GPU Performance Across MLCommons Tools"
+        cover: "/assets/images/covers/cover1.jpg"
+        venue_line: "Aug 2024 – Dec 2024"
+        abstract: "Reproduced MLPerf v4.0 ResNet-50 training on UVA GPU servers, analyzed throughput bottlenecks, 
+          optimized multi-GPU NVLink scaling with mixed-precision Tensor Cores and XLA, and compared MLPerf variants 
+          (training/inference vs Tiny)."
+        links:
+          Report: "https://drive.google.com/file/d/1xsDntxP1VSPvCr0xhoczCK_U16Pbi77t/view?usp=sharing"
+
+      - title: "GPU-Accelerated Molecular Dynamics & NEP Modeling"
+        cover: "/assets/images/Distortion_Paper_26_thumb.png"
+        venue_line: "Prof. Keivan Esfarjani, ELM Group · Apr 2023 – Mar 2025"
+        conference_line: "Journal of Applied Physics (JAP) '24 and '26"
+        abstract: "Built a GPU-based MD workflow using GPUMD and neuroevolution potentials for entropy-stabilized oxides;
+         automated SLURM simulations, improved NEP training accuracy, and analyzed thermal trends."
+        links:
+          GPUMD Code: "https://github.com/huygnguyen04/GPUMD-UVA"
+          NEP Code: "https://github.com/huygnguyen04/NEP4-Training"
+          Paper '24: "https://doi.org/10.1063/5.0224282"
+          Paper '26: "https://doi.org/10.1063/5.0303178"
+
+  - heading: "Selected Hardware Projects"
+    items:
+      - title: "GPU SpMSpM (CS 4444, Fall 2025)"
+        cover: "/assets/images/SpMSpM_thumb.png"
+        venue_line: "CUDA kernels · Nsight Systems · Nsight Compute"
+        abstract: "Designed and optimized CUDA kernels for sparse–sparse matrix multiplication (SpMSpM) using shared-memory hashing and
+         dynamic scheduling, achieving strong speedups via improved memory and parallel efficiency."
+        links:
+          GitHub: "https://github.com/huygnguyen04/GPU-Optimized-SpMSpM"
+          Report: "https://drive.google.com/file/d/1DvDdbefz91X2rnek4_Tlkc19BMdgRaYB/view"
+
+      - title: "CPU/GPU memory & near-data processing (CS 6501, Spring 2025)"
+        cover: "/assets/images/covers/cover1.jpg"
+        venue_line: "Caches · DRAM · PIMeval-PIMbench"
+        abstract: "Explored CPU/GPU memory hierarchies, cache modeling, DRAM simulation, CUDA programming,
+         and near-data processing using PIMeval-PIMbench."
+        links:
+          GitHub & Report: "https://github.com/huygnguyen04/cpu-gpu-ndp-work"

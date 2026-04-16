@@ -1,8 +1,32 @@
 @charset "utf-8";
+html {
+    height: 100%;
+}
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Sticky footer: main column grows so footer sits at the bottom on short pages */
+body > nav.navbar + div {
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+/* Footer band: minimal padding so the box hugs the text + image */
+footer.site-footer {
+    flex-shrink: 0;
+    margin-top: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+footer.site-footer .site-footer-inner {
+    padding: 0;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -88,5 +112,39 @@ div.lazy {
 
 .email-text {
     font-family: Source Code Pro, monospace;
+}
+
+.news-item-title p {
+    margin-bottom: 0;
+}
+
+/* Education / experience institution badges (experience_card widget) */
+.profile-institution-logo {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+/* Space between multiple education rows (e.g. undergrad + Ph.D. school) */
+.education-entry:not(:last-child) {
+    margin-bottom: 1.1rem;
+}
+
+/* Project rows (projects page + homepage featured project) */
+.project-row-title {
+    font-size: 1.05rem;
+    color: #212529;
+}
+.project-row-venue,
+.project-row-conferences {
+    color: #495057;
+}
+.project-row-links a {
+    color: #007bff;
+    margin-right: 0.65rem;
+}
+.project-row-links a:hover {
+    text-decoration: underline;
 }
 

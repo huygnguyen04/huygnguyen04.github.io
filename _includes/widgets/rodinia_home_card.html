@@ -1,0 +1,18 @@
+{% assign rodinia = nil %}
+{% for section in site.data.projects.sections %}
+  {% for item in section.items %}
+    {% if item.title contains "Rodinia v4.0" %}
+      {% assign rodinia = item %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% if rodinia %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-xl overflow-hidden">
+  <h6 class="border-bottom border-gray p-3 mb-0">
+    <i class="fas fa-layer-group"></i> Selected Projects
+    <a href="{{ '/projects/' | relative_url }}">(view all <i class="fas fa-angle-double-right"></i>)</a>
+  </h6>
+  {% include widgets/project_row.html project=rodinia hide_bottom_border=true %}
+</div>
+{% endif %}

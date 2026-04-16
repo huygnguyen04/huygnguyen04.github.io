@@ -1,61 +1,67 @@
-primary_name: "Your Name"
+primary_name: "Huy Nguyen"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Huy Nguyen"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+  - name: Undergraduate Researcher at UVA
+    logo: https://github.com/huygnguyen04/huygnguyen04.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0
+  - name: Incoming CS Ph.D. Student
+  - name: University of Wisconsin–Madison 
 
 
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# wechat_qrcode: /assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+email: "huygnguyen04@gmail.com"
+gscholar: FxwigsAAAAAJ
+github: huygnguyen04
+linkedin: huygnguyen04
+orcid: 0009-0004-9530-5145
 
 short_bio_text_justify: false
 short_bio: >-
-  <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
-  </p>
-  <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
-  </p>
+  <p>I am an 4th year undergraduate researcher in the Department of Computer Science at the 
+  <a href="https://engineering.virginia.edu/department/computer-science" target="_blank" rel="noopener">University of Virginia</a>, 
+  advised by <a href="https://www.cs.virginia.edu/~skadron/" target="_blank" rel="noopener">Prof. Kevin Skadron</a>, 
+  where I work on modernizing the <a href="https://rodinia.cs.virginia.edu/"><strong>Rodinia Benchmark Suite</strong></a>.</p>
 
-portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  <p>Previously, I conducted <strong>GPU performance and optimization</strong> research on LLM-driven CUDA optimization and MLPerf benchmarking at Insight Lab, 
+  and earlier worked on <strong>GPU-accelerated molecular dynamics simulations</strong> and machine learning for materials modeling 
+  with <a href="https://engineering.virginia.edu/faculty/keivan-esfarjani" target="_blank" rel="noopener">Prof. Keivan Esfarjani</a>.</p>
+
+  <p>As Moore's Law approaches its physical limits and transistor scaling slows, future performance gains must come from 
+  <strong>architectural innovation</strong> - by squeezing more useful work from every transistor on the die.</p>
+
+  <p>This idea has drawn me toward <strong>parallel computing and hardware acceleration</strong> and motivates me to pursue a 
+  <strong>Ph.D. in Computer Science</strong> at 
+  <a href="https://www.cs.wisc.edu/" target="_blank" rel="noopener"><strong>University of Wisconsin–Madison</strong></a> 
+  in the upcoming <strong>Fall 2026</strong>, where I will focus on <strong>GPU architecture and benchmarking</strong>.</p>
+
+portrait_url: /assets/images/profile.png
+portrait_caption: ""
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+  - name: University of Wisconsin–Madison
+    logo: /assets/images/badges/UW-madison_logo.png
+    dept: School of Computer, Data & Information Sciences
+    position: Ph.D. Student in Computer Science
+    date: "Fall 2026 – Present"
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+  - name: University of Virginia
+    logo: https://github.com/huygnguyen04/huygnguyen04.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0
+    dept: School of Engineering and Applied Sciences
+    position: >- 
+      B.S. in Computer Science and Minor in Applied Mathematics — GPA 3.98 / 4.00
+    date: "2022 – 2026"
+
+research_interests:
+  - GPU Architecture & ML Systems
+  - Workload Characterization & Performance Benchmarking
+  - Parallel & Heterogeneous Computing
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+  # - name: The Raven Society (UVA's highest honor for academic leadership)
+  #   date: "2025, 2026"
+  - name: UVA Computer Science Summer Research Fellowship
+    date: "2025"
+  - name: Dean's Research Scholarship (UVA Engineering)
+    date: "2024"
+  - name: UVA Engineering Dean's List — all semesters
+    date: "—"

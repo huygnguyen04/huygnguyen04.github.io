@@ -1,0 +1,42 @@
+---
+layout: default
+title: Projects
+navbar_title: Projects
+permalink: /projects/
+container_class: container-lg
+---
+
+<style>
+  .page-projects h1 { font-size: 1.35rem; font-weight: 700; margin: 0 0 0.5rem 0; }
+  .page-projects .intro-body p { font-size: 14px; line-height: 1.55; }
+  .project-thumb-placeholder {
+    min-height: 120px;
+    width: 100%;
+    background: #f4f4f6;
+    border: 1px dashed #ced4da;
+    color: #6c757d;
+    font-size: 0.75rem;
+  }
+</style>
+
+<div class="page-projects py-2">
+
+  <section class="intro-block mb-4">
+    <h1>{{ site.data.projects.intro.heading }}</h1>
+    <hr>
+    <div class="intro-body">{{ site.data.projects.intro.body }}</div>
+  </section>
+
+  {% for sec in site.data.projects.sections %}
+  <section class="mb-4">
+    <h1>{{ sec.heading }}</h1>
+    <hr>
+    <div class="my-0 p-0 bg-white shadow-sm rounded-xl overflow-hidden">
+      {% for item in sec.items %}
+        {% include widgets/project_row.html project=item hide_bottom_border=forloop.last %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+
+</div>

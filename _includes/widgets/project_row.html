@@ -1,0 +1,73 @@
+{% assign p = include.project %}
+{% assign hide_border = include.hide_bottom_border %}
+{% assign _conf = p.conference_line | default: '' | strip %}
+{% assign _show_conf = false %}
+{% if _conf != '' and _conf != '—' and _conf != '-' and _conf != '–' %}
+  {% assign _show_conf = true %}
+{% endif %}
+
+<div class="d-none d-md-block">
+    <div class="row no-gutters {% unless hide_border %}border-bottom{% endunless %} border-gray project-row-item">
+        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3 project-row-thumb">
+            {% if p.cover and p.cover != '' %}
+            <img data-src="{{ p.cover | relative_url }}" alt="{{ p.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+            {% else %}
+            <div class="project-thumb-placeholder rounded-sm d-flex align-items-center justify-content-center text-muted small text-center px-1">
+                Thumbnail
+            </div>
+            {% endif %}
+        </div>
+        <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+            <h5 class="mt-0 mb-2 font-weight-bold project-row-title">{{ p.title }}</h5>
+            {% if p.venue_line %}
+            <p class="mt-0 mb-2 small font-weight-bold project-row-venue">{{ p.venue_line }}</p>
+            {% endif %}
+            {% if _show_conf %}
+            <p class="mt-0 mb-2 small font-weight-bold project-row-conferences">{{ _conf }}</p>
+            {% endif %}
+            <p class="mt-0 mb-2 small text-muted">{{ p.abstract }}</p>
+            {% if p.links %}
+            <p class="small pb-0 mb-0 lh-125 project-row-links">
+                {% for link in p.links %}
+                {% if link[1].url %}
+                <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
+                {% else %}
+                <a target="_blank" rel="noopener" href="{{ link[1] }}">[{{ link[0] }}]</a>
+                {% endif %}
+                {% endfor %}
+            </p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="d-md-none {% unless hide_border %}border-bottom{% endunless %} border-gray py-3 px-3 project-row-item">
+    <div class="mb-3 text-center">
+        {% if p.cover and p.cover != '' %}
+        <img data-src="{{ p.cover | relative_url }}" alt="{{ p.title }}" class="lazy w-100 rounded-sm" style="max-height: 200px; object-fit: contain;" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+        {% else %}
+        <div class="project-thumb-placeholder rounded-sm d-flex align-items-center justify-content-center text-muted small mx-auto" style="max-width: 280px; height: 140px;">
+            Thumbnail
+        </div>
+        {% endif %}
+    </div>
+    <h5 class="mt-0 mb-2 font-weight-bold project-row-title">{{ p.title }}</h5>
+    {% if p.venue_line %}
+    <p class="mt-0 mb-2 small font-weight-bold project-row-venue">{{ p.venue_line }}</p>
+    {% endif %}
+    {% if _show_conf %}
+    <p class="mt-0 mb-2 small font-weight-bold project-row-conferences">{{ _conf }}</p>
+    {% endif %}
+    <p class="mt-0 mb-2 small text-muted">{{ p.abstract }}</p>
+    {% if p.links %}
+    <p class="small pb-0 mb-0 project-row-links">
+        {% for link in p.links %}
+        {% if link[1].url %}
+        <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">[{{ link[0] }}]</a>
+        {% else %}
+        <a target="_blank" rel="noopener" href="{{ link[1] }}">[{{ link[0] }}]</a>
+        {% endif %}
+        {% endfor %}
+    </p>
+    {% endif %}
+</div>
