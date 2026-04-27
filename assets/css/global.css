@@ -148,3 +148,24 @@ div.lazy {
     text-decoration: underline;
 }
 
+/* Keep left profile social links in one row and style CV text icon */
+.social-icon-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.social-icon-row a {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+}
+
+.cv-letter-icon {
+    font-size: 1.05em;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+}
+

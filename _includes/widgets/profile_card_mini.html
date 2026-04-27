@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="row pt-2">
-                    <div class="col text-center h4">
+                    <div class="col text-center h4 social-icon-row">
                         {% if site.data.profile.gscholar %}
                         {%- if site.data.profile.gscholar contains 'scholar.google' -%}
                         {%- assign gscholar_url = site.data.profile.gscholar -%}
@@ -91,8 +91,8 @@
                         {%- else -%}
                         {%- assign cv_url = site.data.profile.cv_link | relative_url -%}
                         {%- endif -%}
-                        <a class="px-1 no-break" target="_blank" rel="noopener" href="{{ cv_url }}">
-                            <i class="fas fa-file-lines"></i>
+                        <a class="px-1 no-break cv-text-link" target="_blank" rel="noopener" href="{{ cv_url }}" aria-label="Curriculum Vitae">
+                            <span class="cv-letter-icon">CV</span>
                         </a>
                         {% endif %}
                     </div>
