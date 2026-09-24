@@ -3,10 +3,9 @@ secondary_name: ""
 navbar_name: "Huy Nguyen"
 
 positions:
-  - name: Undergraduate Researcher at UVA
+  - name: CS Ph.D. Student
+  - name: University of Wisconsin–Madison
     logo: https://github.com/huygnguyen04/huygnguyen04.github.io/assets/114793725/ee13b63c-ecf7-435c-b788-e290c8a7a6a0
-  - name: Incoming CS Ph.D. Student
-  - name: University of Wisconsin–Madison 
 
 
 email: "huygnguyen04@gmail.com"
@@ -18,51 +17,39 @@ cv_link: "https://drive.google.com/file/d/1hoDkHu9l6-awK2rVuS4EAYIhArsEU1ni/view
 
 short_bio_text_justify: false
 short_bio: >-
-  <p>I am an 4th year undergraduate researcher in the Department of Computer Science at the 
-  <a href="https://engineering.virginia.edu/department/computer-science" target="_blank" rel="noopener">University of Virginia</a>, 
-  advised by <a href="https://www.cs.virginia.edu/~skadron/" target="_blank" rel="noopener">Prof. Kevin Skadron</a>, 
-  where I work on modernizing the <a href="https://rodinia.cs.virginia.edu/"><strong>Rodinia Benchmark Suite</strong></a>.</p>
+  <p>I am a first-year <strong>Ph.D. student in Computer Science</strong> at the
+  <a href="https://cai.wisc.edu/" target="_blank" rel="noopener">University of Wisconsin–Madison</a>,
+  focusing on <strong>GPU Architecture and Hardware Acceleration</strong>.</p>
 
-  <p>Previously, I conducted <strong>GPU performance and optimization</strong> research on LLM-driven CUDA optimization and MLPerf benchmarking at Insight Lab, 
-  and earlier worked on <strong>GPU-accelerated molecular dynamics simulations</strong> and machine learning for materials modeling 
-  with <a href="https://engineering.virginia.edu/faculty/keivan-esfarjani" target="_blank" rel="noopener">Prof. Keivan Esfarjani</a>.</p>
+  <p>Previously, I worked with
+  <a href="https://www.cs.virginia.edu/~skadron/" target="_blank" rel="noopener">Prof. Kevin Skadron</a>
+  at the <a href="https://engineering.virginia.edu/department/computer-science" target="_blank" rel="noopener">University of Virginia</a>
+  on modernizing the <a href="https://rodinia.cs.virginia.edu/"><strong>Rodinia Benchmark Suite</strong></a>
+  for modern GPU systems. I also worked with
+  <a href="https://engineering.virginia.edu/faculty/keivan-esfarjani" target="_blank" rel="noopener">Prof. Keivan Esfarjani</a>
+  on GPU-accelerated molecular dynamics simulations and machine learning for materials modeling.</p>
 
-  <p>As Moore's Law approaches its physical limits and transistor scaling slows, future performance gains must come from 
-  <strong>architectural innovation</strong> - by squeezing more useful work from every transistor on the die.</p>
-
-  <p>This idea has drawn me toward <strong>parallel computing and hardware acceleration</strong> and motivates me to pursue a 
-  <strong>Ph.D. in Computer Science</strong> at 
-  <a href="https://www.cs.wisc.edu/" target="_blank" rel="noopener"><strong>University of Wisconsin–Madison</strong></a> 
-  in the upcoming <strong>Fall 2026</strong>, where I will focus on <strong>GPU architecture and benchmarking</strong>.</p>
+  <p>As Moore's Law approaches its physical limits, I am interested in how <strong>architectural innovation</strong> 
+  can improve the efficiency and performance of modern computing systems.</p>
 
 portrait_url: /assets/images/profile.png
 portrait_caption: ""
 
 education:
-  - name: University of Wisconsin–Madison
+  - name: University of Wisconsin-Madison
     logo: /assets/images/badges/UW-madison_logo.png
-    dept: School of Computer, Data & Information Sciences
+    dept: College of Computing & Artificial Intelligence
     position: Ph.D. Student in Computer Science
-    date: "Fall 2026 – Present"
+    date: "Fall 2026 - Present"
 
   - name: University of Virginia
     logo: /assets/images/badges/UVA_logo.png
     dept: School of Engineering and Applied Sciences
     position: >- 
-      B.S. in Computer Science and Minor in Applied Mathematics — GPA 3.98 / 4.00
-    date: "2022 – 2026"
+      B.S. in Computer Science and Minor in Applied Mathematics
+    date: "2022 - 2026"
 
 research_interests:
   - GPU Architecture & ML Systems
   - Workload Characterization & Performance Benchmarking
   - Parallel & Heterogeneous Computing
-
-awards:
-  # - name: The Raven Society (UVA's highest honor for academic leadership)
-  #   date: "2025, 2026"
-  - name: UVA Computer Science Summer Research Fellowship
-    date: "2025"
-  - name: Dean's Research Scholarship (UVA Engineering)
-    date: "2024"
-  - name: UVA Engineering Dean's List — all semesters
-    date: "—"
